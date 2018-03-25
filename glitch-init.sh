@@ -2,9 +2,11 @@
 
 # install and configure bash-it
 if [ -d ~/.bash_it ]; then
+        # this doesn't work since the script runs in it's own shell
         source ~/.bashrc
 else
-        git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
+#        git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
+        git clone --depth=1 https://github.com/cori/bash-it.git --branch alternate-install --single-branch  ~/.bash_it
         /app/.bash_it/install.sh --silent
         source /app/.bashrc
         bash-it enable alias git
@@ -17,7 +19,5 @@ else
 fi
 
 # git setup
-git config --global user.name "cori"
-git config --global user.email "cori.schlegel@gmail.com"
-git config user.name "cori"
-git config user.email "cori.schlegel@gmail.com"
+git config --replace-all user.name "cori"
+git config --replace-all user.email "cori.schlegel@gmail.com"

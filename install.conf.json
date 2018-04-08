@@ -14,7 +14,8 @@
             "~/.dotfiles": "",
             "~/.vim": "vim",
             "~/.vimrc": "vimrc",
-            "~/.zshrc": "zshrc"
+            "~/.zshrc": "zshrc",
+            "~/.macos": "macos"
         }
     },
     {

@@ -6,6 +6,7 @@ Plug 'mhinz/vim-signify'
 Plug 'hashivim/vim-terraform'
 Plug 'itchyny/lightline.vim'
 Plug 'mattn/emmet-vim'
+Plug 'avakhov/vim-yaml'
 
 call plug#end()
 
@@ -19,3 +20,6 @@ syntax on
 set number
 set laststatus=2
 set noshowmode
+
+" salt
+au BufNewFile,BufRead *.sls set filetype=yaml

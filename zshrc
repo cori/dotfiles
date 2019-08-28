@@ -53,7 +53,7 @@ ZSH_CUSTOM=~/.dotfiles/oh-my-zsh_custom
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git history terraform thefuck)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -87,5 +87,27 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias wla=~/Code/personal/worklog/worklog.py
 #alias toggl=~/go/bin/toggl
+alias tf=terraform
+alias aws_prod="~/Code/glitch/Glitch/aws/sh/select_profile.py production_admin"
+alias aws_staging="~/Code/glitch/Glitch/aws/sh/select_profile.py staging_admin"
+
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+PATH="/Users/cori/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/Users/cori/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/Users/cori/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/Users/cori/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/Users/cori/perl5"; export PERL_MM_OPT;
+
+ADMIN_TOKEN=3fd133bd-488f-481e-8d6b-4c4c079ca491; export ADMIN_TOKEN
+IAMGROOT=3fd133bd-488f-481e-8d6b-4c4c079ca491; export IAMGROOT
+#	not really, but it helps some scripts get by
+INFRASTRUCTURE_USER_TOKEN=3fd133bd-488f-481e-8d6b-4c4c079ca491; export INFRASTRUCTURE_USER_TOKEN
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+

@@ -1,6 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/Users/cori/Code/fogcreek/Io/FBODSQLPrivs'
 let g:netrw_dirhist_2='/Users/cori/Code/fogcreek/temp/test-mercurial/.hg'
 let g:netrw_dirhist_3='/Users/cori/.oh-my-zsh/plugins/mercurial'
 let g:netrw_dirhist_4='/Users/cori/.azure'
+let g:netrw_dirhist_5='/Users/cori/Code/glitch/Glitch/aws/terraform/modules/route53_prod'

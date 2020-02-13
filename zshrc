@@ -90,6 +90,7 @@ alias wla=~/Code/personal/worklog/worklog.py
 alias tf=terraform
 alias aws_prod="~/Code/glitch/Glitch/aws/sh/select_profile.py production_admin"
 alias aws_staging="~/Code/glitch/Glitch/aws/sh/select_profile.py staging_admin"
+alias gls="git log --stat"
 
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi

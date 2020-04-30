@@ -53,7 +53,7 @@ ZSH_CUSTOM=~/.dotfiles/oh-my-zsh_custom
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git history terraform thefuck)
+plugins=(git history terraform thefuck encode64 autojump vscode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -114,3 +114,4 @@ export NVM_DIR="$HOME/.nvm"
 
 #	test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+export PATH="/usr/local/opt/postgresql@11/bin:$PATH"

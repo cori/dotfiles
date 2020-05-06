@@ -88,8 +88,8 @@ source $ZSH/oh-my-zsh.sh
 alias wla=~/Code/personal/worklog/worklog.py
 #alias toggl=~/go/bin/toggl
 alias tf=terraform
-alias aws_prod="~/Code/glitch/Glitch/aws/sh/select_profile.py production_admin"
-alias aws_staging="~/Code/glitch/Glitch/aws/sh/select_profile.py staging_admin"
+alias aws_prod="AWS_USE_YUBIKEY=true ~/Code/glitch/Glitch/aws/sh/select_profile.py production_admin"
+alias aws_staging="AWS_USE_YUBIKEY=true ~/Code/glitch/Glitch/aws/sh/select_profile.py staging_admin"
 alias gls="git log --stat"
 
 

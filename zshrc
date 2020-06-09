@@ -91,7 +91,8 @@ alias tf=terraform
 alias aws_prod="AWS_USE_YUBIKEY=true ~/Code/glitch/Glitch/aws/sh/select_profile.py production_admin"
 alias aws_staging="AWS_USE_YUBIKEY=true ~/Code/glitch/Glitch/aws/sh/select_profile.py staging_admin"
 alias gls="git log --stat"
-alias sshu="ssh -oStrictHostKeyChecking=no ubuntu@$1 -i ~/.ssh/id_glitch_ubuntu"
+
+function sshu() { ssh -oStrictHostKeyChecking=no "ubuntu@$1" -i ~/.ssh/id_glitch_ubuntu; }
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
@@ -105,6 +106,7 @@ ADMIN_TOKEN=3fd133bd-488f-481e-8d6b-4c4c079ca491; export ADMIN_TOKEN
 IAMGROOT=3fd133bd-488f-481e-8d6b-4c4c079ca491; export IAMGROOT
 #	not really, but it helps some scripts get by
 INFRASTRUCTURE_USER_TOKEN=3fd133bd-488f-481e-8d6b-4c4c079ca491; export INFRASTRUCTURE_USER_TOKEN
+export HISTTIMEFORMAT="%F %T "
 
 export NVM_DIR="$HOME/.nvm"
 #	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

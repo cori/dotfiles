@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "- [[weekly plan]]\n    - Cogitations\n    - Main Priority\n        - 🏡\n        - 👨🏼‍💻\n    - High-level Daily Plan \/ Schedule\n        - Monday\n            - [[🏡]]\n            - [[👨🏼‍💻]]\n        - Tuesday\n            - [[🏡]]\n            - [[👨🏼‍💻]]\n        - Wednesday\n            - [[🏡]]\n            - [[👨🏼‍💻]]\n        - Thursday\n            - [[🏡]]\n            - [[👨🏼‍💻]]\n        - Friday\n            - [[🏡]]\n            - [[👨🏼‍💻]]\n        - Saturday\n            - [[🏡]]\n            - [[👨🏼‍💻]]\n        - Sunday\n            - [[🏡]]\n            - [[👨🏼‍💻]]\n    - [[Incoming Task List]]\n        - *date\n            - [[🏡]]\n            - [[👨🏼‍💻]]\n- *date\n    - [[habits]]\n        - Meditate::✅ ❌\n        - Morning Chores::✅❌\n        - Evening Chores::✅ ❌\n        - Health::✅ ❌\n        - Overall score: \n    - Plan\n        - Schedule\n        - Most Important Task\n            - 🏡::bills\n            - 👨🏼‍💻::more dev env\n    - Review\n        - Gratitude\n        - [[Physical Well-being]]{{[[slider]]}}\n            - notes\n        - [[Energy Level]]{{[[slider]]}}\n            - notes\n        - [[Productivity]]{{[[slider]]}}\n            - notes\n        - [[Satisfaction]]{{[[slider]]}}\n            - notes\n\n",
+    "uid" : "3B93DDD7-6ABB-4CFF-AA1E-36C40DD252E9",
+    "name" : "Roam Weekly Template",
+    "keyword" : "\/week-old"
+  }
+}

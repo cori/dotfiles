@@ -35,7 +35,7 @@ function mygit() {
 function retcode() {}
 
 # alternate prompt with git & hg
-PROMPT=$'%{$fg_bold[blue]%}┌─[%{$fg_bold[green]%}%n%b%{$fg[black]%}@%{$fg[cyan]%}%m%{$fg_bold[blue]%}]%{$reset_color%} - %{$fg_bold[blue]%}[%{$fg_bold[white]%}%~%{$fg_bold[blue]%}]%{$reset_color%} - %{$fg_bold[blue]%}[%b%{$fg[yellow]%}'%D{"%Y-%m-%d %H:%M:%S"}%b$'%{$fg_bold[blue]%}]
-%{$fg_bold[blue]%}└─[%{$fg_bold[magenta]%}%?$(retcode)%{$fg_bold[blue]%}] <$(mygit)>%{$reset_color%} '
-PS2=$' \e[0;34m%}%B>%{\e[0m%}%b '
+PROMPT=$'%{$fg_bold[blue]%}[%{$fg_bold[green]%}%n%b%{$fg[black]%}@%{$fg[cyan]%}%m%{$fg_bold[blue]%}]%{$reset_color%} - %{$fg_bold[blue]%}[%{$fg_bold[white]%}%~%{$fg_bold[blue]%}]%{$reset_color%} - %{$fg_bold[blue]%}[%b%{$fg[yellow]%}'%D{"%Y-%m-%d %H:%M:%S"}%b$'%{$fg_bold[blue]%}] \U03BB '
+RPROMPT=$'%{$fg_bold[blue]%}[%{$fg_bold[magenta]%}%?$(retcode)%{$fg_bold[blue]%}] $(mygit)%{$reset_color%} '
+#PS2=$' \e[0;34m%}%B>%{\e[0m%}%b '
 

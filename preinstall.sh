@@ -17,7 +17,7 @@ if [ ! -d "$OMZDIR" ]; then
   /bin/sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 else
   echo 'Updating oh-my-zsh'
-  source ~/.zshrc && omz update
+  source ~/.zshrc
 fi
 
 #	this is no longer necessary - macos now defaults to zsh

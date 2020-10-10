@@ -37,7 +37,8 @@
 	 },
     {
         "shell": [
-            ["git submodule update --init --recursive", "Installing submodules"]
+			  ["pip3 install bpytop --upgrade"],
+			  ["git submodule update --init --recursive", "Installing submodules"]
         ]
     }
 ]

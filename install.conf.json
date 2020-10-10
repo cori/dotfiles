@@ -31,9 +31,9 @@
         }
     },
     {
-		 "brewfile": {
-			 "file": "Brewfile"
-		 }
+		 "brewfile": [
+			 "Brewfile"
+		 ]
 	 },
     {
         "shell": [

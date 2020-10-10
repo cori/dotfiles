@@ -22,7 +22,10 @@
             "~/.dotfiles": "",
             "~/.vim": "vim",
             "~/.vimrc": "vimrc",
-            "~/.zshrc": "zshrc",
+            "~/.zshrc": {
+					"path": "zshrc",
+					"force": true
+				},
             "~/.macos": "macos"
         }
     },

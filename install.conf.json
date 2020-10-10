@@ -4,9 +4,10 @@
             "link": {
                 "relink": true
             },
-	    "shell": {
-		"stderr": true
-	    }
+				"shell": {
+					"stderr": true,
+					"stdout": true 
+				}
         }
     },
     {
@@ -30,10 +31,10 @@
         }
     },
     {
-	"brewfile": {
-	    "file": "Brewfile"
-	}
-    },
+		 "brewfile": {
+			 "file": "Brewfile"
+		 }
+	 },
     {
         "shell": [
             ["git submodule update --init --recursive", "Installing submodules"]

@@ -3,11 +3,19 @@
         "defaults": {
             "link": {
                 "relink": true
-            }
+            },
+	    "shell": {
+		"stderr": true
+	    }
         }
     },
     {
         "clean": ["~"]
+    },
+    {
+        "shell": [
+            [""sh preinstall.sh", "Running pre installation script"]
+        ]
     },
     {
         "link": {

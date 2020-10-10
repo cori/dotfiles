@@ -14,7 +14,7 @@
     },
     {
         "shell": [
-            [""sh preinstall.sh", "Running pre installation script"]
+            ["sh preinstall.sh", "Running pre installation script"]
         ]
     },
     {

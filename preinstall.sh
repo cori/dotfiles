@@ -17,13 +17,14 @@ if [ ! -d "$OMZDIR" ]; then
   /bin/sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 else
   echo 'Updating oh-my-zsh'
-  omz update
+  source ~/.zshrc && omz update
 fi
 
+#	this is no longer necessary - macos now defaults to zsh
 # Change default shell
-if [! $0 = "-zsh"]; then
-  echo 'Changing default shell to zsh'
-  chsh -s /bin/zsh
-else
-  echo 'Already using zsh'
-fi
+#if [ ! $0 = "-zsh" ]; then
+#  echo 'Changing default shell to zsh'
+#  chsh -s /bin/zsh
+#else
+#  echo 'Already using zsh'
+#fi

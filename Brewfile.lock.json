@@ -5,7 +5,7 @@
         "revision": "78513292658ff002a6a816bdeb9d286150ee1a16"
       },
       "homebrew/cask": {
-        "revision": "0af67b7ded2604ee3e27c6ba7d3bd8f56c829345"
+        "revision": "4d240fa5ae8fa0082685e89a189c2d6c3d481077"
       },
       "homebrew/cask-drivers": {
         "revision": "9338e7e83698b188e94f4b90cbb85c6727b71bdc"
@@ -482,6 +482,12 @@
         "version": "5.3.52877.0927",
         "options": {
           "full_name": "zoomus"
+        }
+      },
+      "novabench": {
+        "version": "4.0.1",
+        "options": {
+          "full_name": "novabench"
         }
       }
     },

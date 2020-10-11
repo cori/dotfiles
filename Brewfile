@@ -63,7 +63,7 @@ cask "utc-menu-clock"
 # cask "virtualbox"
 cask "visual-studio-code"
 cask "visual-studio-code-insiders"
-cask "zoom"
+cask "zoomus"
 mas "Lockdown", id: 1483255076
 mas "Raindrop.io for Safari", id: 957810159
 mas "Session Pal", id: 1515213004

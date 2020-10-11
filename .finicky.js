@@ -1,5 +1,5 @@
 module.exports = {
-  defaultBrowser: "Safari",
+  defaultBrowser: "Safari Technology Preview",
   handlers: [
     {
       // Open google.com and *.google.com urls in Google Chrome

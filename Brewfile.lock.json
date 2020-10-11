@@ -5,7 +5,7 @@
         "revision": "78513292658ff002a6a816bdeb9d286150ee1a16"
       },
       "homebrew/cask": {
-        "revision": "cccdbc5cc52495ddfd6c17c150f6d6d7f4ea5335"
+        "revision": "0af67b7ded2604ee3e27c6ba7d3bd8f56c829345"
       },
       "homebrew/cask-drivers": {
         "revision": "9338e7e83698b188e94f4b90cbb85c6727b71bdc"
@@ -14,10 +14,10 @@
         "revision": "255b11b747db57315d5982940dd9b7ae64f26b82"
       },
       "homebrew/cask-versions": {
-        "revision": "efc0e2b197fb8cf7a2d8c4e0fe4a808a2139ed56"
+        "revision": "de954982c7c09be8c4ec5648789ce50ce50565dd"
       },
       "homebrew/core": {
-        "revision": "3afb97720cdafe53e3cf30fee6d565b84012e84d"
+        "revision": "bf61d6b7896175cd85156408a39b0ad3e7f3ede6"
       },
       "homebrew/services": {
         "revision": "0448884d8213af19280ee8fab30af89cca20f630"
@@ -477,6 +477,12 @@
         "options": {
           "full_name": "safari-technology-preview"
         }
+      },
+      "zoomus": {
+        "version": "5.3.52877.0927",
+        "options": {
+          "full_name": "zoomus"
+        }
       }
     },
     "mas": {
@@ -511,7 +517,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.5.5",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "3afb97720cdafe53e3cf30fee6d565b84012e84d",
+        "Homebrew/homebrew-core": "bf61d6b7896175cd85156408a39b0ad3e7f3ede6",
         "CLT": "12.0.0.0.1.1599194153",
         "Xcode": "12.0.1",
         "macOS": "10.15.7"

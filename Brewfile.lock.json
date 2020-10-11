@@ -11,7 +11,7 @@
         "revision": "9338e7e83698b188e94f4b90cbb85c6727b71bdc"
       },
       "homebrew/cask-fonts": {
-        "revision": "255b11b747db57315d5982940dd9b7ae64f26b82"
+        "revision": "f857d333365c48f1e854ad2edbafff0d49ef5056"
       },
       "homebrew/cask-versions": {
         "revision": "de954982c7c09be8c4ec5648789ce50ce50565dd"
@@ -488,6 +488,12 @@
         "version": "4.0.1",
         "options": {
           "full_name": "novabench"
+        }
+      },
+      "astropad": {
+        "version": "3.4.1",
+        "options": {
+          "full_name": "astropad"
         }
       }
     },

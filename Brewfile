@@ -72,4 +72,5 @@ mas "Xcode", id: 497799835
 mas "Yubico Authenticator", id: 1497506650
 
 #	testing
+cask "astropad"
 cask "novabench"

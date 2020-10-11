@@ -14,7 +14,8 @@ brew "gh"
 # Distributed revision control system
 brew "git"
 # Alternative to top/htop
-brew "glances"
+#	using bptyop instead
+#brew "glances"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
 # Tool to capture still images from an iSight or other video source
@@ -45,8 +46,9 @@ cask "google-chrome"
 cask "iterm2"
 cask "keybase"
 cask "lastpass"
-cask "logitech-options"
-cask "logitech-unifying"
+#	temporarily not installing logitech
+#cask "logitech-options"
+#cask "logitech-unifying"
 cask "marvin"
 cask "onedrive"
 cask "raindropio"

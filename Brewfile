@@ -70,7 +70,3 @@ mas "Session Pal", id: 1515213004
 mas "Spark", id: 1176895641
 mas "Xcode", id: 497799835
 mas "Yubico Authenticator", id: 1497506650
-
-#	testing
-cask "astropad"
-cask "novabench"

@@ -9,7 +9,8 @@ export ZSH=/Users/cori/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
 #ZSH_THEME="random"
-ZSH_THEME="rkj-repos"
+ZSH_THEME="wedisagree-cori"
+#ZSH_THEME="rkj-repos-cori"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"

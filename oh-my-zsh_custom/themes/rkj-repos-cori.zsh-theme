@@ -15,7 +15,7 @@
 #patches: <patches|join( → )|pre_applied(%{$fg[yellow]%})|post_applied(%{$reset_color%})|pre_unapplied(%{$fg_bold[black]%})|post_unapplied(%{$reset_color%})>>" 2>/dev/null
 #}
 
-ZSH_THEME_GIT_PROMPT_ADDED="%{$fg[cyan]%}+"
+export ZSH_THEME_GIT_PROMPT_ADDED="%{$fg[cyan]%}+"
 ZSH_THEME_GIT_PROMPT_MODIFIED="%{$fg[yellow]%}✱"
 ZSH_THEME_GIT_PROMPT_DELETED="%{$fg[red]%}✗"
 ZSH_THEME_GIT_PROMPT_RENAMED="%{$fg[blue]%}➦"
@@ -28,7 +28,9 @@ function mygit() {
   if [[ "$(git config --get oh-my-zsh.hide-status)" != "1" ]]; then
     ref=$(command git symbolic-ref HEAD 2> /dev/null) || \
     ref=$(command git rev-parse --short HEAD 2> /dev/null) || return
-    echo "$ZSH_THEME_GIT_PROMPT_PREFIX${ref#refs/heads/}$(git_prompt_short_sha)$(git_prompt_status)%{$fg_bold[blue]%}$ZSH_THEME_GIT_PROMPT_SUFFIX "
+    #echo "$ZSH_THEME_GIT_PROMPT_PREFIX${ref#refs/heads/}$(git_prompt_short_sha)$(git_prompt_status)%{$fg_bold[blue]%}$ZSH_THEME_GIT_PROMPT_SUFFIX "
+    echo "%{$fg[magenta]%}$(git_prompt_info)%{$reset_color%}$(git_prompt_status)%{$reset_color%}$(git_prompt_ahead)%{$reset_color%} "
+    #echo "$ZSH_THEME_GIT_PROMPT_PREFIX$(git_prompt_status)$ZSH_THEME_GIT_PROMPT_SUFFIX "
   fi
 }
 
@@ -36,6 +38,6 @@ function retcode() {}
 
 # alternate prompt with git & hg
 PROMPT=$'%{$fg_bold[blue]%}[%{$fg_bold[green]%}%n%b%{$reset_color%}@%{$fg[cyan]%}%m%{$fg_bold[blue]%}]%{$reset_color%} - %{$fg_bold[blue]%}[%{$fg_bold[white]%}%~%{$fg_bold[blue]%}]%{$reset_color%} - %{$fg_bold[blue]%}[%b%{$fg[yellow]%}'%D{"%Y-%m-%d %H:%M:%S"}%b$'%{$fg_bold[blue]%}] %{$fg[magenta]%}\U03BB%{$reset_color%} '
-RPROMPT=$'%{$fg_bold[blue]%}[%{$fg_bold[magenta]%}%?$(retcode)%{$fg_bold[blue]%}] $(mygit)%{$reset_color%} '
+RPROMPT=$'%{$fg_bold[blue]%}[%{$fg_bold[magenta]%}%?$(retcode)%{$fg_bold[blue]%}] $(mygit) %{$reset_color%} '
 #PS2=$' \e[0;34m%}%B>%{\e[0m%}%b '
 

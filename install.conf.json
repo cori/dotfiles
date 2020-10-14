@@ -25,6 +25,7 @@
             "~/.macos": "macos",
             "~/.vim": "vim",
             "~/.vimrc": "vimrc",
+				"~/.zshenv": "~/Dropbox/localPrefs/.dotsecrets",
             "~/.zshrc": {
 					"path": "zshrc",
 					"force": true

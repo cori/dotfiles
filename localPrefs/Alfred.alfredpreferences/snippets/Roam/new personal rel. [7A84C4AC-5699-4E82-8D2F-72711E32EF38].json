@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "- Company::\n- TZ::\n- Role::\n- Work Email::\n- Phone::\n- Address::\n- Birthday::\n- #prm\/context\n- #prm\/history",
-    "uid" : "7A84C4AC-5699-4E82-8D2F-72711E32EF38",
-    "name" : "new personal rel.",
-    "keyword" : "\/prm"
-  }
-}

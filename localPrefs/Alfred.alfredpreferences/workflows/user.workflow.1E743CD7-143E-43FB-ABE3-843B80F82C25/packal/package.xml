@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8' ?>
-<workflow>
-  <name>Times</name>
-  <version>1.0</version>
-  <bundle>com.reorx.alfred.times</bundle>
-  <updated>1472719892</updated>
-  <file>times.alfredworkflow</file>
-</workflow>

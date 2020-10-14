@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "- [[weekly plan]]\n    - Cogitations\n    - Main Priority\n        - 🏡\n        - 👨🏼‍💻\n    - High-level Daily Plan \/ Schedule\n        - Monday\n            - [[🏡]]\n            - [[👨🏼‍💻]]\n        - Tuesday\n            - [[🏡]]\n            - [[👨🏼‍💻]]\n        - Wednesday\n            - [[🏡]]\n            - [[👨🏼‍💻]]\n        - Thursday\n            - [[🏡]]\n            - [[👨🏼‍💻]]\n        - Friday\n            - [[🏡]]\n            - [[👨🏼‍💻]]\n        - Saturday\n            - [[🏡]]\n            - [[👨🏼‍💻]]\n        - Sunday\n            - [[🏡]]\n            - [[👨🏼‍💻]]\n    - [[Incoming Task List]]\n        - *date\n            - [[🏡]]\n            - [[👨🏼‍💻]]\n",
-    "uid" : "178BE58E-BDEB-4BC7-862E-ABCD549FD55D",
-    "name" : "Roam Weekly Template",
-    "keyword" : "\/weekly"
-  }
-}

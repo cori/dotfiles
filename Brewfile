@@ -85,7 +85,26 @@ brew 'tldr'
 brew 'prettyping'
 brew 'colordiff'
 
-#	possible Glitch stds
+##	stuff from https://github.com/posquit0/brewfile/blob/master/Brewfile
+## Mac OS X: Quick Look Plugins
+# An Application for Inspecting macOS Installer Packages
+cask 'suspicious-package'
+# View plain text files without a file extension
+cask 'qlstephen'
+# Preview source code files with syntax highlighting
+cask 'qlcolorcode'
+# Preview JSON files
+cask 'quicklook-json'
+# Display image size and resolution
+cask 'qlimagesize'
+
+
+
+#	possible Glitch stds or options
 #brew 'shellcheck'
 #brew 'terraform'
-
+#brew 'terraform-docs'
+#brew 'tflint'
+#brew 'vagrant-manager'
+#brew 'packer'
+#brew 'circleci'

@@ -5,19 +5,19 @@
         "revision": "78513292658ff002a6a816bdeb9d286150ee1a16"
       },
       "homebrew/cask": {
-        "revision": "ea8b0d6fcd7c3da1a5396b128a0868443ffd61a8"
+        "revision": "3d072fb65a5dda525e7be7690fe6f4c949552501"
       },
       "homebrew/cask-drivers": {
-        "revision": "62da84bab464f68c61ee7b5c5aee19ebea923e41"
+        "revision": "781621df6e67ca9431517deb19c97c0a002bbfe2"
       },
       "homebrew/cask-fonts": {
-        "revision": "0d19ba3727741a8d8518ab85877cb6c74ef498bc"
+        "revision": "7893f4a25a6a608a9ac6fda9d62439424ebdd40f"
       },
       "homebrew/cask-versions": {
-        "revision": "2ade00bdc5e05c6ee7eac8de5cb4dbae000d791f"
+        "revision": "7fc9da0286350739ab5941c79097f8c3103cba04"
       },
       "homebrew/core": {
-        "revision": "46a7c2deadfed26305c90cdad34f6d590ffff690"
+        "revision": "47c855a28f4c4d8f40c28452c785060e4682dab5"
       },
       "homebrew/services": {
         "revision": "0448884d8213af19280ee8fab30af89cca20f630"
@@ -663,6 +663,36 @@
         "options": {
           "full_name": "steam"
         }
+      },
+      "suspicious-package": {
+        "version": "3.5.3",
+        "options": {
+          "full_name": "suspicious-package"
+        }
+      },
+      "qlstephen": {
+        "version": "1.5.1",
+        "options": {
+          "full_name": "qlstephen"
+        }
+      },
+      "qlcolorcode": {
+        "version": "3.1.1",
+        "options": {
+          "full_name": "qlcolorcode"
+        }
+      },
+      "quicklook-json": {
+        "version": "latest",
+        "options": {
+          "full_name": "quicklook-json"
+        }
+      },
+      "qlimagesize": {
+        "version": "2.6.1",
+        "options": {
+          "full_name": "qlimagesize"
+        }
       }
     },
     "mas": {
@@ -697,7 +727,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.5.6",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "46a7c2deadfed26305c90cdad34f6d590ffff690",
+        "Homebrew/homebrew-core": "47c855a28f4c4d8f40c28452c785060e4682dab5",
         "CLT": "12.0.0.0.1.1599194153",
         "Xcode": "12.0.1",
         "macOS": "10.15.7"

@@ -53,9 +53,11 @@ cask "marvin"
 cask "onedrive"
 cask "raindropio"
 cask "rectangle"
+cask "rescuetime"
 cask "safari-technology-preview"
 cask "slack"
 cask "spotify"
+cask "steam"
 cask "toggl-track"
 cask "utc-menu-clock"
 # these are now in the PHv2 repo
@@ -70,3 +72,20 @@ mas "Session Pal", id: 1515213004
 mas "Spark", id: 1176895641
 mas "Xcode", id: 497799835
 mas "Yubico Authenticator", id: 1497506650
+
+#	testing from https://github.com/joelparkerhenderson/brewfile/blob/master/Brewfile
+brew 'bat'
+brew 'most'
+# Navi is a command line cheat sheet navigator
+brew 'denisidoro/tools/navi'
+
+# TLDR provides simplified and community-driven man pages
+brew 'tldr'
+
+brew 'prettyping'
+brew 'colordiff'
+
+#	possible Glitch stds
+#brew 'shellcheck'
+#brew 'terraform'
+

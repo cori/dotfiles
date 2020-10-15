@@ -1,13 +1,12 @@
-[
-    {
+[{
         "defaults": {
             "link": {
                 "relink": true
             },
-				"shell": {
-					"stderr": true,
-					"stdout": true 
-				}
+            "shell": {
+                "stderr": true,
+                "stdout": true
+            }
         }
     },
     {
@@ -21,27 +20,27 @@
     {
         "link": {
             "~/.dotfiles": "",
-				"~/.finicky.js": ".finicky.js",
+            "~/.finicky.js": ".finicky.js",
             "~/.macos": "macos",
             "~/.vim": "vim",
             "~/.vimrc": "vimrc",
-				"~/.zshenv": "~/Dropbox/localPrefs/.dotsecrets",
+            "~/.zshenv": "~/Dropbox/localPrefs/.dotsecrets",
             "~/.zshrc": {
-					"path": "zshrc",
-					"force": true
-				}
+                "path": "zshrc",
+                "force": true
+            }
         }
     },
     {
-		 "brewfile": [
-			 "Brewfile",
-			 "~/code/glitchdotcom/Glitch-ProjectHost/Brewfile"
-		 ]
-	 },
+        "brewfile": [
+            "Brewfile",
+            "~/code/glitchdotcom/Glitch-ProjectHost/Brewfile"
+        ]
+    },
     {
         "shell": [
-			  ["pip3 install bpytop --upgrade"],
-			  ["git submodule update --init --recursive", "Installing submodules"]
+            ["pip3 install bpytop --upgrade"],
+            ["git submodule update --init --recursive", "Installing submodules"]
         ]
     }
 ]

@@ -19,12 +19,3 @@ else
   echo 'Updating oh-my-zsh'
   /bin/zsh -c "source ~/.zshrc"
 fi
-
-#	this is no longer necessary - macos now defaults to zsh
-# Change default shell
-#if [ ! $0 = "-zsh" ]; then
-#  echo 'Changing default shell to zsh'
-#  chsh -s /bin/zsh
-#else
-#  echo 'Already using zsh'
-#fi

@@ -5,19 +5,19 @@
         "revision": "78513292658ff002a6a816bdeb9d286150ee1a16"
       },
       "homebrew/cask": {
-        "revision": "3d072fb65a5dda525e7be7690fe6f4c949552501"
+        "revision": "6ebedab1e3fed4c5e10280d09c2a146a1ae45fd6"
       },
       "homebrew/cask-drivers": {
-        "revision": "781621df6e67ca9431517deb19c97c0a002bbfe2"
+        "revision": "2c8667cf4a3a970a36e406cb1a9e37aafb9d40a3"
       },
       "homebrew/cask-fonts": {
-        "revision": "7893f4a25a6a608a9ac6fda9d62439424ebdd40f"
+        "revision": "3d3e2b10db004416134a508c4b1f6210bd203ca2"
       },
       "homebrew/cask-versions": {
-        "revision": "7fc9da0286350739ab5941c79097f8c3103cba04"
+        "revision": "dae0e30af06103c4d510afcbf058bb27ec9336cb"
       },
       "homebrew/core": {
-        "revision": "47c855a28f4c4d8f40c28452c785060e4682dab5"
+        "revision": "bdf0c2b1ed0d212069c4f5a46a05362100526d99"
       },
       "homebrew/services": {
         "revision": "0448884d8213af19280ee8fab30af89cca20f630"
@@ -693,6 +693,12 @@
         "options": {
           "full_name": "qlimagesize"
         }
+      },
+      "adobe-acrobat-reader": {
+        "version": "20.012.20048",
+        "options": {
+          "full_name": "adobe-acrobat-reader"
+        }
       }
     },
     "mas": {
@@ -727,7 +733,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.5.6",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "47c855a28f4c4d8f40c28452c785060e4682dab5",
+        "Homebrew/homebrew-core": "bdf0c2b1ed0d212069c4f5a46a05362100526d99",
         "CLT": "12.0.0.0.1.1599194153",
         "Xcode": "12.0.1",
         "macOS": "10.15.7"

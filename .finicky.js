@@ -1,5 +1,5 @@
 module.exports = {
-  defaultBrowser: "Safari Technology Preview",
+  defaultBrowser: "Safari",
   handlers: [{
       // Open google.com and *.google.com urls in Google Chrome
       match: finicky.matchHostnames([

@@ -32,6 +32,7 @@ brew "nvm"
 brew "osx-cpu-temp"
 # Programatically correct mistyped console commands
 brew "thefuck"
+cask "adobe-acrobat-reader"
 cask "alfred"
 cask "authy"
 cask "bitwarden"

@@ -40,6 +40,7 @@
     {
         "shell": [
             ["pip3 install bpytop --upgrade"],
+            ["git config --global core.pager 'bat'"],
             ["git submodule update --init --recursive", "Installing submodules"]
         ]
     }

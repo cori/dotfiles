@@ -32,6 +32,10 @@ brew "nvm"
 brew "osx-cpu-temp"
 # Programatically correct mistyped console commands
 brew "thefuck"
+#   better grepping
+brew "ripgrep"
+
+#   various casks
 cask "adobe-acrobat-reader"
 cask "alfred"
 cask "authy"

@@ -72,6 +72,7 @@ cask "visual-studio-code"
 cask "visual-studio-code-insiders"
 cask "zoomus"
 mas "Lockdown", id: 1483255076
+mas "Notability", id: 736189492
 mas "Raindrop.io for Safari", id: 957810159
 mas "Session Pal", id: 1515213004
 mas "Spark", id: 1176895641

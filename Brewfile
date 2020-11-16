@@ -49,8 +49,8 @@ cask "font-monoid"
 cask "github"
 cask "google-chrome"
 cask "iterm2"
-cask "keybase"
-cask "lastpass"
+#	cask "keybase"	#	in Glitch
+#	cask "lastpass"	#	in Glitch
 #	temporarily not installing logitech
 #cask "logitech-options"
 #cask "logitech-unifying"

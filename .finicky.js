@@ -36,6 +36,13 @@ module.exports = {
         "circleci.com"
       ]),
       browser: "Google Chrome"
+    },
+    {
+      // Open Lattice in Google Chrome
+      match: finicky.matchHostnames([
+        "glitch.latticehq.com"
+      ]),
+      browser: "Google Chrome"
     }
   ]
 };

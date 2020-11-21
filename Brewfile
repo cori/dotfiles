@@ -5,6 +5,8 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "denisidoro/tools"
+
 # Shell extension to jump to frequently used directories
 brew "autojump"
 # GNU File, Shell, and Text utilities
@@ -49,6 +51,7 @@ cask "font-monoid"
 cask "github"
 cask "google-chrome"
 cask "iterm2"
+cask "insomnia"
 #	cask "keybase"	#	in Glitch
 #	cask "lastpass"	#	in Glitch
 #	temporarily not installing logitech

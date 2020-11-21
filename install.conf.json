@@ -20,6 +20,7 @@
     {
         "link": {
             "~/.dotfiles": "",
+				"~/.gitconfig": ".gitconfig",
             "~/.finicky.js": ".finicky.js",
             "~/.macos": "macos",
             "~/.vim": "vim",

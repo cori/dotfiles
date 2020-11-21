@@ -1,0 +1,8 @@
+# This is Git's per-user configuration file.
+[user]
+	name = cori schlegel
+	email = cori@glitch.com
+[core]
+	pager = bat
+[pull]
+	rebase = true

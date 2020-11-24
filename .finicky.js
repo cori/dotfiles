@@ -43,6 +43,11 @@ module.exports = {
         "glitch.latticehq.com"
       ]),
       browser: "Google Chrome"
+    },
+    {
+      // Open glitch's dev watcher in Google Chrome
+      match: "http://localhost:1234",
+      browser: "Google Chrome"
     }
   ]
 };

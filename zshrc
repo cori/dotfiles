@@ -93,6 +93,8 @@ alias aws_prod="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_pr
 alias aws_staging="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_profile.py staging_admin"
 alias gls="git log --stat"
 
+eval "$(thefuck --alias pls)"
+
 function sshu() { ssh -oStrictHostKeyChecking=no "ubuntu@$1" -i ~/.ssh/id_glitch_ubuntu; }
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi

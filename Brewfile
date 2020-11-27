@@ -36,6 +36,7 @@ brew "osx-cpu-temp"
 brew "thefuck"
 #   better grepping
 brew "ripgrep"
+brew "nmap"
 
 #   various casks
 cask "adobe-acrobat-reader"

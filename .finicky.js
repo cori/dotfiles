@@ -24,6 +24,22 @@ module.exports = {
       browser: "Google Chrome"
     },
     {
+      // Open honeycomb urls in Google Chrome
+      match: finicky.matchHostnames([
+        "honeycomb.io",
+        /.*\.honeycomb.io/
+      ]),
+      browser: "Google Chrome"
+    },
+    {
+      // Open AWS urls in Google Chrome
+      match: finicky.matchHostnames([
+        "aws.amazon.com",
+        /.*\.aws.amazon.com/
+      ]),
+      browser: "Google Chrome"
+    },
+    {
       // Open trello.com urls in Google Chrome
       match: finicky.matchHostnames([
         "trello.com"

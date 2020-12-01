@@ -64,6 +64,14 @@ module.exports = {
       // Open glitch's dev watcher in Google Chrome
       match: "http://localhost:1234",
       browser: "Google Chrome"
-    }
+    },
+    {
+      // Open Grafana urls in Google Chrome
+      match: finicky.matchHostnames([
+        "grafana.glitch.com",
+        "grafana.staging.glitch.com"
+      ]),
+      browser: "Google Chrome"
+    },
   ]
 };

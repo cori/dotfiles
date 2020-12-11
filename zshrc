@@ -114,6 +114,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-test "$(ps -ocommand= -p $PPID | awk '{print $1}')" = 'script' || (script -a -F $HOME/cmdlogs/$(date +"%Y-%m-%d").${HOSTNAME:-$(hostname)}.log)
+#	test "$(ps -ocommand= -p $PPID | awk '{print $1}')" = 'script' || (script -a -F $HOME/cmdlogs/$(date +"%Y-%m-%d").${HOSTNAME:-$(hostname)}.log)
 
-#export PATH="/usr/local/opt/postgresql@11/bin:$PATH"
+#	export PATH="/usr/local/opt/postgresql@11/bin:$PATH"

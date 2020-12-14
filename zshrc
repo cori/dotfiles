@@ -117,3 +117,4 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 #	test "$(ps -ocommand= -p $PPID | awk '{print $1}')" = 'script' || (script -a -F $HOME/cmdlogs/$(date +"%Y-%m-%d").${HOSTNAME:-$(hostname)}.log)
 
 #	export PATH="/usr/local/opt/postgresql@11/bin:$PATH"
+export PATH="~/dotfiles/scripts/:$PATH"

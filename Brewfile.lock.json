@@ -2,25 +2,25 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "034459da8e6cd11076c578f0ac067fd50d1b14fa"
+        "revision": "5628f2152de4896e0994fe0c3c1d0d7350ddf1ff"
       },
       "homebrew/cask": {
-        "revision": "f620d782aa0b552c6712fe7d82589dba733cecc2"
+        "revision": "af6ad584002fe042172afbd82a6504314828bf67"
       },
       "homebrew/cask-drivers": {
-        "revision": "848034a1706683414ca6f54572540d9103b19fbc"
+        "revision": "6c7d843693c4a4dd5fb370d4b6f0b8f57ba93dc6"
       },
       "homebrew/cask-fonts": {
-        "revision": "40b132f111dae71032287dbba323e0d758b003e6"
+        "revision": "8eb10a056ccf853ac5d08a2eca81d776bc81760f"
       },
       "homebrew/cask-versions": {
-        "revision": "43971a4f5bb9eeb0bb7e8acad6f2419aa4705d7d"
+        "revision": "35ed4dcbe79ef97764a3ce2b9facd1f562276721"
       },
       "homebrew/core": {
-        "revision": "1550673eb637b929ee5f14144dadf37d3a920c45"
+        "revision": "6865fdea11cbf52381f18fe855edf8a8bf82517f"
       },
       "homebrew/services": {
-        "revision": "14c1da7bb28345d15ab4307dd6c8dcab55013f9e"
+        "revision": "492fa4ecaffcd735fea8aad6655ccf10228e6c0f"
       },
       "denisidoro/tools": {
         "revision": "978c72c4e00f89ccc79a1384e0f81d31c187f716"
@@ -78,22 +78,22 @@
         }
       },
       "gh": {
-        "version": "1.3.0",
+        "version": "1.3.1",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/gh-1.3.0.big_sur.bottle.tar.gz",
-              "sha256": "b0bdc9b4bb1f5afe308c6f0d1546adb13dee05cc482d46c68f5e231adbf8a40b"
+              "url": "https://homebrew.bintray.com/bottles/gh-1.3.1.big_sur.bottle.tar.gz",
+              "sha256": "6f01868e74ff2082b19d5000502206875d86cd54cf5a6c2f503ead46d48a38ac"
             },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/gh-1.3.0.catalina.bottle.tar.gz",
-              "sha256": "caedce8e0e37876250d45ea4c650997b7fdde7396bfce7b53c40bee830dd717f"
+              "url": "https://homebrew.bintray.com/bottles/gh-1.3.1.catalina.bottle.tar.gz",
+              "sha256": "ec0ae34ee04b4f9e0ffe813957ae5fd0fd28b895dbb327d0244e97d0e992d87f"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/gh-1.3.0.mojave.bottle.tar.gz",
-              "sha256": "2f5b27e8295b78cc1573926f100c9fa8d0efcc4e46dd99f358e4188763b1d727"
+              "url": "https://homebrew.bintray.com/bottles/gh-1.3.1.mojave.bottle.tar.gz",
+              "sha256": "924ff3e546d4f0eec09a4dd8679d1a74f99f771a9f00bf0a7b130d2ffd0b0e1a"
             }
           }
         }
@@ -107,6 +107,10 @@
             "big_sur": {
               "url": "https://homebrew.bintray.com/bottles/git-2.29.2.big_sur.bottle.tar.gz",
               "sha256": "99ffa981e42bfb6ed77fc1a9f4d1dc07681b2ba532ffc122d02b75eb002047e1"
+            },
+            "arm64_big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/git-2.29.2.arm64_big_sur.bottle.tar.gz",
+              "sha256": "38b43c6daeb7bd6d4555ad62b77465a13fc61d81be51bc7976ae6d016da05288"
             },
             "catalina": {
               "url": "https://homebrew.bintray.com/bottles/git-2.29.2.catalina.bottle.tar.gz",
@@ -249,22 +253,26 @@
         }
       },
       "node": {
-        "version": "15.3.0",
+        "version": "15.4.0",
         "bottle": {
           "cellar": ":any",
           "prefix": "/usr/local",
           "files": {
             "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/node-15.3.0.big_sur.bottle.tar.gz",
-              "sha256": "0b11ea4bbe2e656209419a9c74dd7e24e25405c4ba0323b4c34e3532dd15ac44"
+              "url": "https://homebrew.bintray.com/bottles/node-15.4.0.big_sur.bottle.tar.gz",
+              "sha256": "96ab3e3d127c46c67423db6208300774910b4e338c87fc0a3d80f0e3792742c7"
+            },
+            "arm64_big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/node-15.4.0.arm64_big_sur.bottle.tar.gz",
+              "sha256": "690c2aa209cb286ab0d7492e1fdcb8e33d3e21c17d6a424a026461cd09d399db"
             },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/node-15.3.0.catalina.bottle.tar.gz",
-              "sha256": "3605db67bfb721a93c61060ef71984efda198ee2c9ad20c19d881a18c1a86879"
+              "url": "https://homebrew.bintray.com/bottles/node-15.4.0.catalina.bottle.tar.gz",
+              "sha256": "9fd658c97b8b6d2c075b72f3bd683202e83dcc6926bb7c2a784d1c1a595f0739"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/node-15.3.0.mojave.bottle.tar.gz",
-              "sha256": "1be3495e7a8d8f748046de6cabd457d247a2e151c004245487d95e38dbfeedbb"
+              "url": "https://homebrew.bintray.com/bottles/node-15.4.0.mojave.bottle.tar.gz",
+              "sha256": "2d8c7769ecc75808e6b04b17ba23d7eb40a14af28d8f587cb2ad73d8b48cf755"
             }
           }
         }
@@ -656,7 +664,7 @@
         }
       },
       "raindropio": {
-        "version": "latest",
+        "version": "5.2.46",
         "options": {
           "full_name": "raindropio"
         }
@@ -728,7 +736,7 @@
         }
       },
       "zoomus": {
-        "version": "5.4.58903.1122",
+        "version": "5.4.58903.1122,alias",
         "options": {
           "full_name": "zoomus"
         }
@@ -758,7 +766,7 @@
         }
       },
       "suspicious-package": {
-        "version": "3.6",
+        "version": "3.6,736",
         "options": {
           "full_name": "suspicious-package"
         }
@@ -803,11 +811,11 @@
     "mas": {
       "Lockdown": {
         "id": "1483255076",
-        "version": "1.1.0"
+        "version": "1.1.2"
       },
       "Raindrop.io for Safari": {
         "id": "957810159",
-        "version": "2.3.5"
+        "version": "2.3.9"
       },
       "Session Pal": {
         "id": "1515213004",
@@ -827,7 +835,11 @@
       },
       "Notability": {
         "id": "736189492",
-        "version": "4.4.1"
+        "version": "4.4.3"
+      },
+      "Microsoft Remote Desktop": {
+        "id": "1295203466",
+        "version": "10.5.0"
       }
     }
   },
@@ -842,9 +854,9 @@
         "macOS": "10.15.7"
       },
       "big_sur": {
-        "HOMEBREW_VERSION": "2.6.0",
+        "HOMEBREW_VERSION": "2.6.1",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "1550673eb637b929ee5f14144dadf37d3a920c45",
+        "Homebrew/homebrew-core": "6865fdea11cbf52381f18fe855edf8a8bf82517f",
         "CLT": "12.0.32.27",
         "Xcode": "12.2",
         "macOS": "11.0.1"

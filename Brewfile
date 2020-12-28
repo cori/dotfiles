@@ -66,7 +66,7 @@ cask "rescuetime"
 cask "safari-technology-preview"
 cask "slack"
 cask "spotify"
-cask "steam"
+#cask "steam"
 cask "toggl-track"
 cask "utc-menu-clock"
 # these are now in the PHv2 repo
@@ -74,7 +74,7 @@ cask "utc-menu-clock"
 # cask "virtualbox"
 cask "visual-studio-code"
 cask "visual-studio-code-insiders"
-cask "zoomus"
+cask "zoom"
 mas "Lockdown", id: 1483255076
 mas "Notability", id: 736189492
 mas "Raindrop.io for Safari", id: 957810159

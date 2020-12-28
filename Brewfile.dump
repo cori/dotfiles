@@ -6,52 +6,91 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "warrensbox/tap"
+# Configuration editing tool and API
+brew "augeas"
 # Shell extension to jump to frequently used directories
 brew "autojump"
+# Official Amazon AWS command-line interface
+brew "awscli"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Enables you to reproduce the CircleCI environment locally
+brew "circleci"
 # Color-highlighted diff(1) output
 brew "colordiff"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
 # Lightweight DNS forwarder and DHCP server
 brew "dnsmasq", restart_service: true
-# Useful examples at the command-line
-brew "eg-examples"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Enable transparent encryption/decryption of files in a git repo
+brew "git-crypt"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
-# Instant coding answers via the command-line
-brew "howdoi"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
 # Tool to capture still images from an iSight or other video source
 brew "imagesnap"
+# CLI for the Jinja2 templating language
+brew "jinja2-cli"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Postgres C API library
+brew "libpq", link: true
+# Library for USB device access
+brew "libusb"
 # Mac App Store command-line interface
 brew "mas"
 # Powerful paging program
 brew "most"
+# Port scanning utility for large networks
+brew "nmap"
 # Platform built on V8 to build network applications
 brew "node"
+# Persistent key-value database, with built-in net interface
+brew "redis"
+# Next generation version of the original ntop
+brew "ntopng", link: false
 # Manage multiple Node.js versions
 brew "nvm"
 # Outputs current CPU temperature for OSX
 brew "osx-cpu-temp"
+# Tool for creating identical machine images for multiple platforms
+brew "packer"
+# Library like getopt(3) with a number of enhancements
+brew "popt"
 # Wrapper to colorize and simplify ping's output
 brew "prettyping"
+# It's not just a linter that annoys you!
+brew "pylint"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.8"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Programatically correct mistyped console commands
+# Utility that provides fast incremental file transfer
+brew "rsync"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
+# Programmatically correct mistyped console commands
 brew "thefuck"
 # Simplified and community-driven man pages
 brew "tldr"
-# Process YAML documents from the CLI
-brew "yq"
+# Internet file retriever
+brew "wget"
+# Tool for managing your YubiKey configuration
+brew "ykman"
 # Interactive cheatsheet tool for the command-line.
 brew "denisidoro/tools/navi"
+# The tfswitch command lets you switch between terraform versions.
+brew "warrensbox/tap/tfswitch"
 cask "adobe-acrobat-reader"
 cask "alfred"
 cask "authy"
@@ -65,11 +104,11 @@ cask "font-hack"
 cask "font-monoid"
 cask "github"
 cask "google-chrome"
+cask "insomnia"
 cask "iterm2"
 cask "keybase"
 cask "lastpass"
 cask "marvin"
-cask "novabench"
 cask "onedrive"
 cask "qlcolorcode"
 cask "qlimagesize"
@@ -89,15 +128,21 @@ cask "vagrant"
 cask "virtualbox"
 cask "visual-studio-code"
 cask "visual-studio-code-insiders"
+cask "zoom"
 cask "zoomus"
-mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Lockdown", id: 1483255076
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "mymind", id: 1532801185
+mas "Notability", id: 736189492
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "PDF Professional", id: 1071044671
+mas "QVR Client", id: 806101067
 mas "Raindrop.io for Safari", id: 957810159
 mas "Session Pal", id: 1515213004
 mas "Spark", id: 1176895641
 mas "Xcode", id: 497799835
+mas "Yoga Studio", id: 567767430
 mas "Yubico Authenticator", id: 1497506650

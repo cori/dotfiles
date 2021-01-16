@@ -17,7 +17,7 @@
         "revision": "b4ea3a6095012113888fdd65f31cc80eeeb23791"
       },
       "homebrew/core": {
-        "revision": "5f08b800b2bb9bbeb2ae70c0e13df228a8d551aa"
+        "revision": "2943b0c660477ae13d088ef367ed0fef2631e6bc"
       },
       "homebrew/services": {
         "revision": "fe00fcc4df63744f2240312f58b5ffdc2f203af0"
@@ -1308,6 +1308,12 @@
         "options": {
           "full_name": "microsoft-excel"
         }
+      },
+      "microsoft-word": {
+        "version": "16.45.21011103",
+        "options": {
+          "full_name": "microsoft-word"
+        }
       }
     },
     "mas": {
@@ -1358,7 +1364,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "2.7.5",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "5f08b800b2bb9bbeb2ae70c0e13df228a8d551aa",
+        "Homebrew/homebrew-core": "2943b0c660477ae13d088ef367ed0fef2631e6bc",
         "CLT": "12.0.32.27",
         "Xcode": "12.3",
         "macOS": "11.1"

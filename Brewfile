@@ -37,6 +37,7 @@ brew "thefuck"
 #   better grepping
 brew "ripgrep"
 brew "nmap"
+brew "typescript"
 
 #   various casks
 cask "adobe-acrobat-reader"

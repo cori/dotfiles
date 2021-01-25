@@ -41,6 +41,7 @@ brew "typescript"
 
 #   various casks
 cask "adobe-acrobat-reader"
+cask "adobe-digital-editions"
 cask "alfred"
 cask "authy"
 cask "bitwarden"

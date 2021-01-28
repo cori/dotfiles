@@ -20,6 +20,7 @@ brew "git"
 #brew "glances"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
+brew "go"
 # Tool to capture still images from an iSight or other video source
 brew "imagesnap"
 # Lightweight and flexible command-line JSON processor

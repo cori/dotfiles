@@ -177,6 +177,8 @@ cask "virtualbox"
 cask "visual-studio-code"
 # Integrated development environment
 cask "visual-studio-code-insiders"
+# Remote desktop application focusing on security
+cask "vnc-viewer"
 # Video communication and virtual meeting platform
 cask "zoom"
 # Temporary makeshift alias for the video communication tool Zoom

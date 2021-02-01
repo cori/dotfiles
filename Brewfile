@@ -79,6 +79,7 @@ cask "utc-menu-clock"
 # cask "virtualbox"
 cask "visual-studio-code"
 cask "visual-studio-code-insiders"
+cask "vnc-viewer"
 cask "zoom"
 mas "Lockdown", id: 1483255076
 mas "Notability", id: 736189492

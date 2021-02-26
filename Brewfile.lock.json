@@ -5,19 +5,19 @@
         "revision": "473a0124c54d2d7f5fb2515f450030d445e58fe3"
       },
       "homebrew/cask": {
-        "revision": "446ee5275c10c1c0cba6c7d065a010020a2d4f27"
+        "revision": "24e96954b0b99ee314a8f4b54d8618361232aaf8"
       },
       "homebrew/cask-drivers": {
         "revision": "82e909115f65ed4728ba4ba4235d2ced553ad606"
       },
       "homebrew/cask-fonts": {
-        "revision": "5774148cb0e38fb26732d915d1fb471cf4977998"
+        "revision": "4861b236aa9c6cb1f1cd27b8bfc05d42999e6bd6"
       },
       "homebrew/cask-versions": {
-        "revision": "0ef0faccf2efab7ecaac369e004bab3b74b4b167"
+        "revision": "4767fa25ab911d6b6f4e01525743043270a5294f"
       },
       "homebrew/core": {
-        "revision": "d7d1a480d33891528dc4db7c414e88a5b5364d4d"
+        "revision": "9385ea155478cf4a05c0f0ca73cab79b16fa44d8"
       },
       "homebrew/services": {
         "revision": "b32a13d3524fcd9a4babd822f78fa6e73e958abf"
@@ -1109,7 +1109,7 @@
         }
       },
       "finicky": {
-        "version": "3.2.0",
+        "version": "3.3.0",
         "options": {
           "full_name": "finicky"
         }
@@ -1368,6 +1368,12 @@
         "options": {
           "full_name": "vnc-viewer"
         }
+      },
+      "cscreen": {
+        "version": "2012.09",
+        "options": {
+          "full_name": "cscreen"
+        }
       }
     },
     "mas": {
@@ -1418,7 +1424,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "2.7.7",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "d7d1a480d33891528dc4db7c414e88a5b5364d4d",
+        "Homebrew/homebrew-core": "9385ea155478cf4a05c0f0ca73cab79b16fa44d8",
         "CLT": "12.0.32.27",
         "Xcode": "12.4",
         "macOS": "11.1"

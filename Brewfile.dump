@@ -17,6 +17,8 @@ brew "awscli"
 brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Core application library for C
+brew "glib"
 # Vector graphics library with cross-device output support
 brew "cairo"
 # Enables you to reproduce the CircleCI environment locally
@@ -113,6 +115,7 @@ cask "alfred"
 cask "authy"
 # Desktop password and login vault
 cask "bitwarden"
+cask "cscreen"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Client for the Dropbox cloud storage service
@@ -183,6 +186,7 @@ cask "vnc-viewer"
 cask "zoom"
 # Temporary makeshift alias for the video communication tool Zoom
 cask "zoomus"
+mas "Hush", id: 1544743900
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Lockdown", id: 1483255076

@@ -127,5 +127,8 @@ cask 'qlimagesize'
 #brew 'packer'
 #brew 'circleci'
 
+#	for Glitch
+brew 'certbot'
+
 instance_eval(File.read("/Users/cori/code/glitchdotcom/glitch/Brewfile"))
 instance_eval(File.read("/Users/cori/code/glitchdotcom/Glitch-ProjectHost/Brewfile"))

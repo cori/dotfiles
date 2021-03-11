@@ -1,5 +1,8 @@
 module.exports = {
   defaultBrowser: "Safari Technology Preview",
+	options: {
+	logRequests: true,
+	},
   handlers: [{
       // Open google.com and *.google.com urls in Google Chrome
       match: finicky.matchHostnames([
@@ -73,5 +76,10 @@ module.exports = {
       ]),
       browser: "Google Chrome"
     },
+	{
+		//	open everything from NewsExplorer in STP (since it opens Safari directly)
+		match: ({opener}) => opener.bundleId = "betamagic.News-Explorer",
+		browser: "Safari Technology Preview"
+	},
   ]
 };

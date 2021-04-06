@@ -21,6 +21,8 @@ brew "bat"
 brew "glib"
 # Vector graphics library with cross-device output support
 brew "cairo"
+# Tool to obtain certs from Let's Encrypt and autoenable HTTPS
+brew "certbot"
 # Enables you to reproduce the CircleCI environment locally
 brew "circleci"
 # Color-highlighted diff(1) output
@@ -39,6 +41,8 @@ brew "gh"
 brew "git"
 # Enable transparent encryption/decryption of files in a git repo
 brew "git-crypt"
+# Syntax-highlighting pager for git and diff output
+brew "git-delta"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
 # Open source programming language to build simple/reliable/efficient software
@@ -63,10 +67,12 @@ brew "libusb"
 brew "mas"
 # Powerful paging program
 brew "most"
-# Port scanning utility for large networks
-brew "nmap"
 # Platform built on V8 to build network applications
 brew "node"
+# Wrap web apps natively
+brew "nativefier"
+# Port scanning utility for large networks
+brew "nmap"
 # Persistent key-value database, with built-in net interface
 brew "redis"
 # Next generation version of the original ntop
@@ -111,6 +117,8 @@ cask "adobe-acrobat-reader"
 cask "adobe-digital-editions"
 # Application launcher and productivity software
 cask "alfred"
+# Application uninstaller
+cask "appcleaner"
 # Two-factor authentication software
 cask "authy"
 # Desktop password and login vault
@@ -178,7 +186,7 @@ cask "vagrant"
 cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
-# Integrated development environment
+# Code editor
 cask "visual-studio-code-insiders"
 # Remote desktop application focusing on security
 cask "vnc-viewer"

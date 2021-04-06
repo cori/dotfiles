@@ -12,14 +12,18 @@
 	colorMoved = zebra
 
 [interactive]
-    diffFilter = delta --color-only
+   diffFilter = delta --color-only
 
-[delta]
-	features = side-by-side line-numbers decorations
-
-#    whitespace-error-style = 22 reverse
+[delta "default"]
+	side-by-side=true
+	line-numbers=true
 
 [delta "decorations"]
-    commit-decoration-style = bold yellow box ul
-    file-style = bold yellow ul
-    file-decoration-style = none
+   commit-decoration-style = bold yellow box ul
+   file-style = bold yellow ul
+	file-decoration-style = none
+
+[delta "copy"]
+	side-by-side=false
+	line-numbers=false
+	keep-plus-minus-markers=false

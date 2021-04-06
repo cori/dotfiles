@@ -17,10 +17,6 @@ brew "awscli"
 brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Core application library for C
-brew "glib"
-# Vector graphics library with cross-device output support
-brew "cairo"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
 brew "certbot"
 # Enables you to reproduce the CircleCI environment locally
@@ -33,6 +29,8 @@ brew "coreutils"
 brew "curl"
 # Lightweight DNS forwarder and DHCP server
 brew "dnsmasq", restart_service: true
+# Core application library for C
+brew "glib"
 # Toolkit for image loading and pixel buffer manipulation
 brew "gdk-pixbuf"
 # GitHub command-line tool
@@ -47,10 +45,6 @@ brew "git-delta"
 brew "gnu-sed"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
-# OpenType text shaping engine
-brew "harfbuzz"
-# Graph visualization software from AT&T and Bell Labs
-brew "graphviz"
 # Tool to capture still images from an iSight or other video source
 brew "imagesnap"
 # CLI for the Jinja2 templating language

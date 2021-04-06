@@ -73,10 +73,6 @@ brew "node"
 brew "nativefier"
 # Port scanning utility for large networks
 brew "nmap"
-# Persistent key-value database, with built-in net interface
-brew "redis"
-# Next generation version of the original ntop
-brew "ntopng", link: false
 # Manage multiple Node.js versions
 brew "nvm"
 # Outputs current CPU temperature for OSX
@@ -91,6 +87,8 @@ brew "prettyping"
 brew "pylint"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.8"
+# Persistent key-value database, with built-in net interface
+brew "redis"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Utility that provides fast incremental file transfer
@@ -194,13 +192,17 @@ cask "vnc-viewer"
 cask "zoom"
 # Temporary makeshift alias for the video communication tool Zoom
 cask "zoomus"
+mas "Drafts", id: 1435957248
 mas "Hush", id: 1544743900
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Lockdown", id: 1483255076
+mas "Mactracker", id: 430255202
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "mymind", id: 1532801185
+mas "News Explorer", id: 1032670789
 mas "Notability", id: 736189492
+mas "Notability", id: 360593530
 mas "Numbers", id: 409203825
 mas "Otter RSS", id: 1529696614
 mas "Pages", id: 409201541
@@ -209,6 +211,6 @@ mas "QVR Client", id: 806101067
 mas "Raindrop.io for Safari", id: 957810159
 mas "Session Pal", id: 1515213004
 mas "Spark", id: 1176895641
+mas "Steam Link", id: 1246969117
 mas "Xcode", id: 497799835
-mas "Yoga Studio", id: 567767430
 mas "Yubico Authenticator", id: 1497506650

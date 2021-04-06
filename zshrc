@@ -93,6 +93,8 @@ alias aws_prod="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_pr
 alias aws_staging="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_profile.py staging_admin"
 alias gls="git log --stat"
 alias gcamend="git commint --amend -m"
+alias gd='GIT_PAGER="delta --features default decorations" git diff'
+alias gdcopy='GIT_PAGER="delta --features copy" git diff'
 
 eval "$(thefuck --alias pls)"
 

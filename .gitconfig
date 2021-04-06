@@ -3,10 +3,23 @@
 	name = cori schlegel
 	email = cori@glitch.com
 [core]
-	pager = bat
+	pager = delta
 [pull]
 	rebase = true
 [fetch]
 	prune = true
 [diff]
 	colorMoved = zebra
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+	features = side-by-side line-numbers decorations
+
+#    whitespace-error-style = 22 reverse
+
+[delta "decorations"]
+    commit-decoration-style = bold yellow box ul
+    file-style = bold yellow ul
+    file-decoration-style = none

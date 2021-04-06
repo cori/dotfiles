@@ -92,6 +92,7 @@ alias tf=terraform
 alias aws_prod="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_profile.py production_admin"
 alias aws_staging="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_profile.py staging_admin"
 alias gls="git log --stat"
+alias gcamend="git commint --amend -m"
 
 eval "$(thefuck --alias pls)"
 
@@ -99,23 +100,20 @@ function sshu() { ssh -oStrictHostKeyChecking=no "ubuntu@$1" -i ~/.ssh/id_glitch
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-PATH="/Users/cori/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PATH="~/dotfiles/scripts/:$PATH"
+PATH="/Users/cori/perl5/bin${PATH:+:${PATH}}";
+export PATH;
+
 PERL5LIB="/Users/cori/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
 PERL_LOCAL_LIB_ROOT="/Users/cori/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"/Users/cori/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/Users/cori/perl5"; export PERL_MM_OPT;
 
-#export HISTTIMEFORMAT="%F %T "
-
 export NVM_DIR="$HOME/.nvm"
-#	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-#	[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 #	test "$(ps -ocommand= -p $PPID | awk '{print $1}')" = 'script' || (script -a -F $HOME/cmdlogs/$(date +"%Y-%m-%d").${HOSTNAME:-$(hostname)}.log)
 
-#	export PATH="/usr/local/opt/postgresql@11/bin:$PATH"
-export PATH="~/dotfiles/scripts/:$PATH"
 export AWS_USE_YUBIKEY=1

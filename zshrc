@@ -118,3 +118,4 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 #	export PATH="/usr/local/opt/postgresql@11/bin:$PATH"
 export PATH="~/dotfiles/scripts/:$PATH"
+export AWS_USE_YUBIKEY=1

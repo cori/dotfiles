@@ -72,6 +72,8 @@ cask "cscreen"
 cask "dropbox"
 # Utility for customizing which browser to start
 cask "finicky"
+# Web browser
+cask "firefox"
 cask "font-anonymous-pro"
 cask "font-fira-code"
 cask "font-hack"

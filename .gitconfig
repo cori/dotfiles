@@ -3,7 +3,7 @@
 	name = cori schlegel
 	email = cori@glitch.com
 [core]
-	pager = delta
+	pager = bat
 [pull]
 	rebase = true
 [fetch]

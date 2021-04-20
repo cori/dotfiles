@@ -31,6 +31,8 @@ brew "node"
 brew "nativefier"
 # Port scanning utility for large networks
 brew "nmap"
+# Programs for dealing with numbers from the command-line
+brew "num-utils"
 # Manage multiple Node.js versions
 brew "nvm"
 # Outputs current CPU temperature for OSX
@@ -128,6 +130,7 @@ cask "vnc-viewer"
 cask "zoom"
 
 ##	Mac apps
+mas "ci2go", id: 940028427
 mas "Drafts", id: 1435957248
 mas "Hush", id: 1544743900
 mas "iMovie", id: 408981434

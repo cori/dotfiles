@@ -21,18 +21,12 @@ brew "bat"
 brew "certbot"
 # Enables you to reproduce the CircleCI environment locally
 brew "circleci"
-# Color-highlighted diff(1) output
-brew "colordiff"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # Lightweight DNS forwarder and DHCP server
 brew "dnsmasq", restart_service: true
-# Core application library for C
-brew "glib"
-# Toolkit for image loading and pixel buffer manipulation
-brew "gdk-pixbuf"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -59,14 +53,14 @@ brew "libpq", link: true
 brew "libusb"
 # Mac App Store command-line interface
 brew "mas"
-# Powerful paging program
-brew "most"
 # Platform built on V8 to build network applications
 brew "node"
 # Wrap web apps natively
 brew "nativefier"
 # Port scanning utility for large networks
 brew "nmap"
+# Programs for dealing with numbers from the command-line
+brew "num-utils"
 # Manage multiple Node.js versions
 brew "nvm"
 # Outputs current CPU temperature for OSX
@@ -105,8 +99,6 @@ brew "denisidoro/tools/navi"
 brew "warrensbox/tap/tfswitch"
 # View, print, and comment on PDF documents
 cask "adobe-acrobat-reader"
-# E-book reader
-cask "adobe-digital-editions"
 # Application launcher and productivity software
 cask "alfred"
 # Application uninstaller
@@ -122,6 +114,8 @@ cask "docker"
 cask "dropbox"
 # Utility for customizing which browser to start
 cask "finicky"
+# Web browser
+cask "firefox"
 cask "font-anonymous-pro"
 cask "font-fira-code"
 cask "font-hack"
@@ -141,10 +135,6 @@ cask "lastpass"
 # Software for Logitech devices
 cask "logitech-options"
 cask "marvin"
-# Provides updates to various Microsoft products
-cask "microsoft-auto-update"
-cask "microsoft-excel"
-cask "microsoft-word"
 # Cloud storage client
 cask "onedrive"
 # QuickLook plug-in that renders source code with syntax highlighting
@@ -184,8 +174,7 @@ cask "visual-studio-code-insiders"
 cask "vnc-viewer"
 # Video communication and virtual meeting platform
 cask "zoom"
-# Temporary makeshift alias for the video communication tool Zoom
-cask "zoomus"
+mas "CI2Go", id: 940028427
 mas "Drafts", id: 1435957248
 mas "Hush", id: 1544743900
 mas "iMovie", id: 408981434
@@ -195,8 +184,8 @@ mas "Mactracker", id: 430255202
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "mymind", id: 1532801185
 mas "News Explorer", id: 1032670789
-mas "Notability", id: 736189492
 mas "Notability", id: 360593530
+mas "Notability", id: 736189492
 mas "Numbers", id: 409203825
 mas "Otter RSS", id: 1529696614
 mas "Pages", id: 409201541

@@ -41,6 +41,8 @@ brew "gnu-sed"
 brew "go"
 # Tool to capture still images from an iSight or other video source
 brew "imagesnap"
+# Calculate various network masks, etc. from a given IP address
+brew "ipcalc"
 # CLI for the Jinja2 templating language
 brew "jinja2-cli"
 # Lightweight and flexible command-line JSON processor
@@ -124,6 +126,8 @@ cask "font-monoid"
 cask "github"
 # Web browser
 cask "google-chrome"
+# Graphically shows disk usage within a file system
+cask "grandperspective"
 # HTTP and GraphQL Client
 cask "insomnia"
 # Terminal emulator as alternative to Apple's Terminal app
@@ -184,8 +188,8 @@ mas "Mactracker", id: 430255202
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "mymind", id: 1532801185
 mas "News Explorer", id: 1032670789
-mas "Notability", id: 736189492
 mas "Notability", id: 360593530
+mas "Notability", id: 736189492
 mas "Numbers", id: 409203825
 mas "Otter RSS", id: 1529696614
 mas "Pages", id: 409201541

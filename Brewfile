@@ -82,6 +82,8 @@ cask "font-hack"
 cask "font-monoid"
 # Desktop client for GitHub repositories
 cask "github"
+# GrandPerspective
+cask "grandperspective"
 # Web browser
 cask "google-chrome"
 # HTTP and GraphQL Client

@@ -11,6 +11,7 @@ tap "warrensbox/tap"
 brew "autojump"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+brew "coreutils"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -70,6 +71,8 @@ cask "authy"
 # Desktop password and login vault
 cask "bitwarden"
 cask "cscreen"
+#	Two-panel file manager
+cask "commander-one"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Utility for customizing which browser to start
@@ -82,7 +85,7 @@ cask "font-hack"
 cask "font-monoid"
 # Desktop client for GitHub repositories
 cask "github"
-# GrandPerspective
+# Graphically shows disk usage within a file system
 cask "grandperspective"
 # Web browser
 cask "google-chrome"
@@ -130,6 +133,8 @@ cask "visual-studio-code-insiders"
 cask "vnc-viewer"
 # Video communication and virtual meeting platform
 cask "zoom"
+# Flash tool for ZSA keyboards
+cask "zsa-wally"
 
 ##	Mac apps
 mas "ci2go", id: 940028427

@@ -109,6 +109,8 @@ cask "appcleaner"
 cask "authy"
 # Desktop password and login vault
 cask "bitwarden"
+# Two-panel file manager
+cask "commander-one"
 cask "cscreen"
 # App to build and share containerized applications and microservices
 cask "docker"
@@ -138,6 +140,7 @@ cask "keybase"
 cask "lastpass"
 # Software for Logitech devices
 cask "logitech-options"
+# Personal productivity app
 cask "marvin"
 # Cloud storage client
 cask "onedrive"
@@ -178,6 +181,8 @@ cask "visual-studio-code-insiders"
 cask "vnc-viewer"
 # Video communication and virtual meeting platform
 cask "zoom"
+# Flash tool for ZSA keyboards
+cask "zsa-wally"
 mas "CI2Go", id: 940028427
 mas "Drafts", id: 1435957248
 mas "Hush", id: 1544743900

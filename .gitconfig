@@ -29,3 +29,5 @@
 	line-numbers=false
 	keep-plus-minus-markers=false
 	paging=never
+[init]
+	defaultBranch = main

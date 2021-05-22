@@ -20,6 +20,8 @@ brew "git"
 brew "git-delta"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+#	Tools and libraries to manipulate images in many formats
+brew "imagemagick"
 # Tool to capture still images from an iSight or other video source
 brew "imagesnap"
 # Lightweight and flexible command-line JSON processor

@@ -11,6 +11,9 @@ tap "warrensbox/tap"
 brew "autojump"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+#	Validate CloudFormation templates against the CloudFormation spec
+brew "cfn-lint"
+#	GNU File, Shell, and Text utilities
 brew "coreutils"
 # GitHub command-line tool
 brew "gh"

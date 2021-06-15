@@ -19,6 +19,8 @@ brew "bash"
 brew "bat"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
 brew "certbot"
+# Validate CloudFormation templates against the CloudFormation spec
+brew "cfn-lint"
 # Enables you to reproduce the CircleCI environment locally
 brew "circleci"
 # GNU File, Shell, and Text utilities
@@ -39,6 +41,8 @@ brew "git-delta"
 brew "gnu-sed"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
 # Tool to capture still images from an iSight or other video source
 brew "imagesnap"
 # Calculate various network masks, etc. from a given IP address
@@ -193,8 +197,8 @@ mas "Mactracker", id: 430255202
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "mymind", id: 1532801185
 mas "News Explorer", id: 1032670789
-mas "Notability", id: 360593530
 mas "Notability", id: 736189492
+mas "Notability", id: 360593530
 mas "Numbers", id: 409203825
 mas "Otter RSS", id: 1529696614
 mas "Pages", id: 409201541

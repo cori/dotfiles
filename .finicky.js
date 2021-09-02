@@ -3,7 +3,13 @@ module.exports = {
 	options: {
 	logRequests: true,
 	},
-  handlers: [{
+  rewrite: [
+    {
+      // Redirect all urls to use https
+      match: ({ url }) => url.host === "www.reddit.com",
+      url: { host: "old.reddit.com" }
+    }
+  ],  handlers: [{
       // Open google.com and *.google.com urls in Google Chrome
       match: finicky.matchHostnames([
         "google.com", // match google.com domain as string (to make regular expression less complicated)

@@ -3,8 +3,12 @@
 	name = cori
 	email = cori@glitch.com
 [core]
-	pager = bat
+	#pager = bat
 	excludesfile = /Users/cori/.gitignore_global
+[pager]
+	diff = delta
+	log = delta
+	show = delta
 [pull]
 	rebase = true
 [fetch]
@@ -19,6 +23,7 @@
 	side-by-side=true
 	line-numbers=true
 	paging=never
+	dark=true
 
 [delta "decorations"]
    commit-decoration-style = bold yellow box ul

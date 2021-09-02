@@ -20,7 +20,7 @@
     {
         "link": {
             "~/.dotfiles": "",
-				"~/.gitconfig": ".gitconfig",
+            "~/.gitconfig": ".gitconfig",
             "~/.finicky.js": ".finicky.js",
             "~/.macos": "macos",
             "~/.vim": "vim",
@@ -29,7 +29,8 @@
             "~/.zshrc": {
                 "path": "zshrc",
                 "force": true
-            }
+            },
+            "~/Library/Application Support/lazygit/config.yml": "lazygit.yml"
         }
     },
     {

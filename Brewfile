@@ -29,6 +29,8 @@ brew "imagemagick"
 brew "imagesnap"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+#	Simple terminal UI for git commands
+brew "lazygit"
 # Mac App Store command-line interface
 brew "mas"
 # Platform built on V8 to build network applications

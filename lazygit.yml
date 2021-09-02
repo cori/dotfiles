@@ -1,0 +1,5 @@
+git:
+  branchLogCmd: 'git log --graph --color=always --abbrev-commit --decorate --pretty=medium {{branchName}} --'
+  allBranchesLogCmd: 'git log --graph --all --color=always --abbrev-commit --decorate --pretty=medium'
+os:
+  openCommand: 'code-insiders -rg {{filename}}'

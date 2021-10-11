@@ -33,6 +33,14 @@ module.exports = {
       browser: "Google Chrome"
     },
     {
+      // Open clubhouse.io urls in Google Chrome
+      match: finicky.matchHostnames([
+        "shortcut.com",
+        /.*\.shortcut.com/
+      ]),
+      browser: "Google Chrome"
+    },
+    {
       // Open honeycomb urls in Google Chrome
       match: finicky.matchHostnames([
         "honeycomb.io",

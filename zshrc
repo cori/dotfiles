@@ -119,3 +119,4 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 #	test "$(ps -ocommand= -p $PPID | awk '{print $1}')" = 'script' || (script -a -F $HOME/cmdlogs/$(date +"%Y-%m-%d").${HOSTNAME:-$(hostname)}.log)
 
 export AWS_USE_YUBIKEY=1
+export PATH="/usr/local/opt/avr-gcc@8/bin:$PATH"

@@ -98,7 +98,8 @@ alias gdcopy='GIT_PAGER="delta --features copy" git diff'
 
 eval "$(thefuck --alias pls)"
 
-function sshu() { ssh -oStrictHostKeyChecking=no "ubuntu@$1" -i ~/.ssh/id_glitch_ubuntu; }
+function sshu() { ssh -oStrictHostKeyChecking=no "ubuntu@$1" -i~/.ssh/id_glitch_ubuntu -Jjump.glitch.com -oIdentitiesOnly=yes; }
+function ssshu() { ssh -oStrictHostKeyChecking=no "ubuntu@$1" -i~/.ssh/id_glitch_ubuntu -Jjump.staging.glitch.com -oIdentitiesOnly=yes; }
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 

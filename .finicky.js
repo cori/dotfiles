@@ -78,6 +78,13 @@ module.exports = {
       browser: "Google Chrome"
     },
     {
+      // Open Glitch's pagerduty in Google Chrome
+      match: finicky.matchHostnames([
+        "fogcreek.pagerduty.com"
+      ]),
+      browser: "Google Chrome"
+    },
+    {
       // Open glitch's dev watcher in Google Chrome
       match: "http://localhost:1234",
       browser: "Google Chrome"

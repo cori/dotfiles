@@ -1,15 +1,18 @@
 module.exports = {
-  defaultBrowser: "Safari Technology Preview",
-	options: {
-	logRequests: true,
-	},
-  rewrite: [
-    {
-      // Redirect all urls to use https
-      match: ({ url }) => url.host === "www.reddit.com",
-      url: { host: "old.reddit.com" }
+  defaultBrowser: "Safari",
+  options: {
+    logRequests: true,
+  },
+  rewrite: [{
+    // Redirect all urls to use https
+    match: ({
+      url
+    }) => url.host === "www.reddit.com",
+    url: {
+      host: "old.reddit.com"
     }
-  ],  handlers: [{
+  }],
+  handlers: [{
       // Open google.com and *.google.com urls in Google Chrome
       match: finicky.matchHostnames([
         "google.com", // match google.com domain as string (to make regular expression less complicated)
@@ -97,10 +100,12 @@ module.exports = {
       ]),
       browser: "Google Chrome"
     },
-	{
-		//	open everything from NewsExplorer in STP (since it opens Safari directly)
-		match: ({opener}) => opener.bundleId = "betamagic.News-Explorer",
-		browser: "Safari Technology Preview"
-	},
+    {
+      //	open everything from NewsExplorer in STP (since it opens Safari directly)
+      match: ({
+        opener
+      }) => opener.bundleId = "betamagic.News-Explorer",
+      browser: "Safari"
+    },
   ]
 };

@@ -101,8 +101,9 @@ alias gcamend="git commint --amend -m"
 alias gd='GIT_PAGER="delta --features default decorations" git diff'
 alias gdcopy='GIT_PAGER="delta --features copy" git diff'
 #	Fastly
-alias fast_st='export FASTLY_API_TOKEN=$STAGING_FASTLY_API_TOKEN; export FASTLY_CUSTOMER_ID=$STAGING_FASTLY_CUSTOMER_ID;'
-alias fast_dev='export FASTLY_API_TOKEN=$DEV_FASTLY_API_TOKEN; export FASTLY_CUSTOMER_ID=$DEV_FASTLY_CUSTOMER_ID;'
+alias fastly-staging='export FASTLY_API_TOKEN=$STAGING_FASTLY_API_TOKEN; export FASTLY_CUSTOMER_ID=$STAGING_FASTLY_CUSTOMER_ID;'
+alias fastly-dev='export FASTLY_API_TOKEN=$DEV_FASTLY_API_TOKEN; export FASTLY_CUSTOMER_ID=$DEV_FASTLY_CUSTOMER_ID;'
+alias fastly-status='if [[ "$FASTLY_API_TOKEN" == "$DEV_FASTLY_API_TOKEN" ]]; then echo "dev"; else echo "staging"; fi'
 eval "$(thefuck --alias pls)"
 
 function sshu() { ssh -oStrictHostKeyChecking=no "ubuntu@$1" -i~/.ssh/id_glitch_ubuntu -Jjump.glitch.com -oIdentitiesOnly=yes; }

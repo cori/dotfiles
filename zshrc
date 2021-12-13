@@ -103,7 +103,11 @@ alias gdcopy='GIT_PAGER="delta --features copy" git diff'
 #	Fastly
 alias fastly-staging='export FASTLY_API_TOKEN=$STAGING_FASTLY_API_TOKEN; export FASTLY_CUSTOMER_ID=$STAGING_FASTLY_CUSTOMER_ID;'
 alias fastly-dev='export FASTLY_API_TOKEN=$DEV_FASTLY_API_TOKEN; export FASTLY_CUSTOMER_ID=$DEV_FASTLY_CUSTOMER_ID;'
-alias fastly-status='if [[ "$FASTLY_API_TOKEN" == "$DEV_FASTLY_API_TOKEN" ]]; then echo "dev"; else echo "staging"; fi'
+alias fastly-prod='export FASTLY_API_TOKEN=$PRODUCTION_FASTLY_API_TOKEN; export FASTLY_CUSTOMER_ID=$PRODUCTION_FASTLY_CUSTOMER_ID;'
+alias fastly-status='if [[ "$FASTLY_API_TOKEN" == "$PRODUCTION_FASTLY_API_TOKEN" ]]; then echo "prod"; else echo "staging or dev"; fi'
+alias tl='~/code/personal/osx-timelapse/timelapse.sh'
+alias lg='lazygit'
+
 eval "$(thefuck --alias pls)"
 
 function sshu() { ssh -oStrictHostKeyChecking=no "ubuntu@$1" -i~/.ssh/id_glitch_ubuntu -Jjump.glitch.com -oIdentitiesOnly=yes; }

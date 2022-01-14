@@ -106,7 +106,7 @@ alias fastly-dev='export FASTLY_API_TOKEN=$DEV_FASTLY_API_TOKEN; export FASTLY_C
 alias fastly-prod='export FASTLY_API_TOKEN=$PRODUCTION_FASTLY_API_TOKEN; export FASTLY_CUSTOMER_ID=$PRODUCTION_FASTLY_CUSTOMER_ID;'
 alias fastly-status='if [[ "$FASTLY_API_TOKEN" == "$PRODUCTION_FASTLY_API_TOKEN" ]]; then echo "prod"; else echo "staging or dev"; fi'
 alias tl='~/code/personal/osx-timelapse/timelapse.sh'
-alias lg='lazygit'
+alias lg='nvm exec 12 lazygit'
 
 eval "$(thefuck --alias pls)"
 
@@ -138,3 +138,4 @@ export PATH="/usr/local/opt/avr-gcc@8/bin:$PATH"
 # Please make sure this block is at the end of this file.
 [ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
 #### END FIG ENV VARIABLES ####
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

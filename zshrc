@@ -117,6 +117,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 PATH="~/dotfiles/scripts/:$PATH"
 PATH="/Users/cori/perl5/bin${PATH:+:${PATH}}";
+PATH="/Users/cori/.cargo/bin${PATH:+:${PATH}}";
 export PATH;
 
 PERL5LIB="/Users/cori/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;

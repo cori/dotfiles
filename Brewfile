@@ -119,6 +119,8 @@ cask "marvin"
 cask "mp4tools"
 # Cloud storage client
 cask "onedrive"
+# Collaboration platform for API development
+cask "postman"
 # QuickLook plug-in that renders source code with syntax highlighting
 cask "qlcolorcode"
 # Display image info and preview unsupported formats in QuickLook

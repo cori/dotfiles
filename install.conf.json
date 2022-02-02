@@ -1,7 +1,8 @@
 [{
         "defaults": {
             "link": {
-                "relink": true
+                "relink": true,
+					 "create": true
             },
             "shell": {
                 "stderr": true,
@@ -30,11 +31,15 @@
                 "path": "zshrc",
                 "force": true
             },
-            "~/Library/Application Support/lazygit/config.yml": "lazygit.yml",
+            "~/Library/Application Support/lazygit/config.yml": {
+					"path": "lazygit.yml",
+					"force": true
+				},
             "~/.warp": {
                 "path": "warp",
                 "force": true
-            }
+            },
+				"~/.nvm": "nvm"
         }
     },
     {

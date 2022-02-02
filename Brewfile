@@ -103,8 +103,6 @@ cask "font-anonymous-pro"
 cask "font-fira-code"
 cask "font-hack"
 cask "font-monoid"
-# App and website blocker
-cask "freedom"
 # Desktop client for GitHub repositories
 cask "github"
 # Web browser

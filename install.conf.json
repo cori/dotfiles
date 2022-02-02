@@ -30,7 +30,11 @@
                 "path": "zshrc",
                 "force": true
             },
-            "~/Library/Application Support/lazygit/config.yml": "lazygit.yml"
+            "~/Library/Application Support/lazygit/config.yml": "lazygit.yml",
+            "~/.warp": {
+                "path": "warp",
+                "force": true
+            }
         }
     },
     {

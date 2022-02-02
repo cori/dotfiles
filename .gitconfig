@@ -5,6 +5,7 @@
 [core]
 	#pager = bat
 	excludesfile = /Users/cori/.gitignore_global
+	pager = bat
 [pager]
 	diff = delta --features default decorations
 	log = delta

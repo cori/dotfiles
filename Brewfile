@@ -155,13 +155,11 @@ cask "visual-studio-code-insiders"
 cask "zoom"
 # Flash tool for ZSA keyboards
 cask "zsa-wally"
-mas "CI2Go", id: 940028427
 mas "Drafts", id: 1435957248
 mas "eufy Security", id: 1501114405
 mas "Hush", id: 1544743900
 mas "iMovie", id: 408981434
 mas "Lockdown", id: 1483255076
-mas "Mactracker", id: 430255202
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "News Explorer", id: 1032670789
 mas "Numbers", id: 409203825

@@ -5,19 +5,19 @@
         "revision": "4b703e446be1d848521b0bdf3e85f36bb3aae1f9"
       },
       "homebrew/cask": {
-        "revision": "ef9e0858bbe21f637ae4ccda4345363e335cd101"
+        "revision": "ec3247caca38db104bfb7de7423d55e63f41ed41"
       },
       "homebrew/cask-drivers": {
         "revision": "8bc67079bf6bf639a0024e9dd741941abf84c060"
       },
       "homebrew/cask-fonts": {
-        "revision": "879ae9f8d11845ef67df5b5e8606da28624b83d5"
+        "revision": "4a1018c4ef4e1dd939de92876f5e46f42ba3c98f"
       },
       "homebrew/cask-versions": {
-        "revision": "9194fc45fbc7ae0974b53ab14e3445eb13314215"
+        "revision": "aae186fc8b1c67e96ffb113dbecf85c1fcdbe68b"
       },
       "homebrew/core": {
-        "revision": "73a823aab18680c85b4ea66f1ac02768315a4a6c"
+        "revision": "270eb691a58cce264b193ea2a8d6e97cef07249a"
       },
       "homebrew/services": {
         "revision": "59b361bb330e48ae62f6e8175002cfa8dfeeecb8"
@@ -2545,7 +2545,7 @@
         }
       },
       "visual-studio-code-insiders": {
-        "version": "1.65.0,97c1e76d668d23d568044feb31083407f4c4b1ed",
+        "version": "1.65.0,0283cec6ec2c2d5ec39006a1048b8dc3ea8bc955",
         "options": {
           "full_name": "visual-studio-code-insiders"
         }
@@ -2677,7 +2677,7 @@
         }
       },
       "firefox": {
-        "version": "96.0.3",
+        "version": "97.0",
         "options": {
           "full_name": "firefox"
         }
@@ -2810,7 +2810,7 @@
       },
       "Microsoft Remote Desktop": {
         "id": "1295203466",
-        "version": "10.7.5"
+        "version": "10.7.6"
       },
       "Drafts": {
         "id": "1435957248",
@@ -2916,7 +2916,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.3.14",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "73a823aab18680c85b4ea66f1ac02768315a4a6c",
+        "Homebrew/homebrew-core": "270eb691a58cce264b193ea2a8d6e97cef07249a",
         "CLT": "13.2.0.0.1.1638488800",
         "Xcode": "13.2.1",
         "macOS": "12.2"

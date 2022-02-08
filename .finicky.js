@@ -23,6 +23,26 @@ module.exports = {
     {
       // Open github.com urls in Google Chrome
       match: finicky.matchHostnames([
+        /.*\.apprentice\.io$/
+      ]),
+      browser: {
+        name: "Google Chrome",
+        profile: "Profile 1"
+      }
+    },
+    {
+      // Open github.com urls in Google Chrome
+      match: finicky.matchHostnames([
+        "apprenticefs.atlassian.net"
+      ]),
+      browser: {
+        name: "Google Chrome",
+        profile: "Default"
+      }
+    },
+    {
+      // Open github.com urls in Google Chrome
+      match: finicky.matchHostnames([
         "github.com"
       ]),
       browser: "Google Chrome"
@@ -33,7 +53,10 @@ module.exports = {
         "clubhouse.io",
         /.*\.clubhouse.io/
       ]),
-      browser: "Google Chrome"
+      browser: {
+        name: "Google Chrome",
+        profile: "Personal"
+      }
     },
     {
       // Open clubhouse.io urls in Google Chrome
@@ -41,7 +64,10 @@ module.exports = {
         "shortcut.com",
         /.*\.shortcut.com/
       ]),
-      browser: "Google Chrome"
+      browser: {
+        name: "Google Chrome",
+        profile: "Personal"
+      }
     },
     {
       // Open honeycomb urls in Google Chrome
@@ -49,7 +75,10 @@ module.exports = {
         "honeycomb.io",
         /.*\.honeycomb.io/
       ]),
-      browser: "Google Chrome"
+      browser: {
+        name: "Google Chrome",
+        profile: "Personal"
+      }
     },
     {
       // Open AWS urls in Google Chrome
@@ -64,33 +93,48 @@ module.exports = {
       match: finicky.matchHostnames([
         "trello.com"
       ]),
-      browser: "Google Chrome"
+      browser: {
+        name: "Google Chrome",
+        profile: "Personal"
+      }
     },
     {
       // Open circleci.com urls in Google Chrome
       match: finicky.matchHostnames([
         "circleci.com"
       ]),
-      browser: "Google Chrome"
+      browser: {
+        name: "Google Chrome",
+        profile: "Personal"
+      }
     },
     {
       // Open Lattice in Google Chrome
       match: finicky.matchHostnames([
         "glitch.latticehq.com"
       ]),
-      browser: "Google Chrome"
+      browser: {
+        name: "Google Chrome",
+        profile: "Personal"
+      }
     },
     {
       // Open Glitch's pagerduty in Google Chrome
       match: finicky.matchHostnames([
         "fogcreek.pagerduty.com"
       ]),
-      browser: "Google Chrome"
+      browser: {
+        name: "Google Chrome",
+        profile: "Personal"
+      }
     },
     {
       // Open glitch's dev watcher in Google Chrome
       match: "http://localhost:1234",
-      browser: "Google Chrome"
+      browser: {
+        name: "Google Chrome",
+        profile: "Personal"
+      }
     },
     {
       // Open Grafana urls in Google Chrome
@@ -98,7 +142,10 @@ module.exports = {
         "grafana.glitch.com",
         "grafana.staging.glitch.com"
       ]),
-      browser: "Google Chrome"
+      browser: {
+        name: "Google Chrome",
+        profile: "Personal"
+      }
     },
     {
       //	open everything from NewsExplorer in STP (since it opens Safari directly)

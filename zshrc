@@ -116,12 +116,45 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 PATH="~/dotfiles/scripts/:$PATH"
 #PATH="/Users/cori/perl5/bin${PATH:+:${PATH}}";
 PATH="/Users/cori/.cargo/bin${PATH:+:${PATH}}";
+export PATH=$PATH:/Users/cori/bin;
 export PATH;
 
 #PERL5LIB="/Users/cori/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
 #PERL_LOCAL_LIB_ROOT="/Users/cori/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
 #PERL_MB_OPT="--install_base \"/Users/cori/perl5\""; export PERL_MB_OPT;
 #PERL_MM_OPT="INSTALL_BASE=/Users/cori/perl5"; export PERL_MM_OPT;
+
+###	ZPLUG	###
+# Check if zplug is installed
+if [[ ! -d ~/.zplug ]]; then
+  git clone https://github.com/zplug/zplug ~/.zplug
+  source ~/.zplug/init.zsh && zplug update --self
+fi
+
+# Essential
+source ~/.zplug/init.zsh
+
+# Make sure to use double quotes to prevent shell expansion
+zplug "zsh-users/zsh-syntax-highlighting"
+zplug "plugins/docker-compose", from:oh-my-zsh
+zplug "plugins/autojump", from:oh-my-zsh
+zplug "plugins/thefuck", from:oh-my-zsh
+zplug "plugins/git", from:oh-my-zsh
+zplug "plugins/terraform", from:oh-my-zsh
+
+# Add a bunch more of your favorite packages!
+
+# Install packages that have not been installed yet
+if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    else
+        echo
+    fi
+fi
+
+zplug load
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$(brew --prefix nvm)/nvm.sh" ] && . "$(brew --prefix nvm)/nvm.sh"  # This loads nvm

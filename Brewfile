@@ -73,6 +73,8 @@ brew "websocat"
 brew "wget"
 # Tool for managing your YubiKey configuration
 brew "ykman"
+# Next-generation plugin manager for zsh
+brew "zplug"
 # Interactive cheatsheet tool for the command-line.
 brew "denisidoro/tools/navi"
 # Pre-built GNU toolchain for Arm Cortex-M and Cortex-R processors
@@ -111,6 +113,8 @@ cask "google-chrome"
 cask "grandperspective"
 # Link and retrieve key information
 cask "hook"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iTerm2"
 # Software for Logitech devices
 cask "logitech-options"
 # Personal productivity app

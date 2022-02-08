@@ -47,6 +47,7 @@
 # stamp shown in the history command output.
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 HIST_STAMPS="yyyy-mm-dd"
+export HISTTIMEFORMAT="%F %T "
 
 # Would you like to use another custom folder than $ZSH/custom?
 #ZSH_CUSTOM=~/.dotfiles/oh-my-zsh_custom
@@ -58,6 +59,7 @@ HIST_STAMPS="yyyy-mm-dd"
 #plugins=(git history terraform thefuck encode64 autojump vscode aws colored-man-pages iterm2 timer urltools xcode ripgrep docker-compose vagrant git-extras colored-man-pages colorize )
 
 #source $ZSH/oh-my-zsh.sh
+
 
 # User configuration
 

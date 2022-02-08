@@ -138,9 +138,12 @@ source ~/.zplug/init.zsh
 zplug "zsh-users/zsh-syntax-highlighting"
 zplug "plugins/docker-compose", from:oh-my-zsh
 zplug "plugins/autojump", from:oh-my-zsh
-zplug "plugins/thefuck", from:oh-my-zsh
+#zplug "plugins/thefuck", from:oh-my-zsh
 zplug "plugins/git", from:oh-my-zsh
 zplug "plugins/terraform", from:oh-my-zsh
+zplug "plugins/history", from:oh-my-zsh
+zplug "plugins/timer", from:oh-my-zsh
+zplug "plugins/colorize", from:oh-my-zsh
 
 # Add a bunch more of your favorite packages!
 

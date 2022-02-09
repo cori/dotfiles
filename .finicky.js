@@ -37,7 +37,17 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Default"
+        profile: "Profile 1"
+      }
+    },
+    {
+      // Open github.com urls in Google Chrome
+      match: finicky.matchHostnames([
+        "app.datadoghq.com"
+      ]),
+      browser: {
+        name: "Google Chrome",
+        profile: "Profile 1"
       }
     },
     {
@@ -55,7 +65,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Personal"
+        profile: "Default"
       }
     },
     {
@@ -66,7 +76,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Personal"
+        profile: "Default"
       }
     },
     {
@@ -77,7 +87,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Personal"
+        profile: "Default"
       }
     },
     {
@@ -95,7 +105,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Personal"
+        profile: "Default"
       }
     },
     {
@@ -105,7 +115,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Personal"
+        profile: "Default"
       }
     },
     {
@@ -115,7 +125,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Personal"
+        profile: "Default"
       }
     },
     {
@@ -125,7 +135,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Personal"
+        profile: "Default"
       }
     },
     {
@@ -133,7 +143,7 @@ module.exports = {
       match: "http://localhost:1234",
       browser: {
         name: "Google Chrome",
-        profile: "Personal"
+        profile: "Default"
       }
     },
     {
@@ -144,7 +154,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Personal"
+        profile: "Default"
       }
     },
     {

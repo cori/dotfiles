@@ -46,8 +46,16 @@
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-HIST_STAMPS="yyyy-mm-dd"
+setopt EXTENDED_HISTORY
+setopt HIST_FIND_NO_DUPS
+setopt INC_APPEND_HISTORY
+#HIST_STAMPS="yyyy-mm-dd"
 export HISTTIMEFORMAT="%F %T "
+export HISTFILESIZE=1000000000
+export HISTSIZE=1000000000
+
+setopt autocd
+setopt autopushd
 
 # Would you like to use another custom folder than $ZSH/custom?
 #ZSH_CUSTOM=~/.dotfiles/oh-my-zsh_custom

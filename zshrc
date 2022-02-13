@@ -104,7 +104,7 @@ setopt autopushd
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias wla=~/Code/personal/worklog/worklog.py
 #alias toggl=~/go/bin/toggl
-alias tf=terraform
+#alias tf=terraform
 #alias aws_prod="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_profile.py production_admin"
 #alias aws_staging="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_profile.py staging_admin"
 alias gls="git log --stat"
@@ -157,6 +157,8 @@ zplug "plugins/terraform", from:oh-my-zsh
 zplug "plugins/history", from:oh-my-zsh
 zplug "plugins/timer", from:oh-my-zsh
 zplug "plugins/colorize", from:oh-my-zsh
+zplug "djui/alias-tips", from:github
+zplug "Valiev/almostontop", from:github
 
 # Add a bunch more of your favorite packages!
 

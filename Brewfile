@@ -23,6 +23,8 @@ brew "bat"
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Command-line fuzzy finder written in Go
+brew "fzf"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -59,10 +61,16 @@ brew "ripgrep"
 brew "rsync"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
+# Fuzzy finder in Rust
+brew "sk"
 # Utility to modify the macOS Accessibility Database (TCC.db)
+# Feature-rich console based todo list manager
+brew "task"
 brew "tccutil"
 # Programmatically correct mistyped console commands
 brew "thefuck"
+# Command-line time tracking application
+brew "timewarrior"
 # Simplified and community-driven man pages
 brew "tldr"
 # Language for application scale JavaScript development

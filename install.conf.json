@@ -26,6 +26,7 @@
             "~/.macos": "macos",
             "~/.vim": "vim",
             "~/.vimrc": "vimrc",
+            "~/.wakatime.cfg": "wakatime.cfg",
             "~/.zshenv": "~/Library/CloudStorage/Dropbox/localPrefs/.dotsecrets",
             "~/.zshrc": {
                 "path": "zshrc",
@@ -52,7 +53,8 @@
         "shell": [
             ["pip3 install bpytop --upgrade"],
             ["git config --global core.pager 'bat'"],
-            ["git submodule update --init --recursive", "Installing submodules"]
+            ["git submodule update --init --recursive", "Installing submodules"],
+            ["source zshrc", "Sourcing zshrc file"]
         ]
     }
 ]

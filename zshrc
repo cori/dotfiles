@@ -132,6 +132,8 @@ PATH="/Users/cori/.cargo/bin${PATH:+:${PATH}}";
 export PATH=$PATH:/Users/cori/bin;
 export PATH;
 
+export ZSH_WAKATIME_PROJECT_DETECTION=true
+
 #PERL5LIB="/Users/cori/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
 #PERL_LOCAL_LIB_ROOT="/Users/cori/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
 #PERL_MB_OPT="--install_base \"/Users/cori/perl5\""; export PERL_MB_OPT;
@@ -148,19 +150,36 @@ fi
 source ~/.zplug/init.zsh
 
 # Make sure to use double quotes to prevent shell expansion
-zplug "zsh-users/zsh-syntax-highlighting"
-zplug "plugins/docker-compose", from:oh-my-zsh
+# zplug "plugins/timer", from:oh-my-zsh
+# zplug "plugins/thefuck", from:oh-my-zsh
 zplug "plugins/autojump", from:oh-my-zsh
-#zplug "plugins/thefuck", from:oh-my-zsh
-zplug "plugins/git", from:oh-my-zsh
-zplug "plugins/terraform", from:oh-my-zsh
-zplug "plugins/history", from:oh-my-zsh
-zplug "plugins/timer", from:oh-my-zsh
+zplug "plugins/cmdtime", from:oh-my-zsh
+zplug "plugins/colored-man-pages", from:oh-my-zsh
 zplug "plugins/colorize", from:oh-my-zsh
-zplug "djui/alias-tips", from:github
-zplug "Valiev/almostontop", from:github
+zplug "plugins/common-aliases", from:oh-my-zsh
+zplug "plugins/docker-compose", from:oh-my-zsh
+zplug "plugins/git", from:oh-my-zsh
+zplug "plugins/history", from:oh-my-zsh
+zplug "plugins/terraform", from:oh-my-zsh
 
-# Add a bunch more of your favorite packages!
+zplug "djui/alias-tips", from:github
+zplug "MichaelAquilina/zsh-auto-notify", from:github
+zplug "qoomon/zsh-lazyload", from:github
+zplug "Valiev/almostontop", from:github
+zplug "wbingli/zsh-wakatime", from:github
+zplug "xav-b/zsh-extend-history", from:github
+zplug "zsh-users/zsh-completions", from:github
+zplug "zsh-users/zsh-history-substring-search", from:github
+zplug "zsh-users/zsh-syntax-highlighting", from:github
+zplug "zshzoo/macos", from:github
+
+#   do these last
+zplug "unixorn/fzf-zsh-plugin", from:github
+zplug "pschmitt/emoji-fzf", from:github
+# zplug "Aloxaf/fzf-tab", from:github   
+
+
+
 
 # Install packages that have not been installed yet
 if ! zplug check --verbose; then

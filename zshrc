@@ -152,28 +152,30 @@ fi
 source ~/.zplug/init.zsh
 
 # Make sure to use double quotes to prevent shell expansion
+zplug "djui/alias-tips", from:github
+zplug "MichaelAquilina/zsh-auto-notify", from:github
+zplug "qoomon/zsh-lazyload", from:github
+zplug "tom-auger/cmdtime", from:github
+zplug "Valiev/almostontop", from:github
+zplug "wbingli/zsh-wakatime", from:github
+zplug "xav-b/zsh-extend-history", from:github
+zplug "zsh-users/zsh-completions", from:github
+#zplug "zsh-users/zsh-history-substring-search", from:github
+zplug "zsh-users/zsh-syntax-highlighting", from:github
+zplug "zshzoo/macos", from:github
+
 # zplug "plugins/timer", from:oh-my-zsh
 # zplug "plugins/thefuck", from:oh-my-zsh
 zplug "plugins/autojump", from:oh-my-zsh
-zplug "plugins/cmdtime", from:oh-my-zsh
 zplug "plugins/colored-man-pages", from:oh-my-zsh
 zplug "plugins/colorize", from:oh-my-zsh
 zplug "plugins/common-aliases", from:oh-my-zsh
 zplug "plugins/docker-compose", from:oh-my-zsh
 zplug "plugins/git", from:oh-my-zsh
 zplug "plugins/history", from:oh-my-zsh
+zplug "plugins/history-substring-search", from:oh-my-zsh
 zplug "plugins/terraform", from:oh-my-zsh
 
-zplug "djui/alias-tips", from:github
-zplug "MichaelAquilina/zsh-auto-notify", from:github
-zplug "qoomon/zsh-lazyload", from:github
-zplug "Valiev/almostontop", from:github
-zplug "wbingli/zsh-wakatime", from:github
-zplug "xav-b/zsh-extend-history", from:github
-zplug "zsh-users/zsh-completions", from:github
-zplug "zsh-users/zsh-history-substring-search", from:github
-zplug "zsh-users/zsh-syntax-highlighting", from:github
-zplug "zshzoo/macos", from:github
 
 #   do these last
 zplug "unixorn/fzf-zsh-plugin", from:github

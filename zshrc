@@ -119,6 +119,8 @@ alias gdcopy='GIT_PAGER="delta --features copy" git diff'
 alias tl='~/code/personal/osx-timelapse/timelapse.sh'
 alias lg='nvm exec 12 lazygit'
 
+alias wakatime=wakatime-cli
+
 eval "$(thefuck --alias pls)"
 
 #function sshu() { ssh -oStrictHostKeyChecking=no "ubuntu@$1" -i~/.ssh/id_glitch_ubuntu -Jjump.glitch.com -oIdentitiesOnly=yes; }

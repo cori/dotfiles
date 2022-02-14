@@ -59,6 +59,9 @@ export HISTTIMEFORMAT="%F %T "
 export HISTFILESIZE=1000000000
 export HISTSIZE=1000000000
 
+export HISTORY_SUBSTRING_SEARCH_FUZZY=1
+export HISTORY_SUBSTRING_SEARCH_ENSURE_UNIQUE=1
+
 setopt autocd
 setopt autopushd
 
@@ -122,6 +125,7 @@ alias lg='nvm exec 12 lazygit'
 alias wakatime=wakatime-cli
 
 eval "$(thefuck --alias pls)"
+eval "$(atuin init zsh)"
 
 #function sshu() { ssh -oStrictHostKeyChecking=no "ubuntu@$1" -i~/.ssh/id_glitch_ubuntu -Jjump.glitch.com -oIdentitiesOnly=yes; }
 #function ssshu() { ssh -oStrictHostKeyChecking=no "ubuntu@$1" -i~/.ssh/id_glitch_ubuntu -Jjump.staging.glitch.com -oIdentitiesOnly=yes; }
@@ -153,14 +157,14 @@ source ~/.zplug/init.zsh
 
 # Make sure to use double quotes to prevent shell expansion
 zplug "djui/alias-tips", from:github
-zplug "MichaelAquilina/zsh-auto-notify", from:github
+#zplug "MichaelAquilina/zsh-auto-notify", from:github
+zplug "t413/zsh-background-notify", from:github
 zplug "qoomon/zsh-lazyload", from:github
 zplug "tom-auger/cmdtime", from:github
-zplug "Valiev/almostontop", from:github
+# zplug "Valiev/almostontop", from:github
 zplug "wbingli/zsh-wakatime", from:github
 zplug "xav-b/zsh-extend-history", from:github
 zplug "zsh-users/zsh-completions", from:github
-#zplug "zsh-users/zsh-history-substring-search", from:github
 zplug "zsh-users/zsh-syntax-highlighting", from:github
 zplug "zshzoo/macos", from:github
 
@@ -182,9 +186,6 @@ zplug "unixorn/fzf-zsh-plugin", from:github
 zplug "pschmitt/emoji-fzf", from:github
 # zplug "Aloxaf/fzf-tab", from:github   
 
-
-
-
 # Install packages that have not been installed yet
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
@@ -196,6 +197,10 @@ if ! zplug check --verbose; then
 fi
 
 zplug load
+
+#   key bindings
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$(brew --prefix nvm)/nvm.sh" ] && . "$(brew --prefix nvm)/nvm.sh"  # This loads nvm

@@ -25,6 +25,8 @@ brew "bitwarden-cli"
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Emoji on the command-line :scream:
+brew "emojify"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GitHub command-line tool
@@ -69,6 +71,8 @@ brew "sk"
 # Feature-rich console based todo list manager
 brew "task"
 brew "tccutil"
+# Send macOS User Notifications from the command-line
+brew "terminal-notifier"
 # Programmatically correct mistyped console commands
 brew "thefuck"
 # Command-line time tracking application

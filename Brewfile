@@ -111,6 +111,8 @@ cask "cscreen"
 cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # Utility for customizing which browser to start
 cask "finicky"
 # Web browser

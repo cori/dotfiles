@@ -111,7 +111,7 @@ alias wla=~/Code/personal/worklog/worklog.py
 #alias aws_prod="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_profile.py production_admin"
 #alias aws_staging="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_profile.py staging_admin"
 alias gls="git log --stat"
-alias gcamend="git commint --amend -m"
+alias gcamend="git commit --amend -m"
 alias gd='GIT_PAGER="delta --features default decorations" git diff'
 alias gdcopy='GIT_PAGER="delta --features copy" git diff'
 #	Fastly
@@ -201,6 +201,8 @@ zplug load
 #   key bindings
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
+
+alias tfd='docker run -it -e MONGODB_ATLAS_PUBLIC_KEY="$MONGODB_ATLAS_PUBLIC_KEY" -e MONGODB_ATLAS_PRIVATE_KEY="$MONGODB_ATLAS_PRIVATE_KEY" -v ~/.aws:/root/.aws -v $(pwd):/data hashicorp/terraform:latest -chdir=/data'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$(brew --prefix nvm)/nvm.sh" ] && . "$(brew --prefix nvm)/nvm.sh"  # This loads nvm

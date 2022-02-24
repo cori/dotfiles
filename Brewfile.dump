@@ -6,10 +6,13 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "kreuzwerker/taps"
 tap "osx-cross/arm"
 tap "osx-cross/avr"
 tap "qmk/qmk"
 tap "warrensbox/tap"
+# Improved shell history for zsh and bash
+brew "atuin"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.10"
 # Shell extension to jump to frequently used directories
@@ -22,10 +25,18 @@ brew "awscli"
 brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Platform built on V8 to build network applications
+brew "node"
+# Secure and free password manager for all of your devices
+brew "bitwarden-cli"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Emoji on the command-line :scream:
+brew "emojify"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -46,8 +57,6 @@ brew "jq"
 brew "lazygit"
 # Mac App Store command-line interface
 brew "mas"
-# Platform built on V8 to build network applications
-brew "node"
 # Programs for dealing with numbers from the command-line
 brew "num-utils"
 # Manage multiple Node.js versions
@@ -62,16 +71,26 @@ brew "ripgrep"
 brew "rsync"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
+# Fuzzy Finder in rust!
+brew "sk"
 # Editor of encrypted files
 brew "sops"
+# Feature-rich console based todo list manager
+brew "task"
 # Utility to modify the macOS Accessibility Database (TCC.db)
 brew "tccutil"
+# Send macOS User Notifications from the command-line
+brew "terminal-notifier"
 # Programmatically correct mistyped console commands
 brew "thefuck"
+# Command-line time tracking application
+brew "timewarrior"
 # Simplified and community-driven man pages
 brew "tldr"
 # Language for application scale JavaScript development
 brew "typescript"
+# Command-line interface to the WakaTime api
+brew "wakatime-cli"
 # Command-line client for WebSockets
 brew "websocat"
 # Internet file retriever
@@ -98,12 +117,16 @@ cask "appcleaner"
 cask "authy"
 # Desktop password and login vault
 cask "bitwarden"
+# Virtual Audio Driver
+cask "blackhole-2ch"
 # Command-line display management utility
 cask "cscreen"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
+# Reimagine your terminal
+cask "fig"
 # Utility for customizing which browser to start
 cask "finicky"
 # Web browser

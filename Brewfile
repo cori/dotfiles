@@ -9,6 +9,8 @@ tap "homebrew/services"
 tap "osx-cross/arm"
 tap "osx-cross/avr"
 tap "qmk/qmk"
+# Improved shell history for zsh and bash
+brew "atuin"
 # Shell extension to jump to frequently used directories
 brew "autojump"
 # Library for USB device access
@@ -27,6 +29,8 @@ brew "coreutils"
 brew "curl"
 # Emoji on the command-line :scream:
 brew "emojify"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GitHub command-line tool
@@ -67,9 +71,9 @@ brew "rsync"
 brew "shellcheck"
 # Fuzzy finder in Rust
 brew "sk"
-# Utility to modify the macOS Accessibility Database (TCC.db)
 # Feature-rich console based todo list manager
 brew "task"
+# Utility to modify the macOS Accessibility Database (TCC.db)
 brew "tccutil"
 # Send macOS User Notifications from the command-line
 brew "terminal-notifier"
@@ -81,6 +85,8 @@ brew "timewarrior"
 brew "tldr"
 # Language for application scale JavaScript development
 brew "typescript"
+# Command-line interface to the WakaTime api
+brew "wakatime-cli"
 # Command-line client for WebSockets
 brew "websocat"
 # Internet file retriever
@@ -103,6 +109,8 @@ cask "alfred"
 cask "appcleaner"
 # Two-factor authentication software
 cask "authy"
+# Virtual Audio Driver
+cask "blackhole-2ch"
 # Desktop password and login vault
 cask "bitwarden"
 # Command-line display management utility
@@ -113,6 +121,8 @@ cask "docker"
 cask "dropbox"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# Reimagine your terminal
+cask "fig"
 # Utility for customizing which browser to start
 cask "finicky"
 # Web browser

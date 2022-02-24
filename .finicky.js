@@ -94,7 +94,8 @@ module.exports = {
       // Open AWS urls in Google Chrome
       match: finicky.matchHostnames([
         "aws.amazon.com",
-        /.*\.aws.amazon.com/
+        /.*\.aws.amazon.com/,
+        /.*\.amazonaws.com/
       ]),
       browser: "Google Chrome"
     },

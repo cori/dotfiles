@@ -61,6 +61,8 @@ brew "num-utils"
 brew "nvm"
 # Wrapper to colorize and simplify ping's output
 brew "prettyping"
+# Generic syntax highlighter
+brew "pygments"
 # It's not just a linter that annoys you!
 brew "pylint"
 # Search tool like grep and The Silver Searcher

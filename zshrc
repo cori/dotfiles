@@ -124,6 +124,9 @@ alias lg='nvm exec 12 lazygit'
 
 alias wakatime=wakatime-cli
 
+alias -- -="cd -"
+alias shm='aws ssm start-session --region us-east-2 --target '
+
 eval "$(thefuck --alias pls)"
 eval "$(atuin init zsh)"
 

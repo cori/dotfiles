@@ -65,6 +65,9 @@ export HISTORY_SUBSTRING_SEARCH_ENSURE_UNIQUE=1
 setopt autocd
 setopt autopushd
 
+zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|=*' 'l:|=* r:|=*'
+autoload -Uz compinit && compinit
+
 # Would you like to use another custom folder than $ZSH/custom?
 #ZSH_CUSTOM=~/.dotfiles/oh-my-zsh_custom
 

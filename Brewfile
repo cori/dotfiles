@@ -105,6 +105,7 @@ brew "osx-cross/arm/arm-gcc-bin@10"
 brew "osx-cross/avr/avr-gcc@8", link: true
 # Quantum Mechanical Keyboard (QMK) Firmware
 brew "qmk/qmk/qmk"
+
 # Application launcher and productivity software
 cask "alfred"
 # Application uninstaller
@@ -117,6 +118,8 @@ cask "blackhole-2ch"
 cask "bitwarden"
 # Command-line display management utility
 cask "cscreen"
+# Offline toolbox for developers
+cask "devutils"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Client for the Dropbox cloud storage service
@@ -185,6 +188,10 @@ cask "utc-menu-clock"
 cask "visual-studio-code"
 # Code editor
 cask "visual-studio-code-insiders"
+# Application for generating TOTP and HOTP codes
+cask "yubico-authenticator"
+# YubiKey tool
+cask "yubico-yubikey-manager"
 # Video communication and virtual meeting platform
 cask "zoom"
 # Flash tool for ZSA keyboards

@@ -123,6 +123,8 @@ cask "bitwarden"
 cask "blackhole-2ch"
 # Command-line display management utility
 cask "cscreen"
+# Offline toolbox for developers
+cask "devutils"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Client for the Dropbox cloud storage service
@@ -195,13 +197,16 @@ cask "utc-menu-clock"
 cask "visual-studio-code"
 # Code editor
 cask "visual-studio-code-insiders"
+# Application for generating TOTP and HOTP codes
+cask "yubico-authenticator"
+# Application for configuring any YubiKey
+cask "yubico-yubikey-manager"
 # Video communication and virtual meeting platform
 cask "zoom"
 # Flash tool for ZSA keyboards
 cask "zsa-wally"
 mas "CI2Go", id: 940028427
 mas "Craft", id: 1487937127
-mas "DevUtils", id: 1533756032
 mas "Drafts", id: 1435957248
 mas "eufy Security", id: 1501114405
 mas "Hush", id: 1544743900

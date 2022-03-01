@@ -5,19 +5,19 @@
         "revision": "3b7cba3e1c32e5908f8f688033bd614195c020d7"
       },
       "homebrew/cask": {
-        "revision": "99f4aa969c8bf7fd8d2405e0cb487ee2292f5167"
+        "revision": "f0b114cec530e864cb3d8a58051157b33b5f9b47"
       },
       "homebrew/cask-drivers": {
-        "revision": "d6e20ba1ca91283713b1f225777997ce64b4a37c"
+        "revision": "4fed5b95e91f8b457c4209d929a5f29d7e4b9898"
       },
       "homebrew/cask-fonts": {
         "revision": "9a5073ab710e3a602434a97d0dbba09e3499dd4e"
       },
       "homebrew/cask-versions": {
-        "revision": "a78ba9950eddf98256e915584fb4ec737d207b86"
+        "revision": "2c99b63e5a9f1362624cfc4ad4dd8ce7f7364b7f"
       },
       "homebrew/core": {
-        "revision": "ba876a054f7f37a6060c6261397d6f5139f725d6"
+        "revision": "663cd44a82c7fd9cbb2911e6ebad27158b89b96a"
       },
       "homebrew/services": {
         "revision": "a69bec78a0ce6501e6dcbcc0c645fc31890218fc"
@@ -1568,15 +1568,15 @@
         }
       },
       "typescript": {
-        "version": "4.5.5",
+        "version": "4.6.2",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
             "all": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/typescript/blobs/sha256:3efc605f1cf1a43cf022a9b5ade999df3a52e6878f4878fa96d9e447d2b9cb7f",
-              "sha256": "3efc605f1cf1a43cf022a9b5ade999df3a52e6878f4878fa96d9e447d2b9cb7f"
+              "url": "https://ghcr.io/v2/homebrew/core/typescript/blobs/sha256:75fcb978f304e711e55a5578edb599f4d18134a791ff7be46d56d410b05b4e00",
+              "sha256": "75fcb978f304e711e55a5578edb599f4d18134a791ff7be46d56d410b05b4e00"
             }
           }
         }
@@ -2904,7 +2904,7 @@
         }
       },
       "onedrive": {
-        "version": "22.002.0103.0004",
+        "version": "22.022.0130.0001",
         "options": {
           "full_name": "onedrive"
         }
@@ -2916,7 +2916,7 @@
         }
       },
       "rectangle": {
-        "version": "0.51,57",
+        "version": "0.53,59",
         "options": {
           "full_name": "rectangle"
         }
@@ -2964,13 +2964,13 @@
         }
       },
       "visual-studio-code-insiders": {
-        "version": "1.65.0,3112460dc48ce7e557ea9feeaae04b912164b48b",
+        "version": "latest",
         "options": {
           "full_name": "visual-studio-code-insiders"
         }
       },
       "zoom": {
-        "version": "5.9.3.4239",
+        "version": "5.9.6.4993",
         "options": {
           "full_name": "zoom"
         }
@@ -3219,7 +3219,7 @@
       },
       "Spark": {
         "id": "1176895641",
-        "version": "2.11.10"
+        "version": "2.11.11"
       },
       "Xcode": {
         "id": "497799835",
@@ -3317,6 +3317,10 @@
       "The Unarchiver": {
         "id": "425424353",
         "version": "4.3.3"
+      },
+      "Craft": {
+        "id": "1487937127",
+        "version": "2.1.1"
       }
     }
   },
@@ -3339,9 +3343,9 @@
         "macOS": "11.5.2"
       },
       "monterey": {
-        "HOMEBREW_VERSION": "3.3.16",
+        "HOMEBREW_VERSION": "3.4.0",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "ba876a054f7f37a6060c6261397d6f5139f725d6",
+        "Homebrew/homebrew-core": "663cd44a82c7fd9cbb2911e6ebad27158b89b96a",
         "CLT": "13.2.0.0.1.1638488800",
         "Xcode": "13.2.1",
         "macOS": "12.2.1"

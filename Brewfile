@@ -189,6 +189,7 @@ cask "visual-studio-code-insiders"
 cask "zoom"
 # Flash tool for ZSA keyboards
 cask "zsa-wally"
+mas "Craft", id: 1487937127
 mas "Drafts", id: 1435957248
 mas "eufy Security", id: 1501114405
 mas "Hush", id: 1544743900

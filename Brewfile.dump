@@ -200,6 +200,8 @@ cask "zoom"
 # Flash tool for ZSA keyboards
 cask "zsa-wally"
 mas "CI2Go", id: 940028427
+mas "Craft", id: 1487937127
+mas "DevUtils", id: 1533756032
 mas "Drafts", id: 1435957248
 mas "eufy Security", id: 1501114405
 mas "Hush", id: 1544743900

@@ -128,7 +128,15 @@ alias lg='nvm exec 12 lazygit'
 alias wakatime=wakatime-cli
 
 alias -- -="cd -"
+alias ...='cd ../../..'
+alias ....='cd ../../../..'
+alias .....='cd ../../../../..'
+
 alias shm='aws ssm start-session --region us-east-2 --target '
+
+#	additional terraform aliases
+alias tfw='terraform workspace'
+alias tfo="terraform output"
 
 eval "$(thefuck --alias pls)"
 eval "$(atuin init zsh)"

@@ -89,10 +89,15 @@ brew "tldr"
 brew "typescript"
 # Command-line interface to the WakaTime api
 brew "wakatime-cli"
+# Watch files and take action when they change
+brew "watchman"
 # Command-line client for WebSockets
 brew "websocat"
 # Internet file retriever
 brew "wget"
+# JavaScript package manager (and completions)
+brew "yarn"
+brew "yarn-completion"
 # Tool for managing your YubiKey configuration
 brew "ykman"
 # Next-generation plugin manager for zsh

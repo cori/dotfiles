@@ -1,0 +1,18 @@
+tap "warrensbox/tap"
+tap "mongodb/brew"
+# The tfswitch command lets you switch between terraform versions.
+brew "warrensbox/tap/tfswitch"
+# Editor of encrypted files
+brew "sops"
+# mongodb tools
+brew "mongodb-database-tools"
+# MongoDB Shell to connect, configure, query, and work with your MongoDB database
+brew "mongosh"
+
+# Explore and manipulate your MongoDB data
+cask "mongodb-compass"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
+# Plugin for AWS CLI to start and end sessions that connect to managed instances
+cask "session-manager-plugin"
+

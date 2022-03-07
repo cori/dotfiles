@@ -5,11 +5,11 @@
 [core]
 	#pager = bat
 	excludesfile = /Users/cori/.gitignore_global
-	pager = bat
+	pager = delta
 [pager]
-	diff = delta --features default decorations
-	log = delta
-	show = delta
+#	diff = delta --features default decorations
+#	log = delta
+#	show = delta
 [pull]
 	rebase = true
 [fetch]
@@ -20,7 +20,7 @@
 [interactive]
    diffFilter = delta --color-only
 
-[delta "default"]
+[delta]
 	side-by-side=true
 	line-numbers=true
 	paging=never

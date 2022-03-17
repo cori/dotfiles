@@ -1,9 +1,14 @@
 tap "warrensbox/tap"
 tap "mongodb/brew"
+
+# Interactive environments for writing and running code
+brew "jupyterlab"
 # The tfswitch command lets you switch between terraform versions.
 brew "warrensbox/tap/tfswitch"
 # Editor of encrypted files
 brew "sops"
+#	MongoDB CLI enables you to manage your MongoDB in the Cloud
+brew "mongocli"
 # mongodb tools
 brew "mongodb-database-tools"
 # MongoDB Shell to connect, configure, query, and work with your MongoDB database

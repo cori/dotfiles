@@ -21,6 +21,10 @@
     {
         "link": {
             "~/.dotfiles": "",
+            "~/.config/atuin/config.toml": {
+					"path": "atuin.toml",
+					"force":true
+				},
             "~/.gitconfig": ".gitconfig",
             "~/.finicky.js": ".finicky.js",
             "~/.macos": "macos",
@@ -45,8 +49,7 @@
     },
     {
         "brewfile": [
-            "Brewfile",
-            "~/code/ApprenticeFS/Brewfile"
+            "Brewfile"
         ]
     },
     {

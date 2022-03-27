@@ -6,10 +6,6 @@
 	#pager = bat
 	excludesfile = /Users/cori/.gitignore_global
 	pager = delta
-[pager]
-#	diff = delta --features default decorations
-#	log = delta
-#	show = delta
 [pull]
 	rebase = true
 [fetch]
@@ -25,6 +21,7 @@
 	line-numbers=true
 	paging=never
 	dark=true
+	featres = decorations
 
 [delta "decorations"]
    commit-decoration-style = bold yellow box ul
@@ -43,11 +40,5 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-# [difftool "sourcetree"]
-# 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-# 	path = 
-# [mergetool "sourcetree"]
-# 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-# 	trustExitCode = true
 [commit]
 	template = /Users/cori/.stCommitMsg

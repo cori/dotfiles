@@ -98,8 +98,8 @@ alias aws_prod="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_pr
 alias aws_staging="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_profile.py staging_admin"
 alias gls="git log --stat"
 alias gcamend="git commint --amend -m"
-alias gd='GIT_PAGER="delta --features default decorations" git diff'
-alias gdcopy='GIT_PAGER="delta --features copy" git diff'
+#alias gd='GIT_PAGER="delta --features default decorations" git diff'
+#alias gdcopy='GIT_PAGER="delta --features copy" git diff'
 #	Fastly
 alias fastly-staging='export FASTLY_API_TOKEN=$STAGING_FASTLY_API_TOKEN; export FASTLY_CUSTOMER_ID=$STAGING_FASTLY_CUSTOMER_ID;'
 alias fastly-dev='export FASTLY_API_TOKEN=$DEV_FASTLY_API_TOKEN; export FASTLY_CUSTOMER_ID=$DEV_FASTLY_CUSTOMER_ID;'

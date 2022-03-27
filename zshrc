@@ -140,3 +140,4 @@ export PATH="/usr/local/opt/avr-gcc@8/bin:$PATH"
 [ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
 #### END FIG ENV VARIABLES ####
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+eval "$(atuin init zsh)"

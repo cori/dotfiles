@@ -43,8 +43,7 @@
             "~/.warp": {
                 "path": "warp",
                 "force": true
-            },
-				"~/.nvm": "nvm"
+            }
         }
     },
     {

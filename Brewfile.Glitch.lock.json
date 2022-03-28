@@ -8,7 +8,7 @@
         "revision": "98223b40cfeca5df13340366e498549a0da07919"
       },
       "homebrew/core": {
-        "revision": "a64ca7f9ddd0c16d7a9c85da8d9ec27aff015f02"
+        "revision": "8351e67736bc895cc725b5f93ca6124e74ec9559"
       },
       "warrensbox/tap": {
         "revision": "cbd3c1b9896f1f3e13cd16509e5e21b36f93627c"
@@ -910,7 +910,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.4.3",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "a64ca7f9ddd0c16d7a9c85da8d9ec27aff015f02",
+        "Homebrew/homebrew-core": "8351e67736bc895cc725b5f93ca6124e74ec9559",
         "CLT": "13.3.0.0.1.1645755326",
         "Xcode": "13.3",
         "macOS": "12.3"

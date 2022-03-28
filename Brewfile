@@ -9,6 +9,7 @@ tap "homebrew/services"
 tap "osx-cross/arm"
 tap "osx-cross/avr"
 tap "qmk/qmk"
+
 # Improved shell history for zsh and bash
 brew "atuin"
 # Shell extension to jump to frequently used directories
@@ -201,6 +202,8 @@ cask "yubico-yubikey-manager"
 cask "zoom"
 # Flash tool for ZSA keyboards
 cask "zsa-wally"
+
+#	macOs App Store software
 mas "Craft", id: 1487937127
 mas "Drafts", id: 1435957248
 mas "eufy Security", id: 1501114405

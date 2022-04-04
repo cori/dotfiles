@@ -39,11 +39,7 @@
             "~/Library/Application Support/lazygit/config.yml": {
 					"path": "lazygit.yml",
 					"force": true
-				},
-            "~/.warp": {
-                "path": "warp",
-                "force": true
-            }
+				}
         }
     },
     {

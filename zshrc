@@ -1,8 +1,7 @@
+# Fig pre block. Keep at the top of this file.
+export PATH="${PATH}:${HOME}/.local/bin"
+eval "$(fig init zsh pre)"
 
-#### FIG ENV VARIABLES ####
-# Please make sure this block is at the start of this file.
-[ -s ~/.fig/shell/pre.sh ] && source ~/.fig/shell/pre.sh
-#### END FIG ENV VARIABLES ####
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -36,7 +35,7 @@ ZSH_CUSTOM=~/.dotfiles/oh-my-zsh_custom
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git history terraform thefuck encode64 autojump vscode aws colored-man-pages iterm2 timer urltools xcode ripgrep docker-compose vagrant git-extras colored-man-pages colorize macos alias-tips )
+plugins=( git history terraform thefuck encode64 autojump vscode aws iterm2 timer urltools xcode ripgrep docker-compose vagrant git-extras colored-man-pages colorize macos alias-tips )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -95,9 +94,9 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 export AWS_USE_YUBIKEY=1
 export PATH="/usr/local/opt/avr-gcc@8/bin:$PATH"
 
-#### FIG ENV VARIABLES ####
-# Please make sure this block is at the end of this file.
-[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
-#### END FIG ENV VARIABLES ####
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 eval "$(atuin init zsh)"
+
+# Fig post block. Keep at the bottom of this file.
+eval "$(fig init zsh post)"
+

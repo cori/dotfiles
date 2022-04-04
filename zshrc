@@ -57,8 +57,8 @@ alias aws_prod="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_pr
 alias aws_staging="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_profile.py staging_admin"
 alias gls="git log --stat"
 alias gcamend="git commint --amend -m"
-alias ld='date +"%F %X"'
-alias ud='date -u +"%F %X"'
+alias ld='date +"%F %X" | tee >( tr -d "\n" | pbcopy)'
+alias ud='date -u +"%F %X" | tee >( tr -d "\n" | pbcopy)'
 
 #	Fastly
 alias fastly-staging='export FASTLY_API_TOKEN=$STAGING_FASTLY_API_TOKEN; export FASTLY_CUSTOMER_ID=$STAGING_FASTLY_CUSTOMER_ID;'

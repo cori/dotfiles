@@ -36,7 +36,7 @@ ZSH_CUSTOM=~/.dotfiles/oh-my-zsh_custom
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git history terraform thefuck encode64 autojump vscode aws colored-man-pages iterm2 timer urltools xcode ripgrep docker-compose vagrant git-extras colored-man-pages colorize  )
+plugins=(git history terraform thefuck encode64 autojump vscode aws colored-man-pages iterm2 timer urltools xcode ripgrep docker-compose vagrant git-extras colored-man-pages colorize macos alias-tips )
 
 source $ZSH/oh-my-zsh.sh
 

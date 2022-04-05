@@ -132,8 +132,6 @@ cask "docker"
 cask "dropbox"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
-# Reimagine your terminal
-cask "fig"
 # Utility for customizing which browser to start
 cask "finicky"
 # Web browser

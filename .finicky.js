@@ -159,6 +159,16 @@ module.exports = {
       }
     },
     {
+      // Open Grafana urls in Google Chrome
+      match: finicky.matchHostnames([
+        "help.glitch.com"
+      ]),
+      browser: {
+        name: "Google Chrome",
+        profile: "Default"
+      }
+    },
+    {
       //	open everything from NewsExplorer in STP (since it opens Safari directly)
       match: ({
         opener

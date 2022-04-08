@@ -1,0 +1,9 @@
+FROM python:3.9-bullseye
+
+RUN pip install remarkable-cli
+
+RUN remarkable-cli -a pull -d 192.168.1.105 -b /repo -u root --password IAMGROOT
+
+RUN cd repo
+
+RUN git init; git pull; git add .; git commit -am "$(date) updates"; git push

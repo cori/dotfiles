@@ -120,8 +120,6 @@ cask "appcleaner"
 cask "authy"
 # Virtual Audio Driver
 cask "blackhole-2ch"
-# Desktop password and login vault
-cask "bitwarden"
 # Command-line display management utility
 cask "cscreen"
 # Offline toolbox for developers
@@ -202,7 +200,7 @@ cask "zoom"
 cask "zsa-wally"
 
 #	macOs App Store software
-mas "Craft", id: 1487937127
+mas "Bitwarden", id: 1352778147
 mas "Drafts", id: 1435957248
 mas "eufy Security", id: 1501114405
 mas "Hush", id: 1544743900

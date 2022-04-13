@@ -159,9 +159,20 @@ module.exports = {
       }
     },
     {
-      // Open Grafana urls in Google Chrome
+      // Open Glitch HappyFox urls in Google Chrome
       match: finicky.matchHostnames([
         "help.glitch.com"
+      ]),
+      browser: {
+        name: "Google Chrome",
+        profile: "Default"
+      }
+    },
+    {
+      // Open Notion urls in Google Chrome
+      match: finicky.matchHostnames([
+        "notion.so",
+        "www.notion.so"
       ]),
       browser: {
         name: "Google Chrome",

@@ -134,6 +134,7 @@ brew "ffmpeg"
 cask "finicky"
 # Web browser
 cask "firefox"
+#	some fonts
 cask "font-anonymous-pro"
 cask "font-fira-code"
 cask "font-hack"
@@ -150,6 +151,8 @@ cask "hook"
 cask "iTerm2"
 # Software for Logitech devices
 cask "logitech-options"
+#	Cable-free audio router
+cask "loopback"
 # Personal productivity app
 cask "marvin"
 # Create and edit MP4 videos

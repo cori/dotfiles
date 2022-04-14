@@ -180,6 +180,16 @@ module.exports = {
       }
     },
     {
+      // Open Sentry urls in Google Chrome
+      match: finicky.matchHostnames([
+        "sentry.io",
+      ]),
+      browser: {
+        name: "Google Chrome",
+        profile: "Default"
+      }
+    },
+    {
       //	open everything from NewsExplorer in STP (since it opens Safari directly)
       match: ({
         opener

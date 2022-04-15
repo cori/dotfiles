@@ -189,6 +189,8 @@ cask "telegram"
 cask "toggl-track"
 # Menu bar clock
 cask "utc-menu-clock"
+# Configurator of compatible keyboards in real time
+cask "vial"
 # Open-source code editor
 cask "visual-studio-code"
 # Code editor

@@ -91,4 +91,7 @@ export AWS_USE_YUBIKEY=1
 export PATH="/usr/local/opt/avr-gcc@8/bin:$PATH"
 
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export ATUIN_NOBIND="true" 
 eval "$(atuin init zsh)"
+
+bindkey '^[[5~' _atuin_search_widget

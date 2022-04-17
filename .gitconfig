@@ -42,3 +42,5 @@
 	required = true
 [commit]
 	template = /Users/cori/.stCommitMsg
+[pager]
+	log = less -FX

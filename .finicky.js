@@ -132,7 +132,8 @@ module.exports = {
     {
       // Open Glitch's pagerduty in Google Chrome
       match: finicky.matchHostnames([
-        "fogcreek.pagerduty.com"
+        "fogcreek.pagerduty.com",
+        "app.pagerduty.com"
       ]),
       browser: {
         name: "Google Chrome",

@@ -84,6 +84,8 @@ brew "tccutil"
 brew "terminal-notifier"
 # Programmatically correct mistyped console commands
 brew "thefuck"
+# Text interface for Git repositories
+brew "tig"
 # Command-line time tracking application
 brew "timewarrior"
 # Simplified and community-driven man pages

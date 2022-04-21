@@ -40,6 +40,8 @@ brew "gh"
 brew "git"
 # Syntax-highlighting pager for git and diff output
 brew "git-delta"
+# Tcl/Tk UI for the git revision control system
+brew "git-gui"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
 # Tools and libraries to manipulate images in many formats

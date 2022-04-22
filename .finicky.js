@@ -162,7 +162,8 @@ module.exports = {
     {
       // Open Glitch HappyFox urls in Google Chrome
       match: finicky.matchHostnames([
-        "help.glitch.com"
+        "help.glitch.com",
+        "glitch.happyfox.com"
       ]),
       browser: {
         name: "Google Chrome",

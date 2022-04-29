@@ -24,6 +24,8 @@ brew "bash"
 brew "bat"
 # Secure and free password manager for all of your devices
 brew "bitwarden-cli"
+# E-books management software
+cask "calibre"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
@@ -161,6 +163,8 @@ cask "loopback"
 cask "marvin"
 # Create and edit MP4 videos
 cask "mp4tools"
+# Small, simple editor for beginner Python programmers
+# cask mu-editor	--	this is for the adafruit macropad python library, but maybe not so much
 # Cloud storage client
 cask "onedrive"
 # Collaboration platform for API development

@@ -5,19 +5,19 @@
         "revision": "7664fe9b4f19181adf3aca634e3b66340a375b5d"
       },
       "homebrew/cask": {
-        "revision": "6012d33098e68f93cff9b1a05c5cbfca79c70034"
+        "revision": "a02c8faf75504b0a5396f7a248404e3f86ec7c79"
       },
       "homebrew/cask-drivers": {
-        "revision": "606712a70a2ffefc399d552295a65f0c514f3699"
+        "revision": "f55dfb6285d7ca231937ffd56784ed0af3a2a20f"
       },
       "homebrew/cask-fonts": {
         "revision": "cd4a5676d91ce524a7ffb7deba607557bf78ecf3"
       },
       "homebrew/cask-versions": {
-        "revision": "66e9327b00f5507d7382608d6a4759e9a7e86ef1"
+        "revision": "37da38f13e1c3db595baf20c48332e6728cdff16"
       },
       "homebrew/core": {
-        "revision": "b785a45919c2915aa2de3e53390c7a3c4d383a11"
+        "revision": "eb651e480ea7408163cd853d1ebb6dee667a22c2"
       },
       "homebrew/services": {
         "revision": "8cb99f5f0b8d5b2f23e981f0480fed492ea3715c"
@@ -1558,15 +1558,15 @@
         }
       },
       "typescript": {
-        "version": "4.6.3",
+        "version": "4.6.4",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
             "all": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/typescript/blobs/sha256:27a6c8ad54580196e967733c8b4a0cf3fd1471c2c775a582d134a233e53060f5",
-              "sha256": "27a6c8ad54580196e967733c8b4a0cf3fd1471c2c775a582d134a233e53060f5"
+              "url": "https://ghcr.io/v2/homebrew/core/typescript/blobs/sha256:b8adcc8678f5267e87ff7665d202e3aa89c38cbf8dbef1da069113442ea118f9",
+              "sha256": "b8adcc8678f5267e87ff7665d202e3aa89c38cbf8dbef1da069113442ea118f9"
             }
           }
         }
@@ -2962,6 +2962,8 @@
             }
           }
         }
+      },
+      "calibre": {
       }
     },
     "cask": {
@@ -3080,7 +3082,7 @@
         }
       },
       "rectangle": {
-        "version": "0.54,60",
+        "version": "0.55,61",
         "options": {
           "full_name": "rectangle"
         }
@@ -3402,6 +3404,12 @@
         "options": {
           "full_name": "vial"
         }
+      },
+      "calibre": {
+        "version": "5.41.0",
+        "options": {
+          "full_name": "calibre"
+        }
       }
     },
     "mas": {
@@ -3549,7 +3557,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.4.9",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "b785a45919c2915aa2de3e53390c7a3c4d383a11",
+        "Homebrew/homebrew-core": "eb651e480ea7408163cd853d1ebb6dee667a22c2",
         "CLT": "13.3.1.0.1.1648687083",
         "Xcode": "13.3.1",
         "macOS": "12.3.1"

@@ -24,8 +24,6 @@ brew "bash"
 brew "bat"
 # Secure and free password manager for all of your devices
 brew "bitwarden-cli"
-# E-books management software
-cask "calibre"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
@@ -126,6 +124,8 @@ cask "appcleaner"
 cask "authy"
 # Virtual Audio Driver
 cask "blackhole-2ch"
+# E-books management software
+cask "calibre"
 # Command-line display management utility
 cask "cscreen"
 # Offline toolbox for developers
@@ -134,8 +134,6 @@ cask "devutils"
 cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
-# Play, record, convert, and stream audio and video
-brew "ffmpeg"
 # Utility for customizing which browser to start
 cask "finicky"
 # Web browser

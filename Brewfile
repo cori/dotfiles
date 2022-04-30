@@ -179,6 +179,8 @@ cask "quicklook-json"
 cask "raindropio"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# View, Screen Share, organize, import, and download files to a reMarkable device
+cask "remarkable"
 # Time optimising application
 cask "rescuetime"
 # Web browser

@@ -3410,6 +3410,12 @@
         "options": {
           "full_name": "calibre"
         }
+      },
+      "remarkable": {
+        "version": "2.12.2.251",
+        "options": {
+          "full_name": "remarkable"
+        }
       }
     },
     "mas": {

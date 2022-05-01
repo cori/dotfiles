@@ -28,6 +28,8 @@ brew "bitwarden-cli"
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Secure runtime for JavaScript and TypeScript
+brew "deno"
 # Emoji on the command-line :scream:
 brew "emojify"
 # Play, record, convert, and stream audio and video

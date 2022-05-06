@@ -179,6 +179,8 @@ cask "qmk-toolbox"
 cask "quicklook-json"
 # All-in-one bookmark manager
 cask "raindropio"
+# Control your tools with a few keystrokes
+cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # View, Screen Share, organize, import, and download files to a reMarkable device

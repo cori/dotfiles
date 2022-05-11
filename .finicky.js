@@ -160,10 +160,43 @@ module.exports = {
       }
     },
     {
+      // Open kibana urls in Google Chrome
+      match: finicky.matchHostnames([
+        "kibana.glitch.com",
+        "kibana.staging.glitch.com"
+      ]),
+      browser: {
+        name: "Google Chrome",
+        profile: "Default"
+      }
+    },
+    {
+      // Open metabase urls in Google Chrome
+      match: finicky.matchHostnames([
+        "metabase.glitch.com",
+        "metabase.staging.glitch.com"
+      ]),
+      browser: {
+        name: "Google Chrome",
+        profile: "Default"
+      }
+    },
+    {
       // Open Glitch HappyFox urls in Google Chrome
       match: finicky.matchHostnames([
         "help.glitch.com",
         "glitch.happyfox.com"
+      ]),
+      browser: {
+        name: "Google Chrome",
+        profile: "Default"
+      }
+    },
+    {
+      // Open Glitch in Chrome
+      match: finicky.matchHostnames([
+        "glitch.com",
+        "glitch.me"
       ]),
       browser: {
         name: "Google Chrome",

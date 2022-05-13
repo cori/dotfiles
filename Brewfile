@@ -58,6 +58,8 @@ brew "jq"
 brew "lazygit"
 # Mac App Store command-line interface
 brew "mas"
+# Like sed, awk, cut, join & sort for name-indexed data such as CSV
+brew "miller"
 # Platform built on V8 to build network applications
 brew "node"
 # Programs for dealing with numbers from the command-line

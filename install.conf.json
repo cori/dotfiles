@@ -44,8 +44,7 @@
     },
     {
         "brewfile": [
-            "Brewfile",
-            "Brewfile.Glitch"
+            "Brewfile"
         ]
     },
     {

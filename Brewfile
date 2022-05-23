@@ -193,6 +193,8 @@ cask "rescuetime"
 cask "safari-technology-preview"
 # Team communication and collaboration software
 cask "slack"
+# Music streaming service
+cask "spotify"
 # Video game digital distribution service
 cask "steam"
 # Application for inspecting installer packages

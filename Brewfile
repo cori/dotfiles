@@ -29,7 +29,7 @@ brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # Secure runtime for JavaScript and TypeScript
-brew "deno"
+#brew "deno"
 # Emoji on the command-line :scream:
 brew "emojify"
 # Play, record, convert, and stream audio and video
@@ -81,7 +81,7 @@ brew "shellcheck"
 # Fuzzy finder in Rust
 brew "sk"
 # Feature-rich console based todo list manager
-brew "task"
+#brew "task"
 # Utility to modify the macOS Accessibility Database (TCC.db)
 brew "tccutil"
 # Send macOS User Notifications from the command-line
@@ -91,7 +91,7 @@ brew "thefuck"
 # Text interface for Git repositories
 brew "tig"
 # Command-line time tracking application
-brew "timewarrior"
+#brew "timewarrior"
 # Simplified and community-driven man pages
 brew "tldr"
 # Language for application scale JavaScript development
@@ -158,7 +158,7 @@ cask "hook"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iTerm2"
 # Software for Logitech devices
-cask "logitech-options"
+#cask "logitech-options"
 #	Cable-free audio router
 cask "loopback"
 # Personal productivity app
@@ -182,7 +182,7 @@ cask "quicklook-json"
 # All-in-one bookmark manager
 cask "raindropio"
 # Control your tools with a few keystrokes
-cask "raycast"
+#cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # View, Screen Share, organize, import, and download files to a reMarkable device
@@ -196,13 +196,13 @@ cask "slack"
 # Music streaming service
 cask "spotify"
 # Video game digital distribution service
-cask "steam"
+#cask "steam"
 # Application for inspecting installer packages
 cask "suspicious-package"
 # Messaging app with a focus on speed and security
 cask "telegram"
 # Time tracker
-cask "toggl-track"
+#cask "toggl-track"
 # Menu bar clock
 cask "utc-menu-clock"
 # Configurator of compatible keyboards in real time
@@ -222,17 +222,17 @@ cask "zsa-wally"
 
 #	macOs App Store software
 mas "Bitwarden", id: 1352778147
-mas "Drafts", id: 1435957248
-mas "eufy Security", id: 1501114405
+#mas "Drafts", id: 1435957248
+#mas "eufy Security", id: 1501114405
 mas "Hush", id: 1544743900
-mas "iMovie", id: 408981434
+#mas "iMovie", id: 408981434
 mas "Lockdown", id: 1483255076
 mas "Microsoft Remote Desktop", id: 1295203466
-mas "News Explorer", id: 1032670789
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
+#mas "News Explorer", id: 1032670789
+#mas "Numbers", id: 409203825
+#mas "Pages", id: 409201541
 mas "Save to Roam", id: 1578763303
-mas "Spark", id: 1176895641
-mas "Steam Link", id: 1246969117
+#mas "Spark", id: 1176895641
+#mas "Steam Link", id: 1246969117
 mas "Xcode", id: 497799835
 mas "Yubico Authenticator", id: 1497506650

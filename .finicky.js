@@ -23,36 +23,6 @@ module.exports = {
     {
       // Open github.com urls in Google Chrome
       match: finicky.matchHostnames([
-        /.*\.apprentice\.io$/
-      ]),
-      browser: {
-        name: "Google Chrome",
-        profile: "Profile 1"
-      }
-    },
-    {
-      // Open github.com urls in Google Chrome
-      match: finicky.matchHostnames([
-        "apprenticefs.atlassian.net"
-      ]),
-      browser: {
-        name: "Google Chrome",
-        profile: "Profile 1"
-      }
-    },
-    {
-      // Open github.com urls in Google Chrome
-      match: finicky.matchHostnames([
-        "app.datadoghq.com"
-      ]),
-      browser: {
-        name: "Google Chrome",
-        profile: "Profile 1"
-      }
-    },
-    {
-      // Open github.com urls in Google Chrome
-      match: finicky.matchHostnames([
         "github.com"
       ]),
       browser: "Google Chrome"
@@ -65,7 +35,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Default"
+        profile: "Profile 2"
       }
     },
     {
@@ -76,7 +46,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Default"
+        profile: "Profile 2"
       }
     },
     {
@@ -87,7 +57,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Default"
+        profile: "Profile 2"
       }
     },
     {
@@ -106,7 +76,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Default"
+        profile: "Profile 2"
       }
     },
     {
@@ -116,7 +86,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Default"
+        profile: "Profile 2"
       }
     },
     {
@@ -126,7 +96,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Default"
+        profile: "Profile 2"
       }
     },
     {
@@ -137,7 +107,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Default"
+        profile: "Profile 2"
       }
     },
     {
@@ -145,7 +115,7 @@ module.exports = {
       match: "http://localhost:1234",
       browser: {
         name: "Google Chrome",
-        profile: "Default"
+        profile: "Profile 2"
       }
     },
     {
@@ -156,7 +126,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Default"
+        profile: "Profile 2"
       }
     },
     {
@@ -167,7 +137,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Default"
+        profile: "Profile 2"
       }
     },
     {
@@ -178,7 +148,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Default"
+        profile: "Profile 2"
       }
     },
     {
@@ -189,7 +159,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Default"
+        profile: "Profile 2"
       }
     },
     {
@@ -200,7 +170,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Default"
+        profile: "Profile 2"
       }
     },
     {
@@ -211,7 +181,7 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Default"
+        profile: "Profile 2"
       }
     },
     {
@@ -221,7 +191,18 @@ module.exports = {
       ]),
       browser: {
         name: "Google Chrome",
-        profile: "Default"
+        profile: "Profile 2"
+      }
+    },
+    //  Fastly
+    {
+      // Open Fastlassian urls in Google Chrome
+      match: finicky.matchHostnames([
+        "fastly.atlassian.net",
+      ]),
+      browser: {
+        name: "Google Chrome",
+        profile: "Profile 1"
       }
     },
     {

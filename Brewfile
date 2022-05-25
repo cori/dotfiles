@@ -81,7 +81,7 @@ brew "shellcheck"
 # Fuzzy finder in Rust
 brew "sk"
 # Feature-rich console based todo list manager
-#brew "task"
+# brew "task"
 # Utility to modify the macOS Accessibility Database (TCC.db)
 brew "tccutil"
 # Send macOS User Notifications from the command-line
@@ -91,7 +91,7 @@ brew "thefuck"
 # Text interface for Git repositories
 brew "tig"
 # Command-line time tracking application
-#brew "timewarrior"
+# brew "timewarrior"
 # Simplified and community-driven man pages
 brew "tldr"
 # Language for application scale JavaScript development
@@ -105,8 +105,8 @@ brew "websocat"
 # Internet file retriever
 brew "wget"
 # JavaScript package manager (and completions)
-brew "yarn"
-brew "yarn-completion"
+# brew "yarn"
+# brew "yarn-completion"
 # Tool for managing your YubiKey configuration
 brew "ykman"
 # Next-generation plugin manager for zsh
@@ -114,11 +114,11 @@ brew "zplug"
 # Interactive cheatsheet tool for the command-line.
 brew "denisidoro/tools/navi"
 # Pre-built GNU toolchain for Arm Cortex-M and Cortex-R processors
-brew "osx-cross/arm/arm-gcc-bin@10"
+# brew "osx-cross/arm/arm-gcc-bin@10"
 # GNU compiler collection for AVR 8-bit and 32-bit Microcontrollers
-brew "osx-cross/avr/avr-gcc@8", link: true
+# brew "osx-cross/avr/avr-gcc@8", link: true
 # Quantum Mechanical Keyboard (QMK) Firmware
-brew "qmk/qmk/qmk"
+# brew "qmk/qmk/qmk"
 
 # Application launcher and productivity software
 cask "alfred"
@@ -150,7 +150,7 @@ cask "font-monoid"
 # Desktop client for GitHub repositories
 cask "github"
 # Web browser
-cask "google-chrome"
+# cask "google-chrome"
 # Graphically shows disk usage within a file system
 cask "grandperspective"
 # Link and retrieve key information
@@ -158,7 +158,7 @@ cask "hook"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iTerm2"
 # Software for Logitech devices
-#cask "logitech-options"
+# cask "logitech-options"
 #	Cable-free audio router
 cask "loopback"
 # Personal productivity app
@@ -177,12 +177,12 @@ cask "qlcolorcode"
 cask "qlimagesize"
 cask "qlstephen"
 # Toolbox companion for QMK Firmware
-cask "qmk-toolbox"
+# cask "qmk-toolbox"
 cask "quicklook-json"
 # All-in-one bookmark manager
 cask "raindropio"
 # Control your tools with a few keystrokes
-#cask "raycast"
+# cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # View, Screen Share, organize, import, and download files to a reMarkable device
@@ -200,13 +200,13 @@ cask "spotify"
 # Application for inspecting installer packages
 cask "suspicious-package"
 # Messaging app with a focus on speed and security
-cask "telegram"
+# cask "telegram"
 # Time tracker
-#cask "toggl-track"
+# cask "toggl-track"
 # Menu bar clock
 cask "utc-menu-clock"
 # Configurator of compatible keyboards in real time
-cask "vial"
+# cask "vial"
 # Open-source code editor
 cask "visual-studio-code"
 # Code editor
@@ -216,9 +216,9 @@ cask "yubico-authenticator"
 # YubiKey tool
 cask "yubico-yubikey-manager"
 # Video communication and virtual meeting platform
-cask "zoom"
+#cask "zoom"
 # Flash tool for ZSA keyboards
-cask "zsa-wally"
+# cask "zsa-wally"
 
 #	macOs App Store software
 mas "Bitwarden", id: 1352778147

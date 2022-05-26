@@ -227,6 +227,26 @@ module.exports = {
       }
     },
     {
+      // not sure exactly where these cme from, but open them in Google Chrome
+      match: finicky.matchHostnames([
+        /.*\.visualforce\.com/,
+      ]),
+      browser: {
+        name: "Google Chrome",
+        profile: "Profile 1"
+      }
+    },
+    {
+      // not sure exactly where these cme from, but open them in Google Chrome
+      match: finicky.matchHostnames([
+        /.*\.secretcdn\.net/,
+      ]),
+      browser: {
+        name: "Google Chrome",
+        profile: "Profile 1"
+      }
+    },
+    {
       //	open everything from NewsExplorer in STP (since it opens Safari directly)
       match: ({
         opener

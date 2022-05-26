@@ -42,7 +42,8 @@
     },
     {
         "brewfile": [
-            "Brewfile"
+            "Brewfile",
+            "~/code/glitchdotcom/Glitch/Brewfile"
         ]
     },
     {

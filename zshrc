@@ -17,9 +17,9 @@ autoload -Uz compinit && compinit
 
 alias wla=~/Code/personal/worklog/worklog.py
 #alias toggl=~/go/bin/toggl
-#alias tf=terraform
-#alias aws_prod="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_profile.py production_admin"
-#alias aws_staging="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_profile.py staging_admin"
+alias tf=terraform
+alias aws_prod="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_profile.py production_admin"
+alias aws_staging="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_profile.py staging_admin"
 alias gls="git log --stat"
 alias gcamend="git commit --amend -m"
 alias gd='GIT_PAGER="delta --features default decorations" git diff'
@@ -42,14 +42,14 @@ alias .....='cd ../../../../..'
 alias shm='aws ssm start-session --region us-east-2 --target '
 
 #	additional terraform aliases
-alias tfw='terraform workspace'
-alias tfo="terraform output"
+#alias tfw='terraform workspace'
+#alias tfo="terraform output"
 
 eval "$(thefuck --alias pls)"
 eval "$(atuin init zsh)"
 
-#function sshu() { ssh -oStrictHostKeyChecking=no "ubuntu@$1" -i~/.ssh/id_glitch_ubuntu -Jjump.glitch.com -oIdentitiesOnly=yes; }
-#function ssshu() { ssh -oStrictHostKeyChecking=no "ubuntu@$1" -i~/.ssh/id_glitch_ubuntu -Jjump.staging.glitch.com -oIdentitiesOnly=yes; }
+function sshu() { ssh -oStrictHostKeyChecking=no "ubuntu@$1" -i~/.ssh/id_glitch_ubuntu -Jjump.glitch.com -oIdentitiesOnly=yes; }
+function ssshu() { ssh -oStrictHostKeyChecking=no "ubuntu@$1" -i~/.ssh/id_glitch_ubuntu -Jjump.staging.glitch.com -oIdentitiesOnly=yes; }
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
@@ -127,7 +127,7 @@ export PATH="/usr/local/opt/avr-gcc@8/bin:$PATH"
 
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-eval $(thefuck --alias)
+#eval $(thefuck --alias)
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 

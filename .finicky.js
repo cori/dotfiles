@@ -1,3 +1,4 @@
+//  on ShadowDepository@Fastly, Profile 2 is glitch.com and Profile 1 is "Work" (Fastly)
 module.exports = {
   defaultBrowser: "Safari",
   options: {
@@ -199,6 +200,26 @@ module.exports = {
       // Open Fastlassian urls in Google Chrome
       match: finicky.matchHostnames([
         "fastly.atlassian.net",
+      ]),
+      browser: {
+        name: "Google Chrome",
+        profile: "Profile 1"
+      }
+    },
+    {
+      // Open Fastly Okta urls in Google Chrome
+      match: finicky.matchHostnames([
+        "fastly.okta.com",
+      ]),
+      browser: {
+        name: "Google Chrome",
+        profile: "Profile 1"
+      }
+    },
+    {
+      // Open Fastly zoom urls in Google Chrome
+      match: finicky.matchHostnames([
+        "fastly.zoom.us",
       ]),
       browser: {
         name: "Google Chrome",

@@ -82,7 +82,7 @@ zplug "xav-b/zsh-extend-history", from:github
 zplug "zsh-users/zsh-completions", from:github
 zplug "zsh-users/zsh-syntax-highlighting", from:github
 zplug "zshzoo/macos", from:github
-zplug "ellie/atuin", from:github
+#zplug "ellie/atuin", from:github
 
 # zplug "plugins/timer", from:oh-my-zsh
 # zplug "plugins/thefuck", from:oh-my-zsh
@@ -117,14 +117,14 @@ zplug load
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
-alias tfd='docker run -it -e MONGODB_ATLAS_PUBLIC_KEY="$MONGODB_ATLAS_PUBLIC_KEY" -e MONGODB_ATLAS_PRIVATE_KEY="$MONGODB_ATLAS_PRIVATE_KEY" -v ~/.aws:/root/.aws -v $(pwd):/data hashicorp/terraform:latest -chdir=/data'
+#alias tfd='docker run -it -e MONGODB_ATLAS_PUBLIC_KEY="$MONGODB_ATLAS_PUBLIC_KEY" -e MONGODB_ATLAS_PRIVATE_KEY="$MONGODB_ATLAS_PRIVATE_KEY" -v ~/.aws:/root/.aws -v $(pwd):/data hashicorp/terraform:latest -chdir=/data'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$(brew --prefix nvm)/nvm.sh" ] && . "$(brew --prefix nvm)/nvm.sh"  # This loads nvm
 [ -s "$(brew --prefix nvm)/etc/bash_completion" ] && . "$(brew --prefix nvm)/etc/bash_completion"  # This loads nvm bash_completion
 
 #export AWS_USE_YUBIKEY=1
-export PATH="/usr/local/opt/avr-gcc@8/bin:$PATH"
+#export PATH="/usr/local/opt/avr-gcc@8/bin:$PATH"
 
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 

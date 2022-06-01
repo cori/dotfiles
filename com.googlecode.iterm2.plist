@@ -10,16 +10,6 @@
 	<true/>
 	<key>AlternateMouseScroll</key>
 	<true/>
-	<key>AppleAntiAliasingThreshold</key>
-	<integer>1</integer>
-	<key>ApplePressAndHoldEnabled</key>
-	<false/>
-	<key>AppleScrollAnimationEnabled</key>
-	<integer>0</integer>
-	<key>AppleSmoothFixedFontsSizeThreshold</key>
-	<integer>1</integer>
-	<key>AppleWindowTabbingMode</key>
-	<string>manual</string>
 	<key>AutoCommandHistory</key>
 	<true/>
 	<key>BracketedPasteMode</key>
@@ -2704,6 +2694,17 @@
 			<key>Text</key>
 			<string></string>
 		</dict>
+		<key>0xf72c-0x0-0x74</key>
+		<dict>
+			<key>Action</key>
+			<integer>10</integer>
+			<key>Escaping</key>
+			<integer>2</integer>
+			<key>Text</key>
+			<string>[A</string>
+			<key>Version</key>
+			<integer>2</integer>
+		</dict>
 		<key>0xf72c-0x100000</key>
 		<dict>
 			<key>Action</key>
@@ -2717,6 +2718,17 @@
 			<integer>9</integer>
 			<key>Text</key>
 			<string></string>
+		</dict>
+		<key>0xf72d-0x0-0x79</key>
+		<dict>
+			<key>Action</key>
+			<integer>10</integer>
+			<key>Escaping</key>
+			<integer>2</integer>
+			<key>Text</key>
+			<string>[B</string>
+			<key>Version</key>
+			<integer>2</integer>
 		</dict>
 		<key>0xf72d-0x100000</key>
 		<dict>

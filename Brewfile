@@ -6,8 +6,8 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "osx-cross/arm"
-tap "osx-cross/avr"
+# tap "osx-cross/arm"
+# tap "osx-cross/avr"
 tap "qmk/qmk"
 
 # Improved shell history for zsh and bash

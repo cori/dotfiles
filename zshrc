@@ -82,6 +82,7 @@ zplug "xav-b/zsh-extend-history", from:github
 zplug "zsh-users/zsh-completions", from:github
 zplug "zsh-users/zsh-syntax-highlighting", from:github
 zplug "zshzoo/macos", from:github
+zplug "ellie/atuin", from:github
 
 # zplug "plugins/timer", from:oh-my-zsh
 # zplug "plugins/thefuck", from:oh-my-zsh

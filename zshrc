@@ -18,7 +18,7 @@ autoload -Uz compinit && compinit
 alias wla=~/Code/personal/worklog/worklog.py
 #alias toggl=~/go/bin/toggl
 alias tf=terraform
-alias aws_prod="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_profile.py production_admin"
+alias aws_prod="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_profile.py prod_admin"
 alias aws_staging="AWS_USE_YUBIKEY=true ~/Code/glitchdotcom/Glitch/aws/sh/select_profile.py staging_admin"
 alias gls="git log --stat"
 alias gcamend="git commit --amend -m"

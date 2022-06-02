@@ -41,11 +41,8 @@ alias .....='cd ../../../../..'
 
 alias shm='aws ssm start-session --region us-east-2 --target '
 
-#	additional terraform aliases
-#alias tfw='terraform workspace'
-#alias tfo="terraform output"
-
 eval "$(thefuck --alias pls)"
+export ATUIN_NOBIND="true"
 eval "$(atuin init zsh)"
 
 function sshu() { ssh -oStrictHostKeyChecking=no "ubuntu@$1" -i~/.ssh/id_glitch_ubuntu -Jjump.glitch.com -oIdentitiesOnly=yes; }
@@ -72,20 +69,15 @@ source ~/.zplug/init.zsh
 
 # Make sure to use double quotes to prevent shell expansion
 zplug "djui/alias-tips", from:github
-#zplug "MichaelAquilina/zsh-auto-notify", from:github
 zplug "t413/zsh-background-notify", from:github
 zplug "qoomon/zsh-lazyload", from:github
 zplug "tom-auger/cmdtime", from:github
-# zplug "Valiev/almostontop", from:github
 zplug "wbingli/zsh-wakatime", from:github
 zplug "xav-b/zsh-extend-history", from:github
 zplug "zsh-users/zsh-completions", from:github
 zplug "zsh-users/zsh-syntax-highlighting", from:github
 zplug "zshzoo/macos", from:github
-#zplug "ellie/atuin", from:github
 
-# zplug "plugins/timer", from:oh-my-zsh
-# zplug "plugins/thefuck", from:oh-my-zsh
 zplug "plugins/autojump", from:oh-my-zsh
 zplug "plugins/colored-man-pages", from:oh-my-zsh
 zplug "plugins/colorize", from:oh-my-zsh
@@ -99,7 +91,6 @@ zplug "plugins/terraform", from:oh-my-zsh
 #   do these last
 zplug "unixorn/fzf-zsh-plugin", from:github
 zplug "pschmitt/emoji-fzf", from:github
-# zplug "Aloxaf/fzf-tab", from:github   
 
 # Install packages that have not been installed yet
 if ! zplug check --verbose; then
@@ -114,21 +105,13 @@ fi
 zplug load
 
 #   key bindings
-bindkey '^[[A' history-substring-search-up
-bindkey '^[[B' history-substring-search-down
-
-#alias tfd='docker run -it -e MONGODB_ATLAS_PUBLIC_KEY="$MONGODB_ATLAS_PUBLIC_KEY" -e MONGODB_ATLAS_PRIVATE_KEY="$MONGODB_ATLAS_PRIVATE_KEY" -v ~/.aws:/root/.aws -v $(pwd):/data hashicorp/terraform:latest -chdir=/data'
+bindkey '^[[A' _atuin_search_widget
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$(brew --prefix nvm)/nvm.sh" ] && . "$(brew --prefix nvm)/nvm.sh"  # This loads nvm
 [ -s "$(brew --prefix nvm)/etc/bash_completion" ] && . "$(brew --prefix nvm)/etc/bash_completion"  # This loads nvm bash_completion
 
-#export AWS_USE_YUBIKEY=1
-#export PATH="/usr/local/opt/avr-gcc@8/bin:$PATH"
-
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-#eval $(thefuck --alias)
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 

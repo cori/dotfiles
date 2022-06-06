@@ -200,6 +200,7 @@ module.exports = {
       // Open Fastlassian urls in Google Chrome
       match: finicky.matchHostnames([
         "fastly.atlassian.net",
+        "confluence.corp.fastly.com"
       ]),
       browser: {
         name: "Google Chrome",

@@ -203,6 +203,8 @@ cask "suspicious-package"
 # cask "telegram"
 # Time tracker
 # cask "toggl-track"
+# USB and Bluetooth device driver
+cask "usb-overdrive"
 # Menu bar clock
 cask "utc-menu-clock"
 # Configurator of compatible keyboards in real time

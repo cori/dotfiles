@@ -32,6 +32,10 @@ alias gdcopy='GIT_PAGER="delta --features copy" git diff'
 alias tl='~/code/personal/osx-timelapse/timelapse.sh'
 alias lg='nvm exec 12 lazygit'
 
+alias tfdp='docker run --platform linux/amd64 -it -v ~/.aws:/root/.aws -v /Users/cori/code/glitchdotcom/glitch/aws/terraform/production:/data hashicorp/terraform:latest -chdir=/data'
+alias tfds='docker run --platform linux/amd64 -it -v ~/.aws:/root/.aws -v /Users/cori/code/glitchdotcom/glitch/aws/terraform/staging:/data hashicorp/terraform:latest -chdir=/data'
+#alias tfd='docker run -it -e MONGODB_ATLAS_PUBLIC_KEY="$MONGODB_ATLAS_PUBLIC_KEY" -e MONGODB_ATLAS_PRIVATE_KEY="$MONGODB_ATLAS_PRIVATE_KEY" -v ~/.aws:/root/.aws -v $(pwd):/data hashicorp/terraform:latest -chdir=/data'
+    
 alias wakatime=wakatime-cli
 
 alias -- -="cd -"

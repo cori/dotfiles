@@ -5092,6 +5092,18 @@ bash &lt;(curl https://raw.githubusercontent.com/ellie/atuin/main/install.sh)</s
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>0</integer>
+			<key>guid</key>
+			<string>EB64E85E-9852-49C7-842D-B6289C739A61</string>
+			<key>title</key>
+			<string>top containers by CPU</string>
+			<key>value</key>
+			<string>docker stats --no-stream --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}" | sort -k 2hr</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>SoundForEsc</key>
 	<false/>

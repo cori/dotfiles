@@ -132,6 +132,8 @@ cask "blackhole-2ch"
 cask "calibre"
 # Command-line display management utility
 cask "cscreen"
+# Desktop application that wraps Datasette
+cask "datasette"
 # Offline toolbox for developers
 cask "devutils"
 # App to build and share containerized applications and microservices
@@ -157,6 +159,8 @@ cask "grandperspective"
 cask "hook"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iTerm2"
+#  (JupyterLab App) Desktop application for JupyterLab
+cask "jupyterlab"
 # Software for Logitech devices
 # cask "logitech-options"
 #	Cable-free audio router
@@ -236,5 +240,5 @@ mas "Microsoft Remote Desktop", id: 1295203466
 mas "Save to Roam", id: 1578763303
 #mas "Spark", id: 1176895641
 #mas "Steam Link", id: 1246969117
-mas "Xcode", id: 497799835
+# mas "Xcode", id: 497799835
 mas "Yubico Authenticator", id: 1497506650

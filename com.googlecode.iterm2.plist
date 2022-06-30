@@ -2749,6 +2749,8 @@
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
+	<key>Log Smart Selection Debug Info</key>
+	<integer>1</integer>
 	<key>NeverWarnAboutShortLivedSessions_7B66ECC3-4309-4326-B5DC-BAEFDF6A2942</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_7B66ECC3-4309-4326-B5DC-BAEFDF6A2942_selection</key>
@@ -3547,6 +3549,8 @@
 			<true/>
 			<key>Silence Bell</key>
 			<false/>
+			<key>Smart Selection Actions Use Interpolated Strings</key>
+			<false/>
 			<key>Smart Selection Rules</key>
 			<array>
 				<dict>
@@ -3569,7 +3573,7 @@
 					<key>notes</key>
 					<string>Paths</string>
 					<key>precision</key>
-					<string>normal</string>
+					<string>very_low</string>
 					<key>regex</key>
 					<string>\~?/?([[:letter:][:number:]._-]+/+)+[[:letter:][:number:]._-]+/?</string>
 				</dict>
@@ -3640,6 +3644,8 @@
 					<string>\btelnet:([a-z0-9A-Z_]+@)?([a-zA-Z0-9\-]+\.)*[a-zA-Z0-9\-]+\b</string>
 				</dict>
 				<dict>
+					<key>actions</key>
+					<array/>
 					<key>notes</key>
 					<string>UUID</string>
 					<key>precision</key>
@@ -4959,27 +4965,31 @@
 			<integer>2</integer>
 		</dict>
 		<dict>
+			<key>escaping</key>
+			<integer>1</integer>
 			<key>guid</key>
 			<string>887f563e080a4d9e2c085aedd81d8678895e2bb9840d873eaa637b77169aaf3e</string>
 			<key>title</key>
-			<string>phv2</string>
+			<string>new phv2</string>
 			<key>value</key>
 			<string>let u = await User.findOne({ where: { login: ‘cori’ } });
 let p = await Project.create({hostingBackend: 'project-hosting-v2',domain: ‘cori-phv2’,});
 await p.addMember(u, { accessLevel: 30 });
 p.id;</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
+			<key>escaping</key>
+			<integer>1</integer>
 			<key>guid</key>
 			<string>82a1a4ffb6c647c994495c8d31ee2e9f46319e378c29ff6d4c1cd7378694bcc0</string>
 			<key>title</key>
-			<string>let p = await Project.create({hostingBa…</string>
+			<string>new phv2 2?</string>
 			<key>value</key>
 			<string>let p = await Project.create({hostingBackend: ‘project-hosting-v2’,domain: ‘cori-phv2’,});</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>guid</key>
@@ -5031,17 +5041,19 @@ done
 			<integer>0</integer>
 		</dict>
 		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
 			<key>guid</key>
 			<string>9494D646-D7FE-477B-959C-FEFA308EC9C2</string>
 			<key>title</key>
-			<string>remix</string>
+			<string>remix loop</string>
 			<key>value</key>
 			<string>while 1=1; do
 ~/code/glitchdotcom/glitch/on-call/scripts/gimme-a-remix.sh hail-fight
 sleep 10
 done</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>escaping</key>
@@ -5101,6 +5113,18 @@ bash &lt;(curl https://raw.githubusercontent.com/ellie/atuin/main/install.sh)</s
 			<string>top containers by CPU</string>
 			<key>value</key>
 			<string>docker stats --no-stream --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}" | sort -k 2hr</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>66FEEF1B-170E-4209-9DBD-8DF68F38CCF2</string>
+			<key>title</key>
+			<string>history with datetime</string>
+			<key>value</key>
+			<string>HISTTIMEFORMAT='%F %T ' history</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>

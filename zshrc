@@ -41,9 +41,9 @@ alias tfdpo='docker run --platform linux/amd64 -it -v ~/.aws:/root/.aws -v $(pwd
 alias wakatime=wakatime-cli
 
 alias -- -="cd -"
-alias ...='cd ../../..'
-alias ....='cd ../../../..'
-alias .....='cd ../../../../..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
 
 alias shm='aws ssm start-session --region us-east-2 --target '
 

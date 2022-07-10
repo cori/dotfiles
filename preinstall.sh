@@ -3,9 +3,9 @@
 # Check if Homebrew is installed
 if [ ! -f "`which brew`" ]; then
   echo 'Installing homebrew'
-  cd /usr/local
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/cori/.zprofile && eval "$(/opt/homebrew/bin/brew shellenv)"
+  # cd /usr/local
+  # sudo mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
 else
   echo 'Updating homebrew'
   brew update

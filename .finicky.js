@@ -19,14 +19,20 @@ module.exports = {
       "google.com", // match google.com domain as string (to make regular expression less complicated)
       /.*\.google\.com$/ // match all google.com subdomains
     ]),
-    browser: "Google Chrome"
+    browser: {
+      name: "Google Chrome",
+      profile: "Default"
+    }
   },
   {
     // Open github.com urls in Google Chrome
     match: finicky.matchHostnames([
       "github.com"
     ]),
-    browser: "Google Chrome"
+    browser: {
+      name: "Google Chrome",
+      profile: "Default"
+    }
   },
   {
     // Open clubhouse.io urls in Google Chrome
@@ -197,6 +203,17 @@ module.exports = {
   },
   //  Fastly
   {
+    // Open Fastly slack urls in Google Chrome
+    match: finicky.matchHostnames([
+      "fastly.enterprise.slack.com",
+      "fastly.slack.com"
+    ]),
+    browser: {
+      name: "Google Chrome",
+      profile: "Default"
+    }
+  },
+  {
     // Open Fastlassian urls in Google Chrome
     match: finicky.matchHostnames([
       "fastly.atlassian.net",
@@ -238,7 +255,7 @@ module.exports = {
     }
   },
   {
-    // not sure exactly where these cme from, but open them in Google Chrome
+    // not sure exactly where these come from, but open them in Google Chrome
     match: finicky.matchHostnames([
       /.*\.secretcdn\.net/,
     ]),

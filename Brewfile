@@ -6,8 +6,6 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-# tap "osx-cross/arm"
-# tap "osx-cross/avr"
 tap "qmk/qmk"
 
 # Improved shell history for zsh and bash
@@ -80,8 +78,6 @@ brew "rsync"
 brew "shellcheck"
 # Fuzzy finder in Rust
 brew "sk"
-# Feature-rich console based todo list manager
-# brew "task"
 # Utility to modify the macOS Accessibility Database (TCC.db)
 brew "tccutil"
 # Send macOS User Notifications from the command-line
@@ -90,8 +86,6 @@ brew "terminal-notifier"
 brew "thefuck"
 # Text interface for Git repositories
 brew "tig"
-# Command-line time tracking application
-# brew "timewarrior"
 # Simplified and community-driven man pages
 brew "tldr"
 # Language for application scale JavaScript development
@@ -104,19 +98,12 @@ brew "watchman"
 brew "websocat"
 # Internet file retriever
 brew "wget"
-# JavaScript package manager (and completions)
-# brew "yarn"
-# brew "yarn-completion"
 # Tool for managing your YubiKey configuration
 brew "ykman"
 # Next-generation plugin manager for zsh
 brew "zplug"
 # Interactive cheatsheet tool for the command-line.
 brew "denisidoro/tools/navi"
-# Pre-built GNU toolchain for Arm Cortex-M and Cortex-R processors
-# brew "osx-cross/arm/arm-gcc-bin@10"
-# GNU compiler collection for AVR 8-bit and 32-bit Microcontrollers
-# brew "osx-cross/avr/avr-gcc@8", link: true
 # Quantum Mechanical Keyboard (QMK) Firmware
 # brew "qmk/qmk/qmk"
 
@@ -169,8 +156,6 @@ cask "loopback"
 cask "marvin"
 # Create and edit MP4 videos
 cask "mp4tools"
-# Small, simple editor for beginner Python programmers
-# cask mu-editor	--	this is for the adafruit macropad python library, but maybe not so much
 # Cloud storage client
 cask "onedrive"
 # Collaboration platform for API development
@@ -193,6 +178,8 @@ cask "rectangle"
 cask "remarkable"
 # Time optimising application
 cask "rescuetime"
+# Note-taking tool for networked thought
+cask "roam-research"
 # Web browser
 cask "safari-technology-preview"
 # Team communication and collaboration software
@@ -204,15 +191,13 @@ cask "spotify"
 # Application for inspecting installer packages
 cask "suspicious-package"
 # Messaging app with a focus on speed and security
-# cask "telegram"
+cask "telegram"
 # Time tracker
 # cask "toggl-track"
 # USB and Bluetooth device driver
 cask "usb-overdrive"
 # Menu bar clock
 cask "utc-menu-clock"
-# Configurator of compatible keyboards in real time
-# cask "vial"
 # Open-source code editor
 cask "visual-studio-code"
 # Code editor
@@ -221,24 +206,19 @@ cask "visual-studio-code-insiders"
 cask "yubico-authenticator"
 # YubiKey tool
 cask "yubico-yubikey-manager"
-# Video communication and virtual meeting platform
-#cask "zoom"
 # Flash tool for ZSA keyboards
 # cask "zsa-wally"
 
 #	macOs App Store software
 mas "Bitwarden", id: 1352778147
-#mas "Drafts", id: 1435957248
 #mas "eufy Security", id: 1501114405
 mas "Hush", id: 1544743900
 #mas "iMovie", id: 408981434
 mas "Lockdown", id: 1483255076
 mas "Microsoft Remote Desktop", id: 1295203466
 #mas "News Explorer", id: 1032670789
-#mas "Numbers", id: 409203825
-#mas "Pages", id: 409201541
 mas "Save to Roam", id: 1578763303
-#mas "Spark", id: 1176895641
+mas "Spark", id: 1176895641
 #mas "Steam Link", id: 1246969117
 # mas "Xcode", id: 497799835
 mas "Yubico Authenticator", id: 1497506650

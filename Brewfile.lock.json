@@ -5,22 +5,22 @@
         "revision": "a4ce1156648a24ec0edd47d3a9f4cd16af689082"
       },
       "homebrew/cask": {
-        "revision": "176a5a8926f71940385fb1ee0532e29e2b805760"
+        "revision": "352289fb4bf299ec1715005f2f081b543890172c"
       },
       "homebrew/cask-drivers": {
         "revision": "35e366eda7d522ba7a8a4ed9f9a219401b52386c"
       },
       "homebrew/cask-fonts": {
-        "revision": "057549c676d52464fe639681eb000c72cdff8f27"
+        "revision": "acced23643802a351799b6bf6db73ffbb1683abe"
       },
       "homebrew/cask-versions": {
-        "revision": "db01511a776a321e7bf6c68c149d194dccda4630"
+        "revision": "913f91b4bdd816a54f48a119f48c10b58425acd6"
       },
       "homebrew/core": {
-        "revision": "e551043878c052b1bd82e88ce7d11467f61f2eae"
+        "revision": "abcdf885805f8240313a103ee8391d0fc9ac8e0f"
       },
       "homebrew/services": {
-        "revision": "f8d68ed8a6a23799fcaf8669ef8821e4ae076f1b"
+        "revision": "b19f20254f737c20cae1a780362cf42c82e3487d"
       },
       "denisidoro/tools": {
         "revision": "10bddec1cd9e89126f82826c8d9dacbc2de28e85"
@@ -3346,7 +3346,7 @@
         }
       },
       "grandperspective": {
-        "version": "2.6.3",
+        "version": "3.0.0",
         "options": {
           "full_name": "grandperspective"
         }
@@ -3424,7 +3424,7 @@
         }
       },
       "telegram": {
-        "version": "8.7.1,229827",
+        "version": "8.8.1,232774",
         "options": {
           "full_name": "telegram"
         }
@@ -3484,7 +3484,7 @@
         }
       },
       "calibre": {
-        "version": "5.44.0",
+        "version": "6.0.0",
         "options": {
           "full_name": "calibre"
         }
@@ -3518,6 +3518,12 @@
         "options": {
           "full_name": "datasette"
         }
+      },
+      "roam-research": {
+        "version": "0.0.15",
+        "options": {
+          "full_name": "roam-research"
+        }
       }
     },
     "mas": {
@@ -3535,7 +3541,7 @@
       },
       "Spark": {
         "id": "1176895641",
-        "version": "2.11.20"
+        "version": "2.11.21"
       },
       "Xcode": {
         "id": "497799835",
@@ -3665,7 +3671,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.5.4",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "e551043878c052b1bd82e88ce7d11467f61f2eae",
+        "Homebrew/homebrew-core": "abcdf885805f8240313a103ee8391d0fc9ac8e0f",
         "CLT": "13.4.0.0.1.1651278267",
         "Xcode": "13.4",
         "macOS": "12.4"

@@ -265,6 +265,16 @@ module.exports = {
     }
   },
   {
+    // Figma
+    match: finicky.matchHostnames([
+      /.*\.figma\.com/,
+    ]),
+    browser: {
+      name: "Google Chrome",
+      profile: "Default"
+    }
+  },
+  {
     //	open everything from NewsExplorer in STP (since it opens Safari directly)
     match: ({
       opener

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -euo pipefail
+
+defaults read > ~/tmp/defaults-$(date +'%F-%X').json
+sleep 30 
+defaults read > ~/tmp/defaults-$(date +'%F-%X').json

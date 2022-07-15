@@ -5,19 +5,19 @@
         "revision": "48497882863432d8f0bd7dd6727df325a0f00b35"
       },
       "homebrew/cask": {
-        "revision": "ed8e07eb85a44514c7a249691d7521cf6fd26323"
+        "revision": "b0d9a56b462ae6f4db6261559e24376ee08e2d4a"
       },
       "homebrew/cask-drivers": {
-        "revision": "9b5c3aa94bf85c87470fe6665d9c916c92d3efc9"
+        "revision": "884875b662f13fbdf74094e280c69ab7f0fc0319"
       },
       "homebrew/cask-fonts": {
         "revision": "7cbfd3169028ddcf26987436ed039b62caabb993"
       },
       "homebrew/cask-versions": {
-        "revision": "5aff3a481d60788fa9cba04862c1e34ca111a807"
+        "revision": "4bba3e0941da34dbea537d5b1caf0bfe7278676d"
       },
       "homebrew/core": {
-        "revision": "d6e8508b1c18c77b8803d18744fec7f64fa70021"
+        "revision": "6b2fdb3032cc65e5d4c12d02956b254e3afb1cf9"
       },
       "homebrew/services": {
         "revision": "0b653a3102b15789885b5d4fdb38b0930a8fd342"
@@ -3142,7 +3142,7 @@
         }
       },
       "marvin": {
-        "version": "1.61.0",
+        "version": "1.62.0",
         "options": {
           "full_name": "marvin"
         }
@@ -3677,10 +3677,10 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.5.4",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "d6e8508b1c18c77b8803d18744fec7f64fa70021",
-        "CLT": "13.4.0.0.1.1651278267",
-        "Xcode": "13.4",
-        "macOS": "12.4"
+        "Homebrew/homebrew-core": "6b2fdb3032cc65e5d4c12d02956b254e3afb1cf9",
+        "CLT": "13.0.0.0.1.1627064638",
+        "Xcode": "13.2.1",
+        "macOS": "12.2.1"
       }
     }
   }

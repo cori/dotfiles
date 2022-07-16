@@ -11,15 +11,15 @@ tap "qmk/qmk"
 # Improved shell history for zsh and bash
 brew "atuin"
 # Shell extension to jump to frequently used directories
-brew "autojump"
+# brew "autojump"
 # Library for USB device access
 brew "libusb"
 # Official Amazon AWS command-line interface
-brew "awscli"
+# brew "awscli"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
-brew "bat"
+# brew "bat"
 # Secure and free password manager for all of your devices
 brew "bitwarden-cli"
 # GNU File, Shell, and Text utilities
@@ -33,7 +33,7 @@ brew "emojify"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Command-line fuzzy finder written in Go
-brew "fzf"
+# brew "fzf"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -43,9 +43,9 @@ brew "git-delta"
 # Tcl/Tk UI for the git revision control system
 brew "git-gui"
 # GNU implementation of the famous stream editor
-brew "gnu-sed"
+# brew "gnu-sed"
 # Tools and libraries to manipulate images in many formats
-brew "imagemagick"
+# brew "imagemagick"
 # Tool to capture still images from an iSight or other video source
 brew "imagesnap"
 # Calculate various network masks, etc. from a given IP address
@@ -73,13 +73,13 @@ brew "pylint"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Utility that provides fast incremental file transfer
-brew "rsync"
+# brew "rsync"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # Fuzzy finder in Rust
-brew "sk"
+# brew "sk"
 # Utility to modify the macOS Accessibility Database (TCC.db)
-brew "tccutil"
+# brew "tccutil"
 # Send macOS User Notifications from the command-line
 brew "terminal-notifier"
 # Programmatically correct mistyped console commands
@@ -93,7 +93,7 @@ brew "typescript"
 # Command-line interface to the WakaTime api
 brew "wakatime-cli"
 # Watch files and take action when they change
-brew "watchman"
+# brew "watchman"
 # Command-line client for WebSockets
 brew "websocat"
 # Internet file retriever
@@ -103,7 +103,7 @@ brew "ykman"
 # Next-generation plugin manager for zsh
 brew "zplug"
 # Interactive cheatsheet tool for the command-line.
-brew "denisidoro/tools/navi"
+# brew "denisidoro/tools/navi"
 # Quantum Mechanical Keyboard (QMK) Firmware
 # brew "qmk/qmk/qmk"
 
@@ -118,7 +118,7 @@ cask "blackhole-2ch"
 # E-books management software
 cask "calibre"
 # Command-line display management utility
-cask "cscreen"
+# cask "cscreen"
 # Desktop application that wraps Datasette
 cask "datasette"
 # Offline toolbox for developers
@@ -162,14 +162,14 @@ cask "mp4tools"
 cask "onedrive"
 # Collaboration platform for API development
 cask "postman"
-# QuickLook plug-in that renders source code with syntax highlighting
-cask "qlcolorcode"
-# Display image info and preview unsupported formats in QuickLook
-cask "qlimagesize"
-cask "qlstephen"
+# # QuickLook plug-in that renders source code with syntax highlighting
+# cask "qlcolorcode"
+# # Display image info and preview unsupported formats in QuickLook
+# cask "qlimagesize"
+# cask "qlstephen"
 # Toolbox companion for QMK Firmware
 # cask "qmk-toolbox"
-cask "quicklook-json"
+# cask "quicklook-json"
 # All-in-one bookmark manager
 cask "raindropio"
 # Control your tools with a few keystrokes
@@ -191,7 +191,7 @@ cask "spotify"
 # Video game digital distribution service
 #cask "steam"
 # Application for inspecting installer packages
-cask "suspicious-package"
+# cask "suspicious-package"
 # Messaging app with a focus on speed and security
 cask "telegram"
 # Time tracker

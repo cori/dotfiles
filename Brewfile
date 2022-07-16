@@ -212,6 +212,7 @@ cask "yubico-yubikey-manager"
 # cask "zsa-wally"
 
 #	macOs App Store software
+mas "Amphetamine", id: 937984704
 mas "Bitwarden", id: 1352778147
 #mas "eufy Security", id: 1501114405
 mas "Hush", id: 1544743900

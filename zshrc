@@ -118,3 +118,4 @@ if [ -f '/Users/cori/bin/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/cori/b
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/cori/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/cori/bin/google-cloud-sdk/completion.zsh.inc'; fi
+export PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"

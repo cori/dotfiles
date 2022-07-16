@@ -50,6 +50,9 @@
                 "glob": true,
                 "path": "scripts",
                 "relink": true
+            },
+            "~/.ssh/config": {
+                "path":"~/Dropbox/localPrefs/ssh_config"
             }
         }
     },

@@ -1,5 +1,4 @@
 tap "denisidoro/tools"
-tap "fastly/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
@@ -7,22 +6,13 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "osx-cross/arm"
-tap "osx-cross/avr"
 tap "qmk/qmk"
-tap "warrensbox/tap"
 # Improved shell history for zsh and bash
 brew "atuin"
 # Configuration editing tool and API
 brew "augeas"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
 # Shell extension to jump to frequently used directories
 brew "autojump"
-# Library for USB device access
-brew "libusb"
-# Atmel AVR MCU programmer
-brew "avrdude"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Bourne-Again SHell, a UNIX command interpreter
@@ -33,28 +23,12 @@ brew "bat"
 brew "node"
 # Secure and free password manager for all of your devices
 brew "bitwarden-cli"
-# Core application library for C
-brew "glib"
-# Tool to obtain certs from Let's Encrypt and autoenable HTTPS
-brew "certbot"
-# Validate CloudFormation templates against the CloudFormation spec
-brew "cfn-lint"
-# Enables you to reproduce the CircleCI environment locally
-brew "circleci"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
-# Open source suite of directory software
-brew "openldap"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
-# Lightweight DNS forwarder and DHCP server
-brew "dnsmasq", restart_service: true
 # Emoji on the command-line :scream:
 brew "emojify"
-# Command-line tool to interact with exercism.io
-brew "exercism"
-# GNU Transport Layer Security (TLS) Library
-brew "gnutls"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Command-line fuzzy finder written in Go
@@ -67,12 +41,10 @@ brew "git"
 brew "git-crypt"
 # Syntax-highlighting pager for git and diff output
 brew "git-delta"
+# Tcl/Tk UI for the git revision control system
+brew "git-gui"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
-# GNU Pretty Good Privacy (PGP) package
-brew "gnupg"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
 # Tool to capture still images from an iSight or other video source
@@ -87,56 +59,32 @@ brew "jq"
 brew "lazygit"
 # Postgres C API library
 brew "libpq", link: true
+# Library for USB device access
+brew "libusb"
 # Mac App Store command-line interface
 brew "mas"
-# Platform built on V8 to build network applications
-brew "node@14"
-# MongoDB Shell to connect, configure, query, and work with your MongoDB database
-brew "mongosh"
-# Wrap web apps natively
-brew "nativefier"
-# HTTP/2 C Library
-brew "nghttp2"
-# Port scanning utility for large networks
-brew "nmap"
+# Like sed, awk, cut, join & sort for name-indexed data such as CSV
+brew "miller"
 # Programs for dealing with numbers from the command-line
 brew "num-utils"
 # Manage multiple Node.js versions
 brew "nvm"
-# Outputs current CPU temperature for OSX
-brew "osx-cpu-temp"
 # Tool for creating identical machine images for multiple platforms
 brew "packer"
-# Library like getopt(3) with a number of enhancements
-brew "popt"
 # Wrapper to colorize and simplify ping's output
 brew "prettyping"
 # Generic syntax highlighter
-brew "pygments", link: false
+brew "pygments"
 # It's not just a linter that annoys you!
 brew "pylint"
-# Tool Command Language
-brew "tcl-tk"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
-# Persistent key-value database, with built-in net interface
-brew "redis"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Utility that provides fast incremental file transfer
 brew "rsync"
-# Safe, concurrent, practical language
-brew "rust"
-# Rust toolchain installer
-brew "rustup-init"
-# Command-line tool for the Amazon S3 service
-brew "s3cmd"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # Fuzzy Finder in rust!
 brew "sk"
-# Feature-rich console based todo list manager
-brew "task"
 # Utility to modify the macOS Accessibility Database (TCC.db)
 brew "tccutil"
 # Send macOS User Notifications from the command-line
@@ -145,8 +93,8 @@ brew "terminal-notifier"
 brew "tflint"
 # Programmatically correct mistyped console commands
 brew "thefuck"
-# Command-line time tracking application
-brew "timewarrior"
+# Text interface for Git repositories
+brew "tig"
 # Simplified and community-driven man pages
 brew "tldr"
 # Language for application scale JavaScript development
@@ -159,48 +107,34 @@ brew "watchman"
 brew "websocat"
 # Internet file retriever
 brew "wget"
-# JavaScript package manager
-brew "yarn"
-# Bash completion for Yarn
-brew "yarn-completion"
 # Tool for managing your YubiKey configuration
 brew "ykman"
 # Next-generation plugin manager for zsh
 brew "zplug"
 # Interactive cheatsheet tool for the command-line.
 brew "denisidoro/tools/navi"
-# A CLI for interacting with the Fastly platform
-brew "fastly/tap/fastly"
-# Pre-built GNU toolchain for Arm Cortex-M and Cortex-R processors
-brew "osx-cross/arm/arm-gcc-bin@10"
-# GNU compiler collection for AVR 8-bit and 32-bit Microcontrollers
-brew "osx-cross/avr/avr-gcc@8", link: true
-# Quantum Mechanical Keyboard (QMK) Firmware
-brew "qmk/qmk/qmk"
-# The tfswitch command lets you switch between terraform versions.
-brew "warrensbox/tap/tfswitch"
-# View, print, and comment on PDF documents
-cask "adobe-acrobat-reader"
 # Application launcher and productivity software
 cask "alfred"
 # Application uninstaller
 cask "appcleaner"
 # Two-factor authentication software
 cask "authy"
-# Desktop password and login vault
-cask "bitwarden"
 # Virtual Audio Driver
 cask "blackhole-2ch"
-# Two-panel file manager
-cask "commander-one"
+# E-books management software
+cask "calibre"
 # Command-line display management utility
 cask "cscreen"
+# Desktop application that wraps Datasette
+cask "datasette"
+# Offline toolbox for developers
+cask "devutils"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
-# Reimagine your terminal
-cask "fig"
+# Collaborative team software
+cask "figma"
 # Utility for customizing which browser to start
 cask "finicky"
 # Web browser
@@ -209,120 +143,74 @@ cask "font-anonymous-pro"
 cask "font-fira-code"
 cask "font-hack"
 cask "font-monoid"
-# App and website blocker
-cask "freedom"
 # Desktop client for GitHub repositories
 cask "github"
-# Git interface focused on visual interaction
-cask "gitup"
-# Web browser
-cask "google-chrome"
 # Graphically shows disk usage within a file system
 cask "grandperspective"
 # Link and retrieve key information
 cask "hook"
-# HTTP and GraphQL Client
-cask "insomnia"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# End-to-end encryption software
-cask "keybase"
+# Desktop application for JupyterLab
+cask "jupyterlab"
 # Password manager
 cask "lastpass"
-# Software for Logitech devices
-cask "logitech-options"
+# Cable-free audio router
+cask "loopback"
 # Personal productivity app
 cask "marvin"
 # Create and edit MP4 videos
 cask "mp4tools"
-# Software for Anne Pro and Anne Pro 2
-cask "obinskit"
-# Knowledge base that works on top of a local folder of plain text Markdown files
-cask "obsidian"
 # Cloud storage client
 cask "onedrive"
-# Tool to create native applications from command-line scripts
-cask "platypus"
+# Collaboration platform for API development
+cask "postman"
 # QuickLook plug-in that renders source code with syntax highlighting
 cask "qlcolorcode"
 # Display image info and preview unsupported formats in QuickLook
 cask "qlimagesize"
 cask "qlstephen"
-# Toolbox companion for QMK Firmware
-cask "qmk-toolbox"
 cask "quicklook-json"
 # All-in-one bookmark manager
 cask "raindropio"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# View, Screen Share, organize, import, and download files to a reMarkable device
+cask "remarkable"
 # Time optimising application
 cask "rescuetime"
+# Note-taking tool for networked thought
+cask "roam-research"
 # Web browser
 cask "safari-technology-preview"
 # Team communication and collaboration software
 cask "slack"
-# Graphical client for Git version control
-cask "sourcetree"
 # Music streaming service
 cask "spotify"
-# Video game digital distribution service
-cask "steam"
 # Application for inspecting installer packages
 cask "suspicious-package"
 # Messaging app with a focus on speed and security
 cask "telegram"
-# Time tracker
-cask "toggl-track"
+# USB and Bluetooth device driver
+cask "usb-overdrive"
 # Menu bar clock
 cask "utc-menu-clock"
-# Development environment
-cask "vagrant"
-# Virtualizer for x86 hardware
-cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
 # Code editor
 cask "visual-studio-code-insiders"
-# Remote desktop application focusing on security
-cask "vnc-viewer"
 # Application for generating TOTP and HOTP codes
 cask "yubico-authenticator"
 # Application for configuring any YubiKey
 cask "yubico-yubikey-manager"
-# Video communication and virtual meeting platform
-cask "zoom"
-# Flash tool for ZSA keyboards
-cask "zsa-wally"
-mas "CI2Go", id: 940028427
-mas "ClickCharts Diagram Flowchart Software", id: 1479256837
-mas "Craft", id: 1487937127
-mas "Dashword", id: 1553096775
-mas "Drafts", id: 1435957248
-mas "eufy Security", id: 1501114405
+mas "Amphetamine", id: 937984704
+mas "Bitwarden", id: 1352778147
+mas "GarageBand", id: 682658836
 mas "Hush", id: 1544743900
 mas "iMovie", id: 408981434
-mas "Journey", id: 1300202543
-mas "Keynote", id: 409183694
 mas "Lockdown", id: 1483255076
-mas "Mactracker", id: 430255202
 mas "Microsoft Remote Desktop", id: 1295203466
-mas "mymind", id: 1532801185
-mas "News Explorer", id: 1032670789
-mas "Notability", id: 360593530
-mas "Notability", id: 736189492
 mas "Numbers", id: 409203825
-mas "Otter RSS", id: 1529696614
-mas "Pages", id: 409201541
-mas "PDF Professional", id: 1071044671
-mas "QVR Client", id: 806101067
-mas "Raindrop.io for Safari", id: 957810159
-mas "Save to Raindrop.io", id: 1549370672
 mas "Save to Roam", id: 1578763303
-mas "Session Pal", id: 1515213004
 mas "Spark", id: 1176895641
-mas "Steam Link", id: 1246969117
-mas "Tab Space", id: 1473726602
-mas "The Unarchiver", id: 425424353
-mas "Xcode", id: 497799835
 mas "Yubico Authenticator", id: 1497506650
-mas "Zavala", id: 1546457750

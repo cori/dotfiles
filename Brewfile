@@ -6,7 +6,6 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "qmk/qmk"
 
 # Improved shell history for zsh and bash
 brew "atuin"

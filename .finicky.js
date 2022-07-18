@@ -1,4 +1,6 @@
+//  c.f. /Users/cori/Library/Application Support/Google/Chrome for profile names
 //  on ShadowDepository@Fastly@2.0, glitch is "Profile 1" and Fastly is "Default"
+//  on PandorasVault, Default is Glitch, Profile 1 is "cori" and Profile 2 is Fastly
 module.exports = {
   defaultBrowser: "Safari",
   options: {
@@ -21,7 +23,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Default"
+      profile: "Profile 2"
     }
   },
   {
@@ -31,7 +33,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Default"
+      profile: "Profile 2"
     }
   },
   {
@@ -42,7 +44,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Profile 1"
+      profile: "Default"
     }
   },
   {
@@ -53,7 +55,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Profile 1"
+      profile: "Default"
     }
   },
   {
@@ -64,7 +66,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Profile 1"
+      profile: "Default"
     }
   },
   {
@@ -83,7 +85,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Profile 1"
+      profile: "Default"
     }
   },
   {
@@ -93,7 +95,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Profile 1"
+      profile: "Default"
     }
   },
   {
@@ -103,7 +105,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Profile 1"
+      profile: "Default"
     }
   },
   {
@@ -114,7 +116,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Profile 1"
+      profile: "Default"
     }
   },
   {
@@ -122,7 +124,7 @@ module.exports = {
     match: "http://localhost:1234",
     browser: {
       name: "Google Chrome",
-      profile: "Profile 1"
+      profile: "Default"
     }
   },
   {
@@ -133,7 +135,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Profile 1"
+      profile: "Default"
     }
   },
   {
@@ -144,7 +146,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Profile 1"
+      profile: "Default"
     }
   },
   {
@@ -155,7 +157,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Profile 1"
+      profile: "Default"
     }
   },
   {
@@ -166,7 +168,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Profile 1"
+      profile: "Default"
     }
   },
   {
@@ -177,7 +179,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Profile 1"
+      profile: "Default"
     }
   },
   {
@@ -188,7 +190,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Profile 1"
+      profile: "Default"
     }
   },
   {
@@ -198,7 +200,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Profile 1"
+      profile: "Default"
     }
   },
   //  Fastly
@@ -210,7 +212,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Default"
+      profile: "Profile 2"
     }
   },
   {
@@ -221,7 +223,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Default"
+      profile: "Profile 2"
     }
   },
   {
@@ -231,7 +233,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Default"
+      profile: "Profile 2"
     }
   },
   {
@@ -241,7 +243,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Default"
+      profile: "Profile 2"
     }
   },
   {
@@ -251,7 +253,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Default"
+      profile: "Profile 2"
     }
   },
   {
@@ -261,7 +263,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Default"
+      profile: "Profile 2"
     }
   },
   {
@@ -271,7 +273,7 @@ module.exports = {
     ]),
     browser: {
       name: "Google Chrome",
-      profile: "Default"
+      profile: "Profile 2"
     }
   },
   {

@@ -149,6 +149,8 @@ cask "hook"
 cask "iTerm2"
 #  (JupyterLab App) Desktop application for JupyterLab
 cask "jupyterlab"
+# Lightweight download manager
+cask "leech"
 # Software for Logitech devices
 # cask "logitech-options"
 #	Cable-free audio router

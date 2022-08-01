@@ -221,6 +221,7 @@ mas "Hush", id: 1544743900
 mas "Lockdown", id: 1483255076
 mas "Microsoft Remote Desktop", id: 1295203466
 #mas "News Explorer", id: 1032670789
+mas "Save to Raindrop.io", id: 1549370672
 mas "Save to Roam", id: 1578763303
 mas "Spark", id: 1176895641
 #mas "Steam Link", id: 1246969117

@@ -10,7 +10,7 @@ tap "homebrew/services"
 # Improved shell history for zsh and bash
 brew "atuin"
 # Shell extension to jump to frequently used directories
-# brew "autojump"
+brew "autojump"
 # Library for USB device access
 brew "libusb"
 # Official Amazon AWS command-line interface

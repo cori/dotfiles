@@ -277,6 +277,26 @@ module.exports = {
     }
   },
   {
+    // AWS Chime (video call app)
+    match: finicky.matchHostnames([
+      /app.chime.aws/,
+    ]),
+    browser: {
+      name: "Google Chrome",
+      profile: "Profile 2"
+    }
+  },
+  {
+    // Q4 (Investor calls)
+    match: finicky.matchHostnames([
+      /events.q4inc.com/,
+    ]),
+    browser: {
+      name: "Google Chrome",
+      profile: "Profile 2"
+    }
+  },
+  {
     //	open everything from NewsExplorer in STP (since it opens Safari directly)
     match: ({
       opener

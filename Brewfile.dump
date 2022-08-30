@@ -7,10 +7,13 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "qmk/qmk"
+tap "warrensbox/tap"
 # Improved shell history for zsh and bash
 brew "atuin"
 # Configuration editing tool and API
 brew "augeas"
+# Shell extension to jump to frequently used directories
+brew "autojump"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Bourne-Again SHell, a UNIX command interpreter
@@ -19,12 +22,24 @@ brew "bash"
 brew "node"
 # Secure and free password manager for all of your devices
 brew "bitwarden-cli"
+# Core application library for C
+brew "glib"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
+# Tool to obtain certs from Let's Encrypt and autoenable HTTPS
+brew "certbot"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
+# Open source suite of directory software
+brew "openldap"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # Emoji on the command-line :scream:
 brew "emojify"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Generate introspection data for GObject libraries
+brew "gobject-introspection"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # GitHub command-line tool
@@ -39,6 +54,10 @@ brew "git-delta"
 brew "git-gui"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
+# Library for USB device access
+brew "libusb"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
 # Tool to capture still images from an iSight or other video source
 brew "imagesnap"
 # Calculate various network masks, etc. from a given IP address
@@ -51,8 +70,6 @@ brew "jq"
 brew "lazygit"
 # Postgres C API library
 brew "libpq", link: true
-# Library for USB device access
-brew "libusb"
 # Mac App Store command-line interface
 brew "mas"
 # Like sed, awk, cut, join & sort for name-indexed data such as CSV
@@ -97,6 +114,10 @@ brew "wget"
 brew "ykman"
 # Next-generation plugin manager for zsh
 brew "zplug"
+# The tfswitch command lets you switch between terraform versions.
+brew "warrensbox/tap/tfswitch"
+# Password manager that keeps all passwords secure behind one password
+cask "1password"
 # Application launcher and productivity software
 cask "alfred"
 # Application uninstaller
@@ -107,6 +128,8 @@ cask "authy"
 cask "blackhole-2ch"
 # E-books management software
 cask "calibre"
+# Command-line display management utility
+cask "cscreen"
 # Desktop application that wraps Datasette
 cask "datasette"
 # Offline toolbox for developers
@@ -137,6 +160,8 @@ cask "iterm2"
 cask "jupyterlab"
 # Password manager
 cask "lastpass"
+# Lightweight download manager
+cask "leech"
 # Cable-free audio router
 cask "loopback"
 # Personal productivity app
@@ -169,6 +194,8 @@ cask "telegram"
 cask "usb-overdrive"
 # Menu bar clock
 cask "utc-menu-clock"
+# Configurator of compatible keyboards in real time
+cask "vial"
 # Open-source code editor
 cask "visual-studio-code"
 # Code editor
@@ -177,14 +204,7 @@ cask "visual-studio-code-insiders"
 cask "yubico-authenticator"
 # Application for configuring any YubiKey
 cask "yubico-yubikey-manager"
-mas "Amphetamine", id: 937984704
-mas "Bitwarden", id: 1352778147
-mas "GarageBand", id: 682658836
-mas "Hush", id: 1544743900
-mas "iMovie", id: 408981434
-mas "Lockdown", id: 1483255076
-mas "Microsoft Remote Desktop", id: 1295203466
-mas "Numbers", id: 409203825
-mas "Save to Roam", id: 1578763303
-mas "Spark", id: 1176895641
-mas "Yubico Authenticator", id: 1497506650
+# Video communication and virtual meeting platform
+cask "zoom"
+# Collect, organize, cite, and share research sources
+cask "zotero"

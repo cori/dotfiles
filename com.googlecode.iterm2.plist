@@ -6298,6 +6298,8 @@
 	<true/>
 	<key>ShowFullScreenTabBar</key>
 	<false/>
+	<key>ShowTimestampsByDefault</key>
+	<true/>
 	<key>Snippets</key>
 	<array>
 		<dict>

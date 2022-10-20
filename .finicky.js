@@ -297,6 +297,16 @@ module.exports = {
     }
   },
   {
+    // Fastly PD
+    match: finicky.matchHostnames([
+      /fastly.pagerduty.com/,
+    ]),
+    browser: {
+      name: "Google Chrome",
+      profile: "Profile 2"
+    }
+  },
+  {
     //	open everything from NewsExplorer in STP (since it opens Safari directly)
     match: ({
       opener

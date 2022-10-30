@@ -1,4 +1,5 @@
 tap "denisidoro/tools"
+tap "fastly/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
@@ -6,6 +7,8 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "infrahq/tap"
+tap "noahgorstein/tap"
 tap "qmk/qmk"
 tap "warrensbox/tap"
 # Improved shell history for zsh and bash
@@ -36,6 +39,10 @@ brew "openldap"
 brew "curl"
 # Emoji on the command-line :scream:
 brew "emojify"
+# AST-based pattern checker for JavaScript
+brew "eslint"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
 # OpenType text shaping engine
 brew "harfbuzz"
 # Generate introspection data for GObject libraries
@@ -66,6 +73,8 @@ brew "ipcalc"
 brew "jinja2-cli"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
 # Simple terminal UI for git commands
 brew "lazygit"
 # Postgres C API library
@@ -102,6 +111,8 @@ brew "thefuck"
 brew "tig"
 # Simplified and community-driven man pages
 brew "tldr"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Language for application scale JavaScript development
 brew "typescript"
 # Command-line interface to the WakaTime api
@@ -114,12 +125,20 @@ brew "wget"
 brew "ykman"
 # Next-generation plugin manager for zsh
 brew "zplug"
+# A CLI for interacting with the Fastly platform
+brew "fastly/tap/fastly"
+# Infra
+brew "infrahq/tap/infra"
+# a TUI playground to experiment and play with jq
+brew "noahgorstein/tap/jqp"
 # The tfswitch command lets you switch between terraform versions.
 brew "warrensbox/tap/tfswitch"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Application launcher and productivity software
 cask "alfred"
+# Communications service
+cask "amazon-chime"
 # Application uninstaller
 cask "appcleaner"
 # Two-factor authentication software
@@ -156,8 +175,6 @@ cask "grandperspective"
 cask "hook"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# Desktop application for JupyterLab
-cask "jupyterlab"
 # Password manager
 cask "lastpass"
 # Lightweight download manager
@@ -200,6 +217,8 @@ cask "vial"
 cask "visual-studio-code"
 # Code editor
 cask "visual-studio-code-insiders"
+# Multimedia player
+cask "vlc"
 # Application for generating TOTP and HOTP codes
 cask "yubico-authenticator"
 # Application for configuring any YubiKey
@@ -208,3 +227,22 @@ cask "yubico-yubikey-manager"
 cask "zoom"
 # Collect, organize, cite, and share research sources
 cask "zotero"
+mas "Amphetamine", id: 937984704
+mas "Bitwarden", id: 1352778147
+mas "GarageBand", id: 682658836
+mas "Highlights", id: 1498912833
+mas "Hush", id: 1544743900
+mas "iMovie", id: 408981434
+mas "LiquidText", id: 922765270
+mas "Lockdown", id: 1483255076
+mas "Log-Viewer", id: 1543753042
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Numbers", id: 409203825
+mas "ReadCube Papers Extension", id: 1543891759
+mas "Save to Matter", id: 1548677272
+mas "Save to Raindrop.io", id: 1549370672
+mas "Save to Reader", id: 1640236961
+mas "Save to Roam", id: 1578763303
+mas "Spark", id: 1176895641
+mas "WireGuard", id: 1451685025
+mas "Yubico Authenticator", id: 1497506650

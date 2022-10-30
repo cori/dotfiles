@@ -53,6 +53,10 @@ PATH="/Users/cori/.cargo/bin${PATH:+:${PATH}}";
 export PATH=$PATH:/Users/cori/bin;
 export PATH;
 
+#	Glitch / Fastly exports
+export INFRA_SERVER=infra.plat.k8s.secretcdn.net
+export INFRA_PROVIDER=okta
+
 export ZSH_WAKATIME_PROJECT_DETECTION=true
 
 ###	ZPLUG	###

@@ -6,13 +6,12 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "noahgorstein/tap"
 
 # Improved shell history for zsh and bash
 brew "atuin"
 # Shell extension to jump to frequently used directories
 brew "autojump"
-# Library for USB device access
-brew "libusb"
 # Official Amazon AWS command-line interface
 # brew "awscli"
 # Bourne-Again SHell, a UNIX command interpreter
@@ -51,6 +50,8 @@ brew "ipcalc"
 brew "jq"
 # Simple terminal UI for git commands
 brew "lazygit"
+# Library for USB device access
+brew "libusb"
 # Mac App Store command-line interface
 brew "mas"
 # Like sed, awk, cut, join & sort for name-indexed data such as CSV
@@ -85,6 +86,8 @@ brew "thefuck"
 brew "tig"
 # Simplified and community-driven man pages
 brew "tldr"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Language for application scale JavaScript development
 brew "typescript"
 # Command-line interface to the WakaTime api
@@ -106,6 +109,8 @@ brew "zplug"
 
 # Application launcher and productivity software
 cask "alfred"
+# Communications service
+cask "amazon-chime"
 # Application uninstaller
 cask "appcleaner"
 # Two-factor authentication software
@@ -115,7 +120,7 @@ cask "blackhole-2ch"
 # E-books management software
 cask "calibre"
 # Command-line display management utility
-# cask "cscreen"
+cask "cscreen"
 # Desktop application that wraps Datasette
 cask "datasette"
 # Offline toolbox for developers
@@ -146,7 +151,7 @@ cask "hook"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iTerm2"
 #  (JupyterLab App) Desktop application for JupyterLab
-cask "jupyterlab"
+# cask "jupyterlab"	maybe later?
 # Lightweight download manager
 cask "leech"
 # Software for Logitech devices
@@ -221,7 +226,12 @@ mas "Microsoft Remote Desktop", id: 1295203466
 #mas "News Explorer", id: 1032670789
 mas "Save to Raindrop.io", id: 1549370672
 mas "Save to Roam", id: 1578763303
-mas "Spark", id: 1176895641
+# mas "Spark", id: 1176895641
 #mas "Steam Link", id: 1246969117
 # mas "Xcode", id: 497799835
 mas "Yubico Authenticator", id: 1497506650
+
+#	mas "LiquidText", id: 922765270 not on fastly
+mas "Log-Viewer", id: 1543753042
+mas "Save to Matter", id: 1548677272
+mas "Save to Reader", id: 1640236961

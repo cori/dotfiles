@@ -4792,7 +4792,7 @@
 					<key>auto-rainbow style</key>
 					<integer>3</integer>
 					<key>font</key>
-					<string>.AppleSystemUIFont 12</string>
+					<string>TimesNewRomanPSMT 12</string>
 					<key>remove empty components</key>
 					<true/>
 				</dict>
@@ -4834,7 +4834,7 @@
 								<key>auto-rainbow style</key>
 								<integer>3</integer>
 								<key>font</key>
-								<string>.AppleSystemUIFont 12</string>
+								<string>TimesNewRomanPSMT 12</string>
 								<key>remove empty components</key>
 								<true/>
 							</dict>
@@ -4862,13 +4862,13 @@
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.65141004323959351</real>
+									<real>0.64945757389068604</real>
 									<key>Color Space</key>
 									<string>P3</string>
 									<key>Green Component</key>
-									<real>0.81731730699539185</real>
+									<real>0.79763239622116089</real>
 									<key>Red Component</key>
-									<real>0.88556772470474243</real>
+									<real>0.8823578953742981</real>
 								</dict>
 							</dict>
 							<key>layout advanced configuration dictionary value</key>
@@ -4878,7 +4878,7 @@
 								<key>auto-rainbow style</key>
 								<integer>3</integer>
 								<key>font</key>
-								<string>.AppleSystemUIFont 12</string>
+								<string>TimesNewRomanPSMT 12</string>
 								<key>remove empty components</key>
 								<true/>
 							</dict>
@@ -4902,13 +4902,13 @@
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.65786063671112061</real>
+									<real>0.65879422426223755</real>
 									<key>Color Space</key>
 									<string>P3</string>
 									<key>Green Component</key>
-									<real>0.89695650339126587</real>
+									<real>0.89816814661026001</real>
 									<key>Red Component</key>
-									<real>0.8200916051864624</real>
+									<real>0.8529999852180481</real>
 								</dict>
 							</dict>
 							<key>layout advanced configuration dictionary value</key>
@@ -4918,7 +4918,45 @@
 								<key>auto-rainbow style</key>
 								<integer>3</integer>
 								<key>font</key>
-								<string>.AppleSystemUIFont 12</string>
+								<string>TimesNewRomanPSMT 12</string>
+								<key>remove empty components</key>
+								<true/>
+							</dict>
+						</dict>
+					</dict>
+					<dict>
+						<key>class</key>
+						<string>iTermStatusBarTriggersComponent</string>
+						<key>configuration</key>
+						<dict>
+							<key>knobs</key>
+							<dict>
+								<key>base: compression resistance</key>
+								<integer>1</integer>
+								<key>base: priority</key>
+								<real>5</real>
+								<key>shared text color</key>
+								<dict>
+									<key>Alpha Component</key>
+									<real>1</real>
+									<key>Blue Component</key>
+									<real>0.65540969371795654</real>
+									<key>Color Space</key>
+									<string>P3</string>
+									<key>Green Component</key>
+									<real>0.89377599954605103</real>
+									<key>Red Component</key>
+									<real>0.72450786828994751</real>
+								</dict>
+							</dict>
+							<key>layout advanced configuration dictionary value</key>
+							<dict>
+								<key>algorithm</key>
+								<integer>1</integer>
+								<key>auto-rainbow style</key>
+								<integer>3</integer>
+								<key>font</key>
+								<string>TimesNewRomanPSMT 12</string>
 								<key>remove empty components</key>
 								<true/>
 							</dict>
@@ -4944,13 +4982,13 @@
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.66571968793869019</real>
+									<real>0.75608247518539429</real>
 									<key>Color Space</key>
 									<string>P3</string>
 									<key>Green Component</key>
-									<real>0.89270049333572388</real>
+									<real>0.89269918203353882</real>
 									<key>Red Component</key>
-									<real>0.68831270933151245</real>
+									<real>0.68831443786621094</real>
 								</dict>
 							</dict>
 							<key>layout advanced configuration dictionary value</key>
@@ -4960,7 +4998,7 @@
 								<key>auto-rainbow style</key>
 								<integer>3</integer>
 								<key>font</key>
-								<string>.AppleSystemUIFont 12</string>
+								<string>TimesNewRomanPSMT 12</string>
 								<key>remove empty components</key>
 								<true/>
 							</dict>
@@ -4988,13 +5026,13 @@
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.82982367277145386</real>
+									<real>0.89560514688491821</real>
 									<key>Color Space</key>
 									<string>P3</string>
 									<key>Green Component</key>
-									<real>0.89269793033599854</real>
+									<real>0.88390237092971802</real>
 									<key>Red Component</key>
-									<real>0.68831604719161987</real>
+									<real>0.68605834245681763</real>
 								</dict>
 							</dict>
 							<key>layout advanced configuration dictionary value</key>
@@ -5002,9 +5040,11 @@
 								<key>algorithm</key>
 								<integer>1</integer>
 								<key>auto-rainbow style</key>
-								<integer>0</integer>
+								<integer>3</integer>
+								<key>font</key>
+								<string>TimesNewRomanPSMT 12</string>
 								<key>remove empty components</key>
-								<false/>
+								<true/>
 							</dict>
 						</dict>
 					</dict>
@@ -5024,13 +5064,13 @@
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.88876074552536011</real>
+									<real>0.8851432204246521</real>
 									<key>Color Space</key>
 									<string>P3</string>
 									<key>Green Component</key>
-									<real>0.7840113639831543</real>
+									<real>0.72423571348190308</real>
 									<key>Red Component</key>
-									<real>0.66183102130889893</real>
+									<real>0.64865356683731079</real>
 								</dict>
 							</dict>
 							<key>layout advanced configuration dictionary value</key>
@@ -5040,7 +5080,7 @@
 								<key>auto-rainbow style</key>
 								<integer>3</integer>
 								<key>font</key>
-								<string>.AppleSystemUIFont 12</string>
+								<string>TimesNewRomanPSMT 12</string>
 								<key>remove empty components</key>
 								<true/>
 							</dict>
@@ -5062,13 +5102,13 @@
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.88044255971908569</real>
+									<real>0.88093757629394531</real>
 									<key>Color Space</key>
 									<string>P3</string>
 									<key>Green Component</key>
-									<real>0.63086754083633423</real>
+									<real>0.63235306739807129</real>
 									<key>Red Component</key>
-									<real>0.65119582414627075</real>
+									<real>0.68538665771484375</real>
 								</dict>
 							</dict>
 							<key>layout advanced configuration dictionary value</key>
@@ -5078,7 +5118,7 @@
 								<key>auto-rainbow style</key>
 								<integer>3</integer>
 								<key>font</key>
-								<string>.AppleSystemUIFont 12</string>
+								<string>TimesNewRomanPSMT 12</string>
 								<key>remove empty components</key>
 								<true/>
 							</dict>
@@ -5098,13 +5138,13 @@
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.88298076391220093</real>
+									<real>0.88331323862075806</real>
 									<key>Color Space</key>
 									<string>P3</string>
 									<key>Green Component</key>
-									<real>0.63844901323318481</real>
+									<real>0.63943564891815186</real>
 									<key>Red Component</key>
-									<real>0.80776917934417725</real>
+									<real>0.82552188634872437</real>
 								</dict>
 							</dict>
 							<key>layout advanced configuration dictionary value</key>
@@ -5114,7 +5154,7 @@
 								<key>auto-rainbow style</key>
 								<integer>3</integer>
 								<key>font</key>
-								<string>.AppleSystemUIFont 12</string>
+								<string>TimesNewRomanPSMT 12</string>
 								<key>remove empty components</key>
 								<true/>
 							</dict>
@@ -5160,9 +5200,11 @@
 								<key>algorithm</key>
 								<integer>1</integer>
 								<key>auto-rainbow style</key>
-								<integer>0</integer>
+								<integer>3</integer>
+								<key>font</key>
+								<string>TimesNewRomanPSMT 12</string>
 								<key>remove empty components</key>
-								<false/>
+								<true/>
 							</dict>
 						</dict>
 					</dict>
@@ -5176,6 +5218,17 @@
 			<string>xterm-256color</string>
 			<key>Transparency</key>
 			<real>0.0</real>
+			<key>Triggers</key>
+			<array>
+				<dict>
+					<key>action</key>
+					<string>iTermUserNotificationTrigger</string>
+					<key>parameter</key>
+					<string>wetty!</string>
+					<key>regex</key>
+					<string>.*wetty.*</string>
+				</dict>
+			</array>
 			<key>Unlimited Scrollback</key>
 			<true/>
 			<key>Use Bold Font</key>
@@ -27924,5 +27977,9 @@ bash &lt;(curl https://raw.githubusercontent.com/ellie/atuin/main/install.sh)</s
 	</dict>
 	<key>findMode_iTerm</key>
 	<integer>2</integer>
+	<key>kCPKSelectionViewPreferredModeKey</key>
+	<integer>0</integer>
+	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
+	<false/>
 </dict>
 </plist>

@@ -88,6 +88,7 @@ zplug "plugins/git", from:oh-my-zsh
 zplug "plugins/history", from:oh-my-zsh
 zplug "plugins/history-substring-search", from:oh-my-zsh
 zplug "plugins/terraform", from:oh-my-zsh
+zplug "spaceship-prompt/spaceship-prompt", use:spaceship.zsh, from:github, as:theme
 
 #   do these last
 zplug "unixorn/fzf-zsh-plugin", from:github

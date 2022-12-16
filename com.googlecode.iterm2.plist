@@ -6532,6 +6532,20 @@ bash &lt;(curl https://raw.githubusercontent.com/ellie/atuin/main/install.sh)</s
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>8F8E139A-413D-49A8-B145-067DCB9CA78B</string>
+			<key>title</key>
+			<string>post-failure dev re-bootstrap</string>
+			<key>value</key>
+			<string>cd /opt/glitch/shared &amp;&amp; rm -rf node_modules &amp;&amp; sh/compile
+cd /opt/glitch/proxy &amp;&amp; rm -rf node_modules &amp;&amp; sh/compile
+cd /opt/glitch/api &amp;&amp; rm -rf node_modules &amp;&amp; npm i</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>SoundForEsc</key>
 	<false/>

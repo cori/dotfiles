@@ -32,8 +32,7 @@ module.exports = {
       "github.com"
     ]),
     browser: {
-      name: "Google Chrome",
-      profile: "Profile 2"
+      name: "Arc"
     }
   },
   {

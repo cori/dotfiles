@@ -125,8 +125,6 @@ cask "cscreen"
 cask "datasette"
 # Offline toolbox for developers
 cask "devutils"
-# App to build and share containerized applications and microservices
-cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Collaborative team software

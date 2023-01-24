@@ -4553,7 +4553,9 @@
 				<real>0.3803921639919281</real>
 			</dict>
 			<key>Log Directory</key>
-			<string>/Users/cori/cmdlogs</string>
+			<string>/Users/cori/asciinemas</string>
+			<key>Log Filename Format</key>
+			<string>\(creationTimeString).\(iterm2.localhostName).\(parentSession.path).\(parentSession.username).\(autoLogId).log</string>
 			<key>Minimum Contrast (Dark)</key>
 			<real>0.0</real>
 			<key>Minimum Contrast (Light)</key>
@@ -4571,7 +4573,7 @@
 			<key>Option Key Sends</key>
 			<integer>1</integer>
 			<key>Plain Text Logging</key>
-			<true/>
+			<integer>3</integer>
 			<key>Prompt Before Closing 2</key>
 			<false/>
 			<key>Right Option Key Sends</key>
@@ -6568,6 +6570,20 @@ git clone git@github.com:glitchdotcom/Glitch.git /opt/glitch
 echo "now go grab repo.key"
 echo "install and config lazygit?"
 </string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>F63C6493-2E09-4FA3-91B8-0549DFD1B588</string>
+			<key>title</key>
+			<string>check deploy keys</string>
+			<key>value</key>
+			<string>sudo su deploy -l
+cat ~/.ssh/authorized_keys
+cat /opt/glitch/ci/secrets/id-deploy</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>

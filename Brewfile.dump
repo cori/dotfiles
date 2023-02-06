@@ -11,10 +11,14 @@ tap "infrahq/tap"
 tap "noahgorstein/tap"
 tap "qmk/qmk"
 tap "warrensbox/tap"
+# Record and share terminal sessions
+brew "asciinema"
 # Improved shell history for zsh and bash
 brew "atuin"
 # Configuration editing tool and API
 brew "augeas"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
 # Shell extension to jump to frequently used directories
 brew "autojump"
 # Official Amazon AWS command-line interface
@@ -31,24 +35,40 @@ brew "glib"
 brew "python@3.9"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
 brew "certbot"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
+# Library for USB device access
+brew "libusb"
+# Container runtimes on MacOS (and Linux) with minimal setup
+brew "colima"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Open source suite of directory software
 brew "openldap"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Open source multi-tool for exploring and publishing data
+brew "datasette"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+# Platform keystore credential helper for Docker
+brew "docker-credential-helper"
 # Emoji on the command-line :scream:
 brew "emojify"
 # AST-based pattern checker for JavaScript
 brew "eslint"
-# GNU Transport Layer Security (TLS) Library
-brew "gnutls"
 # OpenType text shaping engine
 brew "harfbuzz"
-# Generate introspection data for GObject libraries
-brew "gobject-introspection"
+# Subtitle renderer for the ASS/SSA subtitle format
+brew "libass"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# Terminal JSON viewer
+brew "fx"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -61,10 +81,10 @@ brew "git-delta"
 brew "git-gui"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
-# Library for USB device access
-brew "libusb"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
+# Generate introspection data for GObject libraries
+brew "gobject-introspection"
 # Tool to capture still images from an iSight or other video source
 brew "imagesnap"
 # Calculate various network masks, etc. from a given IP address
@@ -89,6 +109,8 @@ brew "num-utils"
 brew "nvm"
 # Tool for creating identical machine images for multiple platforms
 brew "packer"
+# Shell command parallelization utility
+brew "parallel"
 # Wrapper to colorize and simplify ping's output
 brew "prettyping"
 # Generic syntax highlighter
@@ -99,6 +121,8 @@ brew "pylint"
 brew "ripgrep"
 # Utility that provides fast incremental file transfer
 brew "rsync"
+# Safe, concurrent, practical language
+brew "rust"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # Send macOS User Notifications from the command-line
@@ -151,10 +175,8 @@ cask "calibre"
 cask "cscreen"
 # Desktop application that wraps Datasette
 cask "datasette"
-# Offline toolbox for developers
+# All-in-one toolbox for developers
 cask "devutils"
-# App to build and share containerized applications and microservices
-cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Collaborative team software
@@ -163,8 +185,14 @@ cask "figma"
 cask "finicky"
 # Web browser
 cask "firefox"
+# Programming font
 cask "font-anonymous-pro"
+# Developer targeted fonts with a high number of glyphs
+cask "font-fantasque-sans-mono-nerd-font"
+# Free monospaced font with programming ligatures
 cask "font-fira-code"
+# Developer targeted fonts with a high number of glyphs
+cask "font-fira-code-nerd-font"
 cask "font-hack"
 cask "font-monoid"
 # Desktop client for GitHub repositories
@@ -175,8 +203,8 @@ cask "grandperspective"
 cask "hook"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# Password manager
-cask "lastpass"
+# Desktop application for JupyterLab
+cask "jupyterlab"
 # Lightweight download manager
 cask "leech"
 # Cable-free audio router
@@ -185,6 +213,8 @@ cask "loopback"
 cask "marvin"
 # Create and edit MP4 videos
 cask "mp4tools"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
 # Cloud storage client
 cask "onedrive"
 # Collaboration platform for API development
@@ -232,17 +262,23 @@ mas "Bitwarden", id: 1352778147
 mas "GarageBand", id: 682658836
 mas "Highlights", id: 1498912833
 mas "Hush", id: 1544743900
+mas "Hyperspace Desktop", id: 1454139710
 mas "iMovie", id: 408981434
 mas "LiquidText", id: 922765270
 mas "Lockdown", id: 1483255076
 mas "Log-Viewer", id: 1543753042
+mas "Mastonaut", id: 1450757574
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Numbers", id: 409203825
 mas "ReadCube Papers Extension", id: 1543891759
 mas "Save to Matter", id: 1548677272
 mas "Save to Raindrop.io", id: 1549370672
 mas "Save to Reader", id: 1640236961
+mas "Save to Reflect", id: 1590481717
 mas "Save to Roam", id: 1578763303
+mas "Save to Upnext", id: 1583423832
 mas "Spark", id: 1176895641
+mas "TestFlight", id: 899247664
+mas "Whalebird", id: 1378283354
 mas "WireGuard", id: 1451685025
 mas "Yubico Authenticator", id: 1497506650

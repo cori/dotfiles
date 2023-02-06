@@ -8,6 +8,8 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "noahgorstein/tap"
 
+# Record and share terminal sessions
+brew "asciinema"
 # Improved shell history for zsh and bash
 brew "atuin"
 # Shell extension to jump to frequently used directories
@@ -26,6 +28,8 @@ brew "curl"
 brew "emojify"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# Terminal JSON viewer
+brew "fx"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -124,6 +128,8 @@ cask "font-anonymous-pro"
 cask "font-fira-code"
 cask "font-hack"
 cask "font-monoid"
+cask "font-fantasque-sans-mono-nerd-font"
+cask "font-fira-code-nerd-font"
 # Desktop client for GitHub repositories
 cask "github"
 # Web browser
@@ -188,6 +194,8 @@ cask "visual-studio-code-insiders"
 cask "yubico-authenticator"
 # YubiKey tool
 cask "yubico-yubikey-manager"
+# Video communication and virtual meeting platform
+cask "zoom"
 
 #	macOs App Store software
 mas "Amphetamine", id: 937984704

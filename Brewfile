@@ -12,8 +12,6 @@ tap "noahgorstein/tap"
 brew "atuin"
 # Shell extension to jump to frequently used directories
 brew "autojump"
-# Official Amazon AWS command-line interface
-# brew "awscli"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -28,8 +26,6 @@ brew "curl"
 brew "emojify"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
-# Command-line fuzzy finder written in Go
-# brew "fzf"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -70,12 +66,8 @@ brew "pygments"
 brew "pylint"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Utility that provides fast incremental file transfer
-# brew "rsync"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
-# Fuzzy finder in Rust
-# brew "sk"
 # Utility to modify the macOS Accessibility Database (TCC.db)
 # brew "tccutil"
 # Send macOS User Notifications from the command-line
@@ -92,8 +84,6 @@ brew "tree"
 brew "typescript"
 # Command-line interface to the WakaTime api
 brew "wakatime-cli"
-# Watch files and take action when they change
-# brew "watchman"
 # Command-line client for WebSockets
 brew "websocat"
 # Internet file retriever
@@ -104,8 +94,6 @@ brew "ykman"
 brew "zplug"
 # Interactive cheatsheet tool for the command-line.
 # brew "denisidoro/tools/navi"
-# Quantum Mechanical Keyboard (QMK) Firmware
-# brew "qmk/qmk/qmk"
 
 # Application launcher and productivity software
 cask "alfred"
@@ -121,8 +109,6 @@ cask "blackhole-2ch"
 cask "calibre"
 # Command-line display management utility
 cask "cscreen"
-# Desktop application that wraps Datasette
-cask "datasette"
 # Offline toolbox for developers
 cask "devutils"
 # Client for the Dropbox cloud storage service
@@ -148,8 +134,6 @@ cask "grandperspective"
 cask "hook"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iTerm2"
-#  (JupyterLab App) Desktop application for JupyterLab
-# cask "jupyterlab"	maybe later?
 # Lightweight download manager
 cask "leech"
 # Software for Logitech devices
@@ -169,8 +153,6 @@ cask "postman"
 # # Display image info and preview unsupported formats in QuickLook
 # cask "qlimagesize"
 # cask "qlstephen"
-# Toolbox companion for QMK Firmware
-# cask "qmk-toolbox"
 # cask "quicklook-json"
 # All-in-one bookmark manager
 cask "raindropio"
@@ -178,8 +160,6 @@ cask "raindropio"
 # cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
-# View, Screen Share, organize, import, and download files to a reMarkable device
-cask "remarkable"
 # Time optimising application
 cask "rescuetime"
 # Note-taking tool for networked thought
@@ -190,8 +170,6 @@ cask "safari-technology-preview"
 cask "slack"
 # Music streaming service
 cask "spotify"
-# Video game digital distribution service
-#cask "steam"
 # Application for inspecting installer packages
 # cask "suspicious-package"
 # Messaging app with a focus on speed and security
@@ -210,26 +188,16 @@ cask "visual-studio-code-insiders"
 cask "yubico-authenticator"
 # YubiKey tool
 cask "yubico-yubikey-manager"
-# Flash tool for ZSA keyboards
-# cask "zsa-wally"
 
 #	macOs App Store software
 mas "Amphetamine", id: 937984704
 mas "Bitwarden", id: 1352778147
-#mas "eufy Security", id: 1501114405
 mas "Hush", id: 1544743900
-#mas "iMovie", id: 408981434
 mas "Lockdown", id: 1483255076
 mas "Microsoft Remote Desktop", id: 1295203466
-#mas "News Explorer", id: 1032670789
 mas "Save to Raindrop.io", id: 1549370672
 mas "Save to Roam", id: 1578763303
-# mas "Spark", id: 1176895641
-#mas "Steam Link", id: 1246969117
-# mas "Xcode", id: 497799835
 mas "Yubico Authenticator", id: 1497506650
 
-#	mas "LiquidText", id: 922765270 not on fastly
 mas "Log-Viewer", id: 1543753042
-mas "Save to Matter", id: 1548677272
 mas "Save to Reader", id: 1640236961

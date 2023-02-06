@@ -10,12 +10,15 @@ Switched to using [Dotbot](https://github.com/anishathalye/dotbot) for dotfile c
 - `preinstall-sh` is intended to install homebrew first time out. The `sudo` checking doesn't work well so not sure if it works without hand-holding - running some command under `sudo` right before the first indstall seems to avoid that.
 
 ## MacOS
+
 Selected items from Mathias Bynens [dotfiles](https://github.com/mathiasbynens/dotfiles)
 
 ## Glitch
-For new [Glitch](https://glitch.com) projects, [glitch-init.sh](glitch-init.sh) sets up a nice console using [bash-it](https://github.com/Bash-it/bash-it). 
+
+For new [Glitch](https://glitch.com) projects, [glitch-init.sh](glitch-init.sh) sets up a nice console using [bash-it](https://github.com/Bash-it/bash-it).
 
 ## Fastly Setup
+
 During setting up my Fastly laptop I ran into a couple of "bugs"
 
 - the aforementioned secrets / Dropbox situation
@@ -24,3 +27,6 @@ During setting up my Fastly laptop I ran into a couple of "bugs"
 - iterm2 can I save my defults
 - atuin setup
 
+Some useful `brew` scripties
+
+`cat Brewfile Brewfile.Glitch | brew bundle cleanup --file=-` - cat all the listed Brewfles together and then run a cleanup

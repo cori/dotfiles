@@ -38,6 +38,7 @@
             "~/.macos": "macos",
             "~/.vim": "vim",
             "~/.vimrc": "vimrc",
+            "~/.config/starship.toml": "starship.toml",
             "~/.zshrc": {
                 "path": "zshrc",
                 "force": true

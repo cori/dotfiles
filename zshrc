@@ -88,7 +88,7 @@ zplug "plugins/git", from:oh-my-zsh
 zplug "plugins/history", from:oh-my-zsh
 zplug "plugins/history-substring-search", from:oh-my-zsh
 zplug "plugins/terraform", from:oh-my-zsh
-zplug "spaceship-prompt/spaceship-prompt", use:spaceship.zsh, from:github, as:theme
+# zplug "spaceship-prompt/spaceship-prompt", use:spaceship.zsh, from:github, as:theme
 
 #   do these last
 zplug "unixorn/fzf-zsh-plugin", from:github
@@ -117,10 +117,12 @@ export NVM_DIR="$HOME/.nvm"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+# starshi[p prompt]
+eval "$(starship init zsh)"
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/cori/bin/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/cori/bin/google-cloud-sdk/path.zsh.inc'; fi
+# # The next line updates PATH for the Google Cloud SDK. *** removed 2023-02-05 ***
+# if [ -f '/Users/cori/bin/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/cori/bin/google-cloud-sdk/path.zsh.inc'; fi
 
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/cori/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/cori/bin/google-cloud-sdk/completion.zsh.inc'; fi
+# # The next line enables shell command completion for gcloud.
+# if [ -f '/Users/cori/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/cori/bin/google-cloud-sdk/completion.zsh.inc'; fi
 export PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"

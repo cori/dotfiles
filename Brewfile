@@ -72,6 +72,8 @@ brew "pylint"
 brew "ripgrep"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
+# Cross-shell prompt for astronauts
+brew "starship"
 # Utility to modify the macOS Accessibility Database (TCC.db)
 # brew "tccutil"
 # Send macOS User Notifications from the command-line

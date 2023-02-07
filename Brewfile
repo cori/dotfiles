@@ -182,6 +182,8 @@ cask "spotify"
 # cask "suspicious-package"
 # Messaging app with a focus on speed and security
 cask "telegram"
+# To-do list
+cask "todoist"
 # Time tracker
 # cask "toggl-track"
 # USB and Bluetooth device driver
@@ -211,3 +213,5 @@ mas "Yubico Authenticator", id: 1497506650
 
 mas "Log-Viewer", id: 1543753042
 mas "Save to Reader", id: 1640236961
+mas "Drafts", id: 1435957248
+

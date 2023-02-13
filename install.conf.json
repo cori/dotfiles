@@ -53,7 +53,7 @@
                 "relink": true
             },
             "~/.ssh/config": {
-                "path":"~/Dropbox/localPrefs/ssh_config"
+                "path": "~/Dropbox/localPrefs/ssh_config"
             }
         }
     },

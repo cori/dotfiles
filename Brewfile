@@ -62,6 +62,8 @@ brew "node"
 brew "num-utils"
 # Manage multiple Node.js versions
 brew "nvm"
+# General-purpose scripting language
+brew "php"
 # Wrapper to colorize and simplify ping's output
 brew "prettyping"
 # Generic syntax highlighter

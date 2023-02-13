@@ -1,8 +1,8 @@
 # Get editor completions based on the config schema
 "$schema" = 'https://starship.rs/config-schema.json'
 
-format = '$timein $directory$all'
-right_format = """$status"""
+format = '$time in $directory$all'
+right_format = """$cmd_duration"""
 add_newline = false
 
 # A continuation prompt that displays two filled in arrows
@@ -16,7 +16,7 @@ success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set
 symbol = '🔴 '
 format = '[$symbol$int\[$common_meaning$signal_name$maybe_int\]]($style) '
 map_symbol = true
-disabled = false
+disabled = true
 
 [hostname]
 ssh_only = false

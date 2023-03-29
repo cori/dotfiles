@@ -256,7 +256,6 @@ cask "yubico-yubikey-manager"
 cask "zoom"
 mas "Amphetamine", id: 937984704
 mas "Bitwarden", id: 1352778147
-mas "Drafts", id: 1435957248
 mas "GarageBand", id: 682658836
 mas "Highlights", id: 1498912833
 mas "Hush", id: 1544743900
@@ -277,6 +276,7 @@ mas "Save to Roam", id: 1578763303
 mas "Save to Upnext", id: 1583423832
 mas "Spark", id: 1176895641
 mas "TestFlight", id: 899247664
+mas "Wavelength", id: 1584865627
 mas "Whalebird", id: 1378283354
 mas "WireGuard", id: 1451685025
 mas "Yubico Authenticator", id: 1497506650

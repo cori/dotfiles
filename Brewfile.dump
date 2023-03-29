@@ -9,7 +9,6 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "infrahq/tap"
 tap "noahgorstein/tap"
-tap "qmk/qmk"
 tap "warrensbox/tap"
 # Record and share terminal sessions
 brew "asciinema"
@@ -85,6 +84,10 @@ brew "gnu-sed"
 brew "gnupg"
 # Generate introspection data for GObject libraries
 brew "gobject-introspection"
+# Generic syntax highlighter
+brew "pygments"
+# Instant coding answers via the command-line
+brew "howdoi"
 # Tool to capture still images from an iSight or other video source
 brew "imagesnap"
 # Calculate various network masks, etc. from a given IP address
@@ -103,6 +106,8 @@ brew "libpq", link: true
 brew "mas"
 # Like sed, awk, cut, join & sort for name-indexed data such as CSV
 brew "miller"
+# NCurses Disk Usage
+brew "ncdu"
 # Programs for dealing with numbers from the command-line
 brew "num-utils"
 # Manage multiple Node.js versions
@@ -111,10 +116,10 @@ brew "nvm"
 brew "packer"
 # Shell command parallelization utility
 brew "parallel"
+# General-purpose scripting language
+brew "php"
 # Wrapper to colorize and simplify ping's output
 brew "prettyping"
-# Generic syntax highlighter
-brew "pygments"
 # It's not just a linter that annoys you!
 brew "pylint"
 # Search tool like grep and The Silver Searcher
@@ -125,6 +130,8 @@ brew "rsync"
 brew "rust"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
+# Cross-shell prompt for astronauts
+brew "starship"
 # Send macOS User Notifications from the command-line
 brew "terminal-notifier"
 # Linter for Terraform files
@@ -173,8 +180,6 @@ cask "blackhole-2ch"
 cask "calibre"
 # Command-line display management utility
 cask "cscreen"
-# Desktop application that wraps Datasette
-cask "datasette"
 # All-in-one toolbox for developers
 cask "devutils"
 # Client for the Dropbox cloud storage service
@@ -195,6 +200,8 @@ cask "font-fira-code"
 cask "font-fira-code-nerd-font"
 cask "font-hack"
 cask "font-monoid"
+# Free and open-source image editor
+cask "gimp"
 # Desktop client for GitHub repositories
 cask "github"
 # Graphically shows disk usage within a file system
@@ -203,8 +210,6 @@ cask "grandperspective"
 cask "hook"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# Desktop application for JupyterLab
-cask "jupyterlab"
 # Lightweight download manager
 cask "leech"
 # Cable-free audio router
@@ -213,8 +218,6 @@ cask "loopback"
 cask "marvin"
 # Create and edit MP4 videos
 cask "mp4tools"
-# Knowledge base that works on top of a local folder of plain text Markdown files
-cask "obsidian"
 # Cloud storage client
 cask "onedrive"
 # Collaboration platform for API development
@@ -223,8 +226,6 @@ cask "postman"
 cask "raindropio"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
-# View, Screen Share, organize, import, and download files to a reMarkable device
-cask "remarkable"
 # Time optimising application
 cask "rescuetime"
 # Note-taking tool for networked thought
@@ -237,28 +238,25 @@ cask "slack"
 cask "spotify"
 # Messaging app with a focus on speed and security
 cask "telegram"
+# To-do list
+cask "todoist"
 # USB and Bluetooth device driver
 cask "usb-overdrive"
 # Menu bar clock
 cask "utc-menu-clock"
-# Configurator of compatible keyboards in real time
-cask "vial"
 # Open-source code editor
 cask "visual-studio-code"
 # Code editor
 cask "visual-studio-code-insiders"
-# Multimedia player
-cask "vlc"
 # Application for generating TOTP and HOTP codes
 cask "yubico-authenticator"
 # Application for configuring any YubiKey
 cask "yubico-yubikey-manager"
 # Video communication and virtual meeting platform
 cask "zoom"
-# Collect, organize, cite, and share research sources
-cask "zotero"
 mas "Amphetamine", id: 937984704
 mas "Bitwarden", id: 1352778147
+mas "Drafts", id: 1435957248
 mas "GarageBand", id: 682658836
 mas "Highlights", id: 1498912833
 mas "Hush", id: 1544743900

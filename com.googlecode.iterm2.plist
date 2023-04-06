@@ -3092,6 +3092,8 @@
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
+	<key>IRMemory</key>
+	<integer>4</integer>
 	<key>Log Smart Selection Debug Info</key>
 	<integer>1</integer>
 	<key>NeverWarnAboutShortLivedSessions_7B66ECC3-4309-4326-B5DC-BAEFDF6A2942</key>
@@ -6401,8 +6403,8 @@ cat /opt/glitch/ci/secrets/id-deploy
 			<string>dev env initial setup</string>
 			<key>value</key>
 			<string>curl -L https://iterm2.com/shell_integration/install_shell_integration_and_utilities.sh | bash
-git config --global --add user.name "cori schlegel"
-git config --global --add user.email "cori@glitch.com"
+git config --global --add user.name "cori"
+git config --global --add user.email "cschlegel@fastly.com"
 git config --global --add core.editor "vim"
 rm -rf /opt/glitch/* /opt/glitch/.*
 git clone git@github.com:glitchdotcom/Glitch.git /opt/glitch

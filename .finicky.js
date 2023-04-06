@@ -23,8 +23,7 @@ module.exports = {
         /.*\.google\.com$/, // match all google.com subdomains
       ]),
       browser: {
-        name: "Google Chrome",
-        profile: "Profile 2",
+        name: "Arc",
       },
     },
     {
@@ -38,24 +37,21 @@ module.exports = {
       // Open clubhouse.io urls in Google Chrome
       match: finicky.matchHostnames(["clubhouse.io", /.*\.clubhouse.io/]),
       browser: {
-        name: "Google Chrome",
-        profile: "Default",
+        name: "Arc",
       },
     },
     {
       // Open clubhouse.io urls in Google Chrome
       match: finicky.matchHostnames(["shortcut.com", /.*\.shortcut.com/]),
       browser: {
-        name: "Google Chrome",
-        profile: "Default",
+        name: "Arc",
       },
     },
     {
       // Open honeycomb urls in Google Chrome
       match: finicky.matchHostnames(["honeycomb.io", /.*\.honeycomb.io/]),
       browser: {
-        name: "Google Chrome",
-        profile: "Default",
+        name: "Arc",
       },
     },
     {
@@ -71,24 +67,21 @@ module.exports = {
       // Open trello.com urls in Google Chrome
       match: finicky.matchHostnames(["trello.com"]),
       browser: {
-        name: "Google Chrome",
-        profile: "Default",
+        name: "Arc",
       },
     },
     {
       // Open circleci.com urls in Google Chrome
       match: finicky.matchHostnames(["circleci.com"]),
       browser: {
-        name: "Google Chrome",
-        profile: "Default",
+        name: "Arc",
       },
     },
     {
       // Open Lattice in Google Chrome
       match: finicky.matchHostnames(["glitch.latticehq.com"]),
       browser: {
-        name: "Google Chrome",
-        profile: "Default",
+        name: "Arc",
       },
     },
     {
@@ -98,16 +91,14 @@ module.exports = {
         "app.pagerduty.com",
       ]),
       browser: {
-        name: "Google Chrome",
-        profile: "Default",
+        name: "Arc",
       },
     },
     {
       // Open glitch's dev watcher in Google Chrome
       match: "http://localhost:1234",
       browser: {
-        name: "Google Chrome",
-        profile: "Default",
+        name: "Arc",
       },
     },
     {
@@ -117,8 +108,7 @@ module.exports = {
         "grafana.staging.glitch.com",
       ]),
       browser: {
-        name: "Google Chrome",
-        profile: "Default",
+        name: "Arc",
       },
     },
     {
@@ -128,8 +118,7 @@ module.exports = {
         "kibana.staging.glitch.com",
       ]),
       browser: {
-        name: "Google Chrome",
-        profile: "Default",
+        name: "Arc",
       },
     },
     {
@@ -139,40 +128,35 @@ module.exports = {
         "metabase.staging.glitch.com",
       ]),
       browser: {
-        name: "Google Chrome",
-        profile: "Default",
+        name: "Arc",
       },
     },
     {
       // Open Glitch HappyFox urls in Google Chrome
       match: finicky.matchHostnames(["help.glitch.com", "glitch.happyfox.com"]),
       browser: {
-        name: "Google Chrome",
-        profile: "Default",
+        name: "Arc",
       },
     },
     {
       // Open Glitch in Chrome
       match: finicky.matchHostnames(["glitch.com", "glitch.me"]),
       browser: {
-        name: "Google Chrome",
-        profile: "Default",
+        name: "Arc",
       },
     },
     {
       // Open Notion urls in Google Chrome
       match: finicky.matchHostnames(["notion.so", "www.notion.so"]),
       browser: {
-        name: "Google Chrome",
-        profile: "Default",
+        name: "Arc",
       },
     },
     {
       // Open Sentry urls in Google Chrome
       match: finicky.matchHostnames(["sentry.io"]),
       browser: {
-        name: "Google Chrome",
-        profile: "Default",
+        name: "Arc",
       },
     },
     //  Fastly
@@ -183,8 +167,7 @@ module.exports = {
         "fastly.slack.com",
       ]),
       browser: {
-        name: "Google Chrome",
-        profile: "Profile 2",
+        name: "Arc",
       },
     },
     {
@@ -194,72 +177,63 @@ module.exports = {
         "confluence.corp.fastly.com",
       ]),
       browser: {
-        name: "Google Chrome",
-        profile: "Profile 2",
+        name: "Arc",
       },
     },
     {
       // Open Fastly Okta urls in Google Chrome
       match: finicky.matchHostnames(["fastly.okta.com"]),
       browser: {
-        name: "Google Chrome",
-        profile: "Profile 2",
+        name: "Arc",
       },
     },
     {
       // Open Fastly zoom urls in Google Chrome
       match: finicky.matchHostnames(["fastly.zoom.us"]),
       browser: {
-        name: "Google Chrome",
-        profile: "Profile 2",
+        name: "Arc",
       },
     },
     {
       // not sure exactly where these cme from, but open them in Google Chrome
       match: finicky.matchHostnames([/.*\.visualforce\.com/]),
       browser: {
-        name: "Google Chrome",
-        profile: "Profile 2",
+        name: "Arc",
       },
     },
     {
       // not sure exactly where these come from, but open them in Google Chrome
       match: finicky.matchHostnames([/.*\.secretcdn\.net/]),
       browser: {
-        name: "Google Chrome",
-        profile: "Profile 2",
+        name: "Arc",
       },
     },
     {
       // Figma
       match: finicky.matchHostnames([/.*\.figma\.com/]),
       browser: {
-        name: "Google Chrome",
-        profile: "Profile 2",
+        name: "Arc",
       },
     },
     {
       // AWS Chime (video call app)
       match: finicky.matchHostnames([/app.chime.aws/]),
       browser: {
-        name: "Google Chrome",
-        profile: "Profile 2",
+        name: "Arc",
       },
     },
     {
       // Q4 (Investor calls)
       match: finicky.matchHostnames([/events.q4inc.com/]),
       browser: {
-        name: "Google Chrome",
-        profile: "Profile 2",
+        name: "Arc",
       },
     },
     {
       // Fastly PD
       match: finicky.matchHostnames([/fastly\.pagerduty\.com/]),
       browser: {
-        name: "Google Chrome",
-        profile: "Profile 2",
+        name: "Arc",
       },
     },
     {
@@ -268,11 +242,6 @@ module.exports = {
       browser: {
         name: "Arc",
       },
-    },
-    {
-      //	open everything from NewsExplorer in STP (since it opens Safari directly)
-      match: ({ opener }) => (opener.bundleId = "betamagic.News-Explorer"),
-      browser: "Safari",
     },
   ],
 };

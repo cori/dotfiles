@@ -58,6 +58,8 @@ brew "docker-credential-helper"
 brew "emojify"
 # AST-based pattern checker for JavaScript
 brew "eslint"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
 # OpenType text shaping engine
 brew "harfbuzz"
 # Subtitle renderer for the ASS/SSA subtitle format
@@ -84,6 +86,8 @@ brew "gnu-sed"
 brew "gnupg"
 # Generate introspection data for GObject libraries
 brew "gobject-introspection"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
 # Generic syntax highlighter
 brew "pygments"
 # Instant coding answers via the command-line

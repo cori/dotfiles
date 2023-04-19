@@ -26,6 +26,8 @@ brew "coreutils"
 brew "curl"
 # Emoji on the command-line :scream:
 brew "emojify"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Terminal JSON viewer
@@ -40,6 +42,8 @@ brew "git-delta"
 brew "git-gui"
 # GNU implementation of the famous stream editor
 # brew "gnu-sed"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
 # Tools and libraries to manipulate images in many formats
 # brew "imagemagick"
 # Tool to capture still images from an iSight or other video source

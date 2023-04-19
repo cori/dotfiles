@@ -1,3 +1,5 @@
+gui:
+  timeFormat: "2006-01-02 22:04:05Z"
 git:
   paging:
     colorArg: always

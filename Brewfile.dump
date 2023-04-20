@@ -40,6 +40,10 @@ brew "unbound"
 brew "gnutls"
 # Library for USB device access
 brew "libusb"
+# Emulator for x86 and PowerPC
+brew "qemu"
+# Linux virtual machines
+brew "lima"
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima"
 # GNU File, Shell, and Text utilities

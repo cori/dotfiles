@@ -80,6 +80,8 @@ brew "ripgrep"
 brew "shellcheck"
 # Cross-shell prompt for astronauts
 brew "starship"
+# Easiest, most secure way to use WireGuard and 2FA
+brew "tailscale"
 # Utility to modify the macOS Accessibility Database (TCC.db)
 # brew "tccutil"
 # Send macOS User Notifications from the command-line
@@ -186,6 +188,8 @@ cask "slack"
 cask "spotify"
 # Application for inspecting installer packages
 # cask "suspicious-package"
+# Mesh VPN based on Wireguard
+cask "tailscale"
 # Messaging app with a focus on speed and security
 cask "telegram"
 # To-do list

@@ -6641,6 +6641,18 @@ cat /opt/glitch/ci/secrets/id-deploy
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>5921CFF3-6086-408F-93A2-3FACCA5D24D1</string>
+			<key>title</key>
+			<string>super_user for 5 days (check pers token)</string>
+			<key>value</key>
+			<string>curl -H "Authorization: 8188f449-9d74-448a-a04f-b9c408a5676b" -d duration=432000000 -X POST https://support-toggle.glitch.me/support/enable</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>SoundForEsc</key>
 	<false/>

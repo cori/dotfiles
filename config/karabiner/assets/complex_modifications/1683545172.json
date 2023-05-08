@@ -1,0 +1,1 @@
+{"title":"Caps Lock -> Meh (Ctrl+Opt+Shft)","rules":[{"description":"Caps Lock -> Meh (Ctrl+Opt+Shft)","manipulators":[{"from":{"key_code":"caps_lock","modifiers":{"optional":["caps_lock"]}},"to":[{"key_code":"left_shift","modifiers":["left_control","left_option"]}],"type":"basic"}]}]}

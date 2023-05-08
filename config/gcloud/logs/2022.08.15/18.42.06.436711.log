@@ -1,0 +1,98 @@
+2022-08-15 18:42:06,444 DEBUG    root            Loaded Command Group: ['gcloud', 'init']
+2022-08-15 18:42:06,445 DEBUG    root            Running [gcloud.init] with arguments: []
+2022-08-15 18:42:06,445 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2022-08-15 18:42:06,446 INFO     ___FILE_ONLY___ Your current configuration has been set to: [default]
+
+
+2022-08-15 18:42:06,446 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2022-08-15 18:42:06,446 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2022-08-15 18:42:06,446 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2022-08-15 18:42:06,446 INFO     ___FILE_ONLY___ Checking network connection...
+2022-08-15 18:42:07,255 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): accounts.google.com:443
+2022-08-15 18:42:07,364 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET / HTTP/1.1" 302 338
+2022-08-15 18:42:07,434 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET /ServiceLogin?passive=1209600&continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F HTTP/1.1" 302 527
+2022-08-15 18:42:07,506 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET /v3/signin/identifier?dsh=S1661328032%3A1660606927417489&continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AQN2RmUKy5QfFT_vWIu4mDHEIVR16Zxuf3PcnHPKUaHfN_U5N7DwbwbK2F-Ug3xYgt6wbw_7AKdvnw HTTP/1.1" 200 None
+2022-08-15 18:42:07,550 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2022-08-15 18:42:07,709 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1beta1/projects HTTP/1.1" 401 None
+2022-08-15 18:42:07,712 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): www.googleapis.com:443
+2022-08-15 18:42:07,830 DEBUG    urllib3.connectionpool https://www.googleapis.com:443 "GET /auth/cloud-platform HTTP/1.1" 200 14
+2022-08-15 18:42:07,835 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2022-08-15 18:42:07,941 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 201563
+2022-08-15 18:42:08,078 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2022-08-15 18:42:08,078 INFO     ___FILE_ONLY___ Network diagnostic passed (1/1 checks passed).
+
+
+2022-08-15 18:42:14,343 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2022-08-15 18:42:14,421 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'login']
+2022-08-15 18:42:14,421 INFO     root            Executing: [gcloud auth login --force --brief]
+2022-08-15 18:42:14,422 DEBUG    root            Running [gcloud.auth.login] with arguments: [--brief: "True", --force: "True"]
+2022-08-15 18:42:14,424 DEBUG    requests_oauthlib.oauth2_session Generated new state cmgsbedIvVRjVL3bhVyzfJvdLY96BC.
+2022-08-15 18:42:14,545 INFO     ___FILE_ONLY___ Your browser has been opened to visit:
+
+    https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=32555940559.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8085%2F&scope=openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fappengine.admin+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fsqlservice.login+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcompute+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faccounts.reauth&state=cmgsbedIvVRjVL3bhVyzfJvdLY96BC&access_type=offline&code_challenge=CgsiIcoQKDc59fnVy4qoBPzmMyoG2l7b9jVTEX045WY&code_challenge_method=S256
+
+
+2022-08-15 18:42:20,522 INFO     google_auth_oauthlib.flow "GET /?state=cmgsbedIvVRjVL3bhVyzfJvdLY96BC&code=4/0AdQt8qipDi_HqoeGNPIVvgBuZBewKAOY4QTpNUjKluuOz5XSgAvD_fH_weQsyD5Qh4wN_A&scope=email%20openid%20https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/cloud-platform%20https://www.googleapis.com/auth/appengine.admin%20https://www.googleapis.com/auth/sqlservice.login%20https://www.googleapis.com/auth/compute%20https://www.googleapis.com/auth/accounts.reauth&authuser=0&hd=fastly.com&prompt=consent HTTP/1.1" 200 959
+2022-08-15 18:42:20,523 DEBUG    requests_oauthlib.oauth2_session Requesting url https://oauth2.googleapis.com/token using method POST.
+2022-08-15 18:42:20,523 DEBUG    requests_oauthlib.oauth2_session Supplying headers {b'Accept': b'application/json', b'Content-Type': b'application/x-www-form-urlencoded;charset=UTF-8', b'user-agent': b'google-cloud-sdk gcloud/397.0.0 command/gcloud.auth.login invocation-id/bb682c9e78914f5ebf247a790f2eb39a environment/None environment-version/None interactive/True from-script/False python/3.10.6 term/xterm-256color (Macintosh; Intel Mac OS X 21.6.0)'} and data {'grant_type': 'authorization_code', 'client_id': '32555940559.apps.googleusercontent.com', 'client_secret': 'ZmssLNjJy2998hD4CTg2ejr2', 'code': '4/0AdQt8qipDi_HqoeGNPIVvgBuZBewKAOY4QTpNUjKluuOz5XSgAvD_fH_weQsyD5Qh4wN_A', 'redirect_uri': 'http://localhost:8085/', 'code_verifier': 'MGGtd1pYrEBQeJPE4QOmVNfxFzfTx3H~2J9Zg6k4JgTnXQ4a~uMBhH8URAAO47gbeuBSYJrSHsQ7Vr477yUrersD69ihFuauU4t5GlLseOXTLAVIi~ZhLBEdd3liBErl'}
+2022-08-15 18:42:20,524 DEBUG    requests_oauthlib.oauth2_session Passing through key word arguments {'json': None, 'timeout': None, 'auth': None, 'verify': None, 'proxies': None}.
+2022-08-15 18:42:20,529 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2022-08-15 18:42:20,753 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2022-08-15 18:42:20,767 DEBUG    requests_oauthlib.oauth2_session Prepared fetch token request body grant_type=authorization_code&client_id=32555940559.apps.googleusercontent.com&client_secret=ZmssLNjJy2998hD4CTg2ejr2&code=4%2F0AdQt8qipDi_HqoeGNPIVvgBuZBewKAOY4QTpNUjKluuOz5XSgAvD_fH_weQsyD5Qh4wN_A&redirect_uri=http%3A%2F%2Flocalhost%3A8085%2F&code_verifier=MGGtd1pYrEBQeJPE4QOmVNfxFzfTx3H~2J9Zg6k4JgTnXQ4a~uMBhH8URAAO47gbeuBSYJrSHsQ7Vr477yUrersD69ihFuauU4t5GlLseOXTLAVIi~ZhLBEdd3liBErl
+2022-08-15 18:42:20,767 DEBUG    requests_oauthlib.oauth2_session Request to fetch token completed with status 200.
+2022-08-15 18:42:20,768 DEBUG    requests_oauthlib.oauth2_session Request headers were {'user-agent': b'google-cloud-sdk gcloud/397.0.0 command/gcloud.auth.login invocation-id/bb682c9e78914f5ebf247a790f2eb39a environment/None environment-version/None interactive/True from-script/False python/3.10.6 term/xterm-256color (Macintosh; Intel Mac OS X 21.6.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': b'application/json', 'Connection': 'keep-alive', 'Content-Type': b'application/x-www-form-urlencoded;charset=UTF-8', 'Content-Length': '387'}
+2022-08-15 18:42:20,768 DEBUG    requests_oauthlib.oauth2_session Request body was grant_type=authorization_code&client_id=32555940559.apps.googleusercontent.com&client_secret=ZmssLNjJy2998hD4CTg2ejr2&code=4%2F0AdQt8qipDi_HqoeGNPIVvgBuZBewKAOY4QTpNUjKluuOz5XSgAvD_fH_weQsyD5Qh4wN_A&redirect_uri=http%3A%2F%2Flocalhost%3A8085%2F&code_verifier=MGGtd1pYrEBQeJPE4QOmVNfxFzfTx3H~2J9Zg6k4JgTnXQ4a~uMBhH8URAAO47gbeuBSYJrSHsQ7Vr477yUrersD69ihFuauU4t5GlLseOXTLAVIi~ZhLBEdd3liBErl
+2022-08-15 18:42:20,768 DEBUG    requests_oauthlib.oauth2_session Response headers were {'Pragma': 'no-cache', 'Expires': 'Mon, 01 Jan 1990 00:00:00 GMT', 'Cache-Control': 'no-cache, no-store, max-age=0, must-revalidate', 'Date': 'Mon, 15 Aug 2022 23:42:20 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Origin, X-Origin, Referer', 'Content-Encoding': 'gzip', 'Server': 'scaffolding on HTTPServer2', 'X-XSS-Protection': '0', 'X-Frame-Options': 'SAMEORIGIN', 'X-Content-Type-Options': 'nosniff', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"', 'Transfer-Encoding': 'chunked'} and content {
+  "access_token": "ya29.A0AVA9y1tIV9iRAPph8nZoOSYqizQ8H7cTPrO0busWWDRzZ2WDxVEQLY54iLpjz5sJ23dZ9E6OWvTp8Uf0hVQttK0fsWnejXsK9VhB6qW3wjDNm25C338hq6F52clqPelt0qhaLH0iEgkw6Wre3tUfHpEDib9IxC0BLDhYaCgYKATASATASFQE65dr8NP3hHb6arJJWwE0PAv0zTg0171",
+  "expires_in": 3599,
+  "refresh_token": "1//0dEtDkOug-m7GCgYIARAAGA0SNwF-L9IrG1lZEfjpJFh4ANnibxViCdEEd4Yx71Qb-QuQZMzppWa2C2L-nxVfkOL6ffqqw9bkLdg",
+  "scope": "openid https://www.googleapis.com/auth/compute https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/appengine.admin https://www.googleapis.com/auth/sqlservice.login https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/accounts.reauth",
+  "token_type": "Bearer",
+  "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE3MjdiNmI0OTQwMmI5Y2Y5NWJlNGU4ZmQzOGFhN2U3YzExNjQ0YjEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzMjU1NTk0MDU1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjMyNTU1OTQwNTU5LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA5NDg0OTcxMzE2MTExMjE3MTQ1IiwiaGQiOiJmYXN0bHkuY29tIiwiZW1haWwiOiJjc2NobGVnZWxAZmFzdGx5LmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiLWtHa3FFSVc5bkUxeUpyMTh5REJtZyIsImlhdCI6MTY2MDYwNjk0MCwiZXhwIjoxNjYwNjEwNTQwfQ.UeqF4plnUGD13OecW2s8fbSsy10LgcwycEaGxM_FP5zhEpmggFtwKQBK4_7wNuiTZp3Ux2AjegCsnSWFGgK2DdKQscMOc3QhNSrEy4jdEJZ48OvhuHNd74rgCrACG8a45BFeEvF3vlnPXe1comu9PiKR_4TOSCWb9lK-tjOwSKEad4NZk6NkVygiMDPX2EhtYGggIg3uHBYX-Pc_-p95f5t0m-jYcHkLG082EAqyEFXluHuAfrOIY6cbxB9vxdkkEXqzEBB3pEMQE-5pw5osaY6t_yiLnNhhwtmdaPwbOyDNIs08dVK7jTqk0jYw0zOqSuEFyYhVRXK73h3LY6ZepA"
+}.
+2022-08-15 18:42:20,769 DEBUG    requests_oauthlib.oauth2_session Invoking 0 token response hooks.
+2022-08-15 18:42:20,770 DEBUG    requests_oauthlib.oauth2_session Obtained token {'access_token': 'ya29.A0AVA9y1tIV9iRAPph8nZoOSYqizQ8H7cTPrO0busWWDRzZ2WDxVEQLY54iLpjz5sJ23dZ9E6OWvTp8Uf0hVQttK0fsWnejXsK9VhB6qW3wjDNm25C338hq6F52clqPelt0qhaLH0iEgkw6Wre3tUfHpEDib9IxC0BLDhYaCgYKATASATASFQE65dr8NP3hHb6arJJWwE0PAv0zTg0171', 'expires_in': 3599, 'refresh_token': '1//0dEtDkOug-m7GCgYIARAAGA0SNwF-L9IrG1lZEfjpJFh4ANnibxViCdEEd4Yx71Qb-QuQZMzppWa2C2L-nxVfkOL6ffqqw9bkLdg', 'scope': ['openid', 'https://www.googleapis.com/auth/compute', 'https://www.googleapis.com/auth/cloud-platform', 'https://www.googleapis.com/auth/appengine.admin', 'https://www.googleapis.com/auth/sqlservice.login', 'https://www.googleapis.com/auth/userinfo.email', 'https://www.googleapis.com/auth/accounts.reauth'], 'token_type': 'Bearer', 'id_token': 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjE3MjdiNmI0OTQwMmI5Y2Y5NWJlNGU4ZmQzOGFhN2U3YzExNjQ0YjEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzMjU1NTk0MDU1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjMyNTU1OTQwNTU5LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA5NDg0OTcxMzE2MTExMjE3MTQ1IiwiaGQiOiJmYXN0bHkuY29tIiwiZW1haWwiOiJjc2NobGVnZWxAZmFzdGx5LmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiLWtHa3FFSVc5bkUxeUpyMTh5REJtZyIsImlhdCI6MTY2MDYwNjk0MCwiZXhwIjoxNjYwNjEwNTQwfQ.UeqF4plnUGD13OecW2s8fbSsy10LgcwycEaGxM_FP5zhEpmggFtwKQBK4_7wNuiTZp3Ux2AjegCsnSWFGgK2DdKQscMOc3QhNSrEy4jdEJZ48OvhuHNd74rgCrACG8a45BFeEvF3vlnPXe1comu9PiKR_4TOSCWb9lK-tjOwSKEad4NZk6NkVygiMDPX2EhtYGggIg3uHBYX-Pc_-p95f5t0m-jYcHkLG082EAqyEFXluHuAfrOIY6cbxB9vxdkkEXqzEBB3pEMQE-5pw5osaY6t_yiLnNhhwtmdaPwbOyDNIs08dVK7jTqk0jYw0zOqSuEFyYhVRXK73h3LY6ZepA', 'expires_at': 1660610539.7701209}.
+2022-08-15 18:42:20,782 INFO     root            Display format: "none"
+2022-08-15 18:42:20,783 DEBUG    root            Checking for updates...
+2022-08-15 18:42:20,784 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2022-08-15 18:42:20,930 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 201563
+2022-08-15 18:42:21,024 DEBUG    root            Updating notification cache...
+2022-08-15 18:42:21,026 INFO     ___FILE_ONLY___ You are logged in as: [cschlegel@fastly.com].
+
+
+2022-08-15 18:42:21,045 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2022-08-15 18:42:21,499 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects?alt=json&filter=lifecycleState%3AACTIVE&pageSize=201 HTTP/1.1" 200 None
+2022-08-15 18:42:28,932 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2022-08-15 18:42:29,592 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects?alt=json&filter=lifecycleState%3AACTIVE&pageSize=500 HTTP/1.1" 200 None
+2022-08-15 18:42:29,643 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2022-08-15 18:42:30,055 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects?alt=json&filter=lifecycleState%3AACTIVE&pageSize=500&pageToken=EuABQ3FNQkNuYjM4ZXZNTXZfX19fOWpiRzkxWkhKbGMyOTFjbU5sYldGdVlXZGxjaTV3Y205cVpXTjBjenB3Y205cVpXTjBjeTgyTWpjd09ERXlPREV4TkRFQV93SF9fbU5zYjNWa2NtVnpiM1Z5WTJWdFlXNWhaMlZ5TG5CeWIycGxZM1J6T25CeWIycGxZM1J6THpZeU56QTRNVEk0TVRFME1RQUJFUFFESVNOQ1pXbHNDeXMyT1FBQUFBRE5NeFFPU0FGUUFGb0xDWjRzdjRHcjRnZ1lFQU5ncFlPY0FRPT0%3D HTTP/1.1" 200 None
+2022-08-15 18:42:30,132 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2022-08-15 18:42:30,545 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects?alt=json&filter=lifecycleState%3AACTIVE&pageSize=500&pageToken=EuABQ3FVQkNuajM4WkE3VXZfX19fOWpiRzkxWkhKbGMyOTFjbU5sYldGdVlXZGxjaTV3Y205cVpXTjBjenB3Y205cVpXTjBjeTh4TURRMU1Ea3dOamMzTURBM0FQOEJfXzVqYkc5MVpISmxjMjkxY21ObGJXRnVZV2RsY2k1d2NtOXFaV04wY3pwd2NtOXFaV04wY3k4eE1EUTFNRGt3TmpjM01EQTNBQUVRNkFjaEkwSmxhV3dMS3pZNUFBQUFBSzNFYnc1SUFWQUFXZ3NKbml5X2dhdmlDQmdRQTJDbGc1d0I%3D HTTP/1.1" 200 None
+2022-08-15 18:42:30,618 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2022-08-15 18:42:31,057 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects?alt=json&filter=lifecycleState%3AACTIVE&pageSize=500&pageToken=EuABQ3FNQkNuYjM4SXBQSmZfX19fOWpiRzkxWkhKbGMyOTFjbU5sYldGdVlXZGxjaTV3Y205cVpXTjBjenB3Y205cVpXTjBjeTgzTVRBMU1UUTRPVFk0T1RjQV93SF9fbU5zYjNWa2NtVnpiM1Z5WTJWdFlXNWhaMlZ5TG5CeWIycGxZM1J6T25CeWIycGxZM1J6THpjeE1EVXhORGc1TmpnNU53QUJFTndMSVNOQ1pXbHNDeXMyT1FBQUFBRGFzSFVQU0FWUUFGb0xDWjRzdjRHcjRnZ1lFQU5ncFlPY0FRPT0%3D HTTP/1.1" 200 None
+2022-08-15 18:42:31,147 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2022-08-15 18:42:31,554 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects?alt=json&filter=lifecycleState%3AACTIVE&pageSize=500&pageToken=EuABQ3FVQkNuajM3OW4tYV9fX19fOWpiRzkxWkhKbGMyOTFjbU5sYldGdVlXZGxjaTV3Y205cVpXTjBjenB3Y205cVpXTjBjeTh4TURFME1qSXlORFU1TVRNMEFQOEJfXzVqYkc5MVpISmxjMjkxY21ObGJXRnVZV2RsY2k1d2NtOXFaV04wY3pwd2NtOXFaV04wY3k4eE1ERTBNakl5TkRVNU1UTTBBQUVRMEE4aEkwSmxhV3dMS3pZNUFBQUFBSlFCSmhCSUNsQUFXZ3NKbml5X2dhdmlDQmdRQTJDbGc1d0I%3D HTTP/1.1" 200 None
+2022-08-15 18:42:31,621 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2022-08-15 18:42:32,020 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects?alt=json&filter=lifecycleState%3AACTIVE&pageSize=500&pageToken=EuABQ3FNQkNuYjM3NlZYc3ZfX19fOWpiRzkxWkhKbGMyOTFjbU5sYldGdVlXZGxjaTV3Y205cVpXTjBjenB3Y205cVpXTjBjeTgzTWpnMk5UQTVNemMxTURBQV93SF9fbU5zYjNWa2NtVnpiM1Z5WTJWdFlXNWhaMlZ5TG5CeWIycGxZM1J6T25CeWIycGxZM1J6THpjeU9EWTFNRGt6TnpVd01BQUJFTVFUSVNOQ1pXbHNDeXMyT1FBQUFBQk5xRm9RU0FOUUFGb0xDWjRzdjRHcjRnZ1lFQU5ncFlPY0FRPT0%3D HTTP/1.1" 200 None
+2022-08-15 18:42:32,071 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2022-08-15 18:42:32,652 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects?alt=json&filter=lifecycleState%3AACTIVE&pageSize=500&pageToken=EuABQ3FNQkNuYjM3eERma3ZfX19fOWpiRzkxWkhKbGMyOTFjbU5sYldGdVlXZGxjaTV3Y205cVpXTjBjenB3Y205cVpXTjBjeTg0TWpJMU1UYzRORGsxT0RNQV93SF9fbU5zYjNWa2NtVnpiM1Z5WTJWdFlXNWhaMlZ5TG5CeWIycGxZM1J6T25CeWIycGxZM1J6THpneU1qVXhOemcwT1RVNE13QUJFTGdYSVNOQ1pXbHNDeXMyT1FBQUFBQnRJTzhRU0FGUUFGb0xDWjRzdjRHcjRnZ1lFQU5ncFlPY0FRPT0%3D HTTP/1.1" 200 None
+2022-08-15 18:42:32,709 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2022-08-15 18:42:33,292 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects?alt=json&filter=lifecycleState%3AACTIVE&pageSize=500&pageToken=EuABQ3FNQkNuYjM3aWNMUHZfX19fOWpiRzkxWkhKbGMyOTFjbU5sYldGdVlXZGxjaTV3Y205cVpXTjBjenB3Y205cVpXTjBjeTgxT1RNeU16UXdNVGMxTVRjQV93SF9fbU5zYjNWa2NtVnpiM1Z5WTJWdFlXNWhaMlZ5TG5CeWIycGxZM1J6T25CeWIycGxZM1J6THpVNU16SXpOREF4TnpVeE53QUJFS3diSVNOQ1pXbHNDeXMyT1FBQUFBREI5TmdSU0FGUUFGb0xDWjRzdjRHcjRnZ1lFQU5ncFlPY0FRPT0%3D HTTP/1.1" 200 None
+2022-08-15 18:42:33,367 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2022-08-15 18:42:33,864 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects?alt=json&filter=lifecycleState%3AACTIVE&pageSize=500&pageToken=EuABQ3FNQkNuYjM3VlhkTVBfX19fOWpiRzkxWkhKbGMyOTFjbU5sYldGdVlXZGxjaTV3Y205cVpXTjBjenB3Y205cVpXTjBjeTgxTlRJd056Y3hPREV3TmpFQV93SF9fbU5zYjNWa2NtVnpiM1Z5WTJWdFlXNWhaMlZ5TG5CeWIycGxZM1J6T25CeWIycGxZM1J6THpVMU1qQTNOekU0TVRBMk1RQUJFS0FmSVNOQ1pXbHNDeXMyT1FBQUFBRFBJcW9TU0FGUUFGb0xDWjRzdjRHcjRnZ1lFQU5ncFlPY0FRPT0%3D HTTP/1.1" 200 None
+2022-08-15 18:42:33,940 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2022-08-15 18:42:34,329 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects?alt=json&filter=lifecycleState%3AACTIVE&pageSize=500&pageToken=EuABQ3FNQkNuYjM3TGZ1WnZfX19fOWpiRzkxWkhKbGMyOTFjbU5sYldGdVlXZGxjaTV3Y205cVpXTjBjenB3Y205cVpXTjBjeTh5TmpJNU1EUXpPRFl4TWpnQV93SF9fbU5zYjNWa2NtVnpiM1Z5WTJWdFlXNWhaMlZ5TG5CeWIycGxZM1J6T25CeWIycGxZM1J6THpJMk1qa3dORE00TmpFeU9BQUJFSlFqSVNOQ1pXbHNDeXMyT1FBQUFBQ1pFVWdUU0FGUUFGb0xDWjRzdjRHcjRnZ1lFQU5ncFlPY0FRPT0%3D HTTP/1.1" 200 None
+2022-08-15 18:42:34,416 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2022-08-15 18:42:34,716 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects?alt=json&filter=lifecycleState%3AACTIVE&pageSize=500&pageToken=EuABQ3FVQkNuYjM1dndtVlBfX19fOWpiRzkxWkhKbGMyOTFjbU5sYldGdVlXZGxjaTV3Y205cVpXTjBjenB3Y205cVpXTjBjeTg1Tmpnek1UazFNemd3TXpFQV93SF9fbU5zYjNWa2NtVnpiM1Z5WTJWdFlXNWhaMlZ5TG5CeWIycGxZM1J6T25CeWIycGxZM1J6THprMk9ETXhPVFV6T0RBek1RQUJFSWduSVNOQ1pXbHNDeXMyT1FBQUFBQ3IyUU1aU0FGUUFGb0xDWjRzdjRHcjRnZ1lFQU5ncFlPY0FXZ0I%3D HTTP/1.1" 200 None
+2022-08-15 18:43:06,266 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+

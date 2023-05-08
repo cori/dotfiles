@@ -237,8 +237,15 @@ module.exports = {
       },
     },
     {
-      // Fastly PD
+      // Hypothesis
       match: finicky.matchHostnames([/.*\.hypothes\.is/]),
+      browser: {
+        name: "Arc",
+      },
+    },
+    {
+      // SalesForce
+      match: finicky.matchHostnames([/.*\.force\.com/]),
       browser: {
         name: "Arc",
       },

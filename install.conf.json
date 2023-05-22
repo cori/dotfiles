@@ -31,9 +31,6 @@
                 "path": "atuin.toml",
                 "force": true
             },
-				"~/.config/karabiner/karabiner.json": {
-					"force": true
-				},
             "~/.gitconfig": {
                 "force": true
             },

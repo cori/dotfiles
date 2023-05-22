@@ -2,7 +2,7 @@
 //  on ShadowDepository@Fastly@2.0, glitch is "Profile 1" and Fastly is "Default"
 //  on PandorasVault, Default is Glitch, Profile 1 is "cori" and Profile 2 is Fastly
 module.exports = {
-  defaultBrowser: "Safari",
+  defaultBrowser: "Arc",
   options: {
     logRequests: true,
   },
@@ -61,7 +61,7 @@ module.exports = {
         /.*\.aws.amazon.com/,
         /.*\.amazonaws.com/,
       ]),
-      browser: "Google Chrome",
+      browser: "Arc",
     },
     {
       // Open trello.com urls in Google Chrome
@@ -248,6 +248,13 @@ module.exports = {
       match: finicky.matchHostnames([/.*\.force\.com/]),
       browser: {
         name: "Arc",
+      },
+    },
+    {
+      // RoamResearch to Brave
+      match: finicky.matchHostnames([/roamresearch\.com/]),
+      browser: {
+        name: "Brave Browser",
       },
     },
   ],

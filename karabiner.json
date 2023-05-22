@@ -25,16 +25,16 @@
                                     "key_code": "caps_lock",
                                     "modifiers": {
                                         "optional": [
-                                            "caps_lock"
+                                            "any"
                                         ]
                                     }
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_shift",
+                                        "key_code": "shift",
                                         "modifiers": [
-                                            "left_control",
-                                            "left_option"
+                                            "control",
+                                            "option"
                                         ]
                                     }
                                 ],
@@ -52,8 +52,7 @@
                                         "mandatory": [
                                             "option ",
 														  "control",
-														  "shift",
-														  "command"
+														  "shift"
                                         ]
                                     }
                                 },

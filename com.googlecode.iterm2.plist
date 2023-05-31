@@ -6375,6 +6375,53 @@
 			<key>escaping</key>
 			<integer>2</integer>
 			<key>guid</key>
+			<string>23C322A0-3929-4FBB-AEE7-2F04C5146CBB</string>
+			<key>title</key>
+			<string>dev env glitch setup</string>
+			<key>value</key>
+			<string>git config --global --add user.name "cori"
+git config --global --add user.email "cschlegel@fastly.com"
+git config --global --add core.editor "vim"
+rm -rf /opt/glitch/* /opt/glitch/.*
+git clone git@github.com:glitchdotcom/Glitch.git /opt/glitch
+echo "now go grab repo.key"
+</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>B1383A71-BFD0-4886-90CC-D5045D7869E1</string>
+			<key>title</key>
+			<string>dev env tools</string>
+			<key>value</key>
+			<string>echo "iterm integration"
+curl -L https://iterm2.com/shell_integration/install_shell_integration_and_utilities.sh | bash
+echo "install and config lazygit"
+LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')
+curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/latest/download/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
+tar xf lazygit.tar.gz lazygit
+sudo install lazygit /usr/local/bin
+echo "install and config atuin"
+mkdir -p ~/bin
+wget https://github.com/ellie/atuin/releases/download/v14.0.1/atuin-v14.0.1-x86_64-unknown-linux-musl.tar.gz
+tar -xzf atuin-v14.0.1-x86_64-unknown-linux-musl.tar.gz
+mv atuin-v14.0.1-x86_64-unknown-linux-musl/atuin ~/bin
+rm -rf atuin-v14.0.1-x86_64-unknown-linux-musl.tar.gz atuin-v14.0.1-x86_64-unknown-linux-musl
+echo 'eval "$(atuin init bash)"' &gt;&gt; ~/.bashrc
+atuin gen-completions --shell bash --out-dir $HOME
+atuin login
+#atuin status
+#atuin sync</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
 			<string>73AACC10-3429-43CC-85E6-7A06A31DF4D8</string>
 			<key>title</key>
 			<string>build and upload new focal container</string>
@@ -6390,19 +6437,6 @@ sudo docker push 993886623663.dkr.ecr.us-east-1.amazonaws.com/app-image-focal:$(
 		</dict>
 		<dict>
 			<key>escaping</key>
-			<integer>2</integer>
-			<key>guid</key>
-			<string>23C322A0-3929-4FBB-AEE7-2F04C5146CBB</string>
-			<key>title</key>
-			<string>remote setup</string>
-			<key>value</key>
-			<string>curl -L https://iterm2.com/shell_integration/install_shell_integration_and_utilities.sh | bash
-bash &lt;(curl https://raw.githubusercontent.com/ellie/atuin/main/install.sh)</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>escaping</key>
 			<integer>0</integer>
 			<key>guid</key>
 			<string>EB64E85E-9852-49C7-842D-B6289C739A61</string>
@@ -6410,26 +6444,6 @@ bash &lt;(curl https://raw.githubusercontent.com/ellie/atuin/main/install.sh)</s
 			<string>top containers by CPU</string>
 			<key>value</key>
 			<string>docker stats --no-stream --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}" | sort -k 2hr</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>escaping</key>
-			<integer>2</integer>
-			<key>guid</key>
-			<string>B1383A71-BFD0-4886-90CC-D5045D7869E1</string>
-			<key>title</key>
-			<string>dev env initial setup</string>
-			<key>value</key>
-			<string>curl -L https://iterm2.com/shell_integration/install_shell_integration_and_utilities.sh | bash
-git config --global --add user.name "cori"
-git config --global --add user.email "cschlegel@fastly.com"
-git config --global --add core.editor "vim"
-rm -rf /opt/glitch/* /opt/glitch/.*
-git clone git@github.com:glitchdotcom/Glitch.git /opt/glitch
-echo "now go grab repo.key"
-echo "install and config lazygit?"
-</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -6650,6 +6664,45 @@ cat /opt/glitch/ci/secrets/id-deploy
 			<string>super_user for 5 days (check pers token)</string>
 			<key>value</key>
 			<string>curl -H "Authorization: 8188f449-9d74-448a-a04f-b9c408a5676b" -d duration=432000000 -X POST https://support-toggle.glitch.me/support/enable</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>182C1A6D-F7EB-48D5-834E-DA39313948B2</string>
+			<key>title</key>
+			<string>install atuin</string>
+			<key>value</key>
+			<string>mkdir -p ~/bin
+wget https://github.com/ellie/atuin/releases/download/v14.0.1/atuin-v14.0.1-x86_64-unknown-linux-musl.tar.gz
+tar -xzf atuin-v14.0.1-x86_64-unknown-linux-musl.tar.gz
+mv atuin-v14.0.1-x86_64-unknown-linux-musl/atuin ~/bin
+rm -rf atuin-v14.0.1-x86_64-unknown-linux-musl.tar.gz atuin-v14.0.1-x86_64-unknown-linux-musl
+echo 'eval "$(atuin init bash)"' &gt;&gt; ~/.bashrc
+atuin gen-completions --shell bash --out-dir $HOME
+atuin login
+#atuin status
+#atuin sync</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>D95C5F7D-48EF-45C3-ABD9-20A9CA5D2CDB</string>
+			<key>title</key>
+			<string>ubuntu install lazygit</string>
+			<key>value</key>
+			<string>sudo add-apt-repository ppa:git-core/ppa -y
+sudo apt update
+sudo apt install git -y
+LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')
+curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/latest/download/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
+tar xf lazygit.tar.gz lazygit
+sudo install lazygit /usr/local/bin</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>

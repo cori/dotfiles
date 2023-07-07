@@ -1,11 +1,9 @@
 tap "denisidoro/tools"
 tap "fastly/tap"
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
-tap "homebrew/core"
 tap "homebrew/services"
 tap "infrahq/tap"
 tap "noahgorstein/tap"
@@ -300,6 +298,7 @@ mas "Lockdown", id: 1483255076
 mas "Log-Viewer", id: 1543753042
 mas "Mastonaut", id: 1450757574
 mas "Microsoft Remote Desktop", id: 1295203466
+mas "Mona", id: 1659154653
 mas "Numbers", id: 409203825
 mas "ReadCube Papers Extension", id: 1543891759
 mas "Save to Matter", id: 1548677272

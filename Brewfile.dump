@@ -66,6 +66,10 @@ brew "eslint"
 brew "fd"
 # OpenType text shaping engine
 brew "harfbuzz"
+# Library for JPEG-2000 image manipulation
+brew "openjpeg"
+# Image processing and image analysis library
+brew "leptonica"
 # Subtitle renderer for the ASS/SSA subtitle format
 brew "libass"
 # OCR (Optical Character Recognition) engine
@@ -76,6 +80,8 @@ brew "ffmpeg"
 brew "fx"
 # GitHub command-line tool
 brew "gh"
+# Interpreter for PostScript and PDF
+brew "ghostscript"
 # Distributed revision control system
 brew "git"
 # Enable transparent encryption/decryption of files in a git repo
@@ -112,6 +118,8 @@ brew "lazygit"
 brew "libpq", link: true
 # Mac App Store command-line interface
 brew "mas"
+# Show markdown documents on text terminals
+brew "mdcat"
 # Like sed, awk, cut, join & sort for name-indexed data such as CSV
 brew "miller"
 # NCurses Disk Usage
@@ -140,6 +148,8 @@ brew "rust"
 brew "shellcheck"
 # Cross-shell prompt for astronauts
 brew "starship"
+# Easiest, most secure way to use WireGuard and 2FA
+brew "tailscale", link: false
 # Send macOS User Notifications from the command-line
 brew "terminal-notifier"
 # Linter for Terraform files
@@ -184,14 +194,20 @@ cask "appcleaner"
 cask "authy"
 # Virtual Audio Driver
 cask "blackhole-2ch"
+# Web browser focusing on privacy
+cask "brave-browser"
 # E-books management software
 cask "calibre"
 # Command-line display management utility
 cask "cscreen"
+# Server and cloud storage browser
+cask "cyberduck"
 # All-in-one toolbox for developers
 cask "devutils"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
+# Assign keys, and then decorate and label them
+cask "elgato-stream-deck"
 # Collaborative team software
 cask "figma"
 # Utility for customizing which browser to start
@@ -218,6 +234,8 @@ cask "grandperspective"
 cask "hook"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Keyboard customizer
+cask "karabiner-elements"
 # Lightweight download manager
 cask "leech"
 # Cable-free audio router
@@ -234,6 +252,8 @@ cask "postman"
 cask "raindropio"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Window snapping tool
+cask "rectangle-pro"
 # Time optimising application
 cask "rescuetime"
 # Note-taking tool for networked thought
@@ -244,6 +264,8 @@ cask "safari-technology-preview"
 cask "slack"
 # Music streaming service
 cask "spotify"
+# Mesh VPN based on Wireguard
+cask "tailscale"
 # Messaging app with a focus on speed and security
 cask "telegram"
 # To-do list
@@ -252,6 +274,8 @@ cask "todoist"
 cask "usb-overdrive"
 # Menu bar clock
 cask "utc-menu-clock"
+# Configurator of compatible keyboards in real time
+cask "vial"
 # Open-source code editor
 cask "visual-studio-code"
 # Code editor
@@ -264,6 +288,8 @@ cask "yubico-yubikey-manager"
 cask "zoom"
 mas "Amphetamine", id: 937984704
 mas "Bitwarden", id: 1352778147
+mas "Drafts", id: 1435957248
+mas "fedistar", id: 6445863996
 mas "GarageBand", id: 682658836
 mas "Highlights", id: 1498912833
 mas "Hush", id: 1544743900
@@ -285,6 +311,103 @@ mas "Save to Upnext", id: 1583423832
 mas "Spark", id: 1176895641
 mas "TestFlight", id: 899247664
 mas "Wavelength", id: 1584865627
+mas "Whalebird", id: 6445864587
 mas "Whalebird", id: 1378283354
 mas "WireGuard", id: 1451685025
 mas "Yubico Authenticator", id: 1497506650
+vscode "42Crunch.vscode-openapi"
+vscode "adpyke.vscode-sql-formatter"
+vscode "ahmadawais.shades-of-purple"
+vscode "ajhyndman.jslint"
+vscode "akamud.vscode-theme-onedark"
+vscode "alefragnani.Bookmarks"
+vscode "amodio.restore-editors"
+vscode "AndrsDC.base16-themes"
+vscode "aws-scripting-guy.cform"
+vscode "bceskavich.theme-dracula-at-night"
+vscode "blinkshellinc.blink-fs"
+vscode "bloop.bloop"
+vscode "castwide.solargraph"
+vscode "CircleCI.circleci"
+vscode "coolbear.systemd-unit-file"
+vscode "CraigMaslowski.erb"
+vscode "dakara.transformer"
+vscode "danielgriffiths.clubhouse-io"
+vscode "DavidAnson.vscode-markdownlint"
+vscode "daylerees.rainglow"
+vscode "dbaeumer.vscode-eslint"
+vscode "denigmaapp.denigma"
+vscode "devdocs-adapter.devdocs-adapter"
+vscode "DotJoshJohnson.xml"
+vscode "eamodio.gitlens"
+vscode "EditorConfig.EditorConfig"
+vscode "esbenp.prettier-vscode"
+vscode "eternalphane.tsfmt-vscode"
+vscode "everettjf.filter-line"
+vscode "fabiospampinato.vscode-diff"
+vscode "foxundermoon.shell-format"
+vscode "GitHub.copilot"
+vscode "golang.go"
+vscode "GrapeCity.gc-excelviewer"
+vscode "hashicorp.terraform"
+vscode "jamesls.jmespath-vscode"
+vscode "joshwong.vscode-jmespath"
+vscode "jsynowiec.vscode-insertdatestring"
+vscode "junstyle.php-cs-fixer"
+vscode "kddejong.vscode-cfn-lint"
+vscode "kortina.vscode-markdown-notes"
+vscode "kuscamara.electron"
+vscode "leighlondon.eml"
+vscode "mads-hartmann.bash-ide-vscode"
+vscode "max-SS.Cyberpunk"
+vscode "MaxCode.filemap"
+vscode "mindginative.terraform-snippets"
+vscode "mousetraps.selected-character-count"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-dotnettools.csharp"
+vscode "ms-mssql.data-workspace-vscode"
+vscode "ms-mssql.mssql"
+vscode "ms-mssql.sql-bindings-vscode"
+vscode "ms-mssql.sql-database-projects-vscode"
+vscode "ms-python.autopep8"
+vscode "ms-python.isort"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-vscode-remote.remote-ssh"
+vscode "ms-vscode-remote.remote-ssh-edit"
+vscode "ms-vscode.azure-account"
+vscode "ms-vscode.powershell"
+vscode "ms-vscode.remote-explorer"
+vscode "natterstefan.vs-code-toggl-extension"
+vscode "OnlyLys.leaper"
+vscode "PenumbraTheme.penumbra"
+vscode "philipbe.theme-gray-matter"
+vscode "puppet.puppet-vscode"
+vscode "rangav.vscode-thunder-client"
+vscode "rebornix.ruby"
+vscode "redhat.vscode-yaml"
+vscode "RescueTime.rescuetime"
+vscode "ribragimov.tabster"
+vscode "romanrei.material-dark"
+vscode "sdras.night-owl"
+vscode "SmukkeKim.theme-setimonokai"
+vscode "suhay.vscode-editor-group-minimizer"
+vscode "sysoev.language-stylus"
+vscode "sysoev.vscode-open-in-github"
+vscode "szastupov.one-dark-pale"
+vscode "tchayen.markdown-links"
+vscode "techer.open-in-browser"
+vscode "the-unknown.blink"
+vscode "timonwong.shellcheck"
+vscode "usama8800.tab-groups"
+vscode "vsls-contrib.gistfs"
+vscode "vsls-contrib.gitdoc"
+vscode "WakaTime.vscode-wakatime"
+vscode "WallabyJs.wallaby-vscode"
+vscode "whizkydee.material-palenight-theme"
+vscode "wingrunr21.vscode-ruby"
+vscode "witulski.selection-word-count"
+vscode "yzhang.markdown-all-in-one"

@@ -306,6 +306,7 @@ mas "Mastonaut", id: 1450757574
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Mona", id: 1659154653
 mas "Numbers", id: 409203825
+mas "Quick Camera", id: 598853070
 mas "ReadCube Papers Extension", id: 1543891759
 mas "Save to Matter", id: 1548677272
 mas "Save to Raindrop.io", id: 1549370672
@@ -316,10 +317,9 @@ mas "Save to Upnext", id: 1583423832
 mas "Spark", id: 1176895641
 mas "TestFlight", id: 899247664
 mas "Wavelength", id: 1584865627
-mas "Whalebird", id: 6445864587
 mas "Whalebird", id: 1378283354
+mas "Whalebird", id: 6445864587
 mas "WireGuard", id: 1451685025
-mas "Yubico Authenticator", id: 1497506650
 vscode "42Crunch.vscode-openapi"
 vscode "adpyke.vscode-sql-formatter"
 vscode "ahmadawais.shades-of-purple"

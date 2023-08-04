@@ -6406,15 +6406,13 @@ tar xf lazygit.tar.gz lazygit
 sudo install lazygit /usr/local/bin
 echo "install and config atuin"
 mkdir -p ~/bin
-wget https://github.com/ellie/atuin/releases/download/v14.0.1/atuin-v14.0.1-x86_64-unknown-linux-musl.tar.gz
-tar -xzf atuin-v14.0.1-x86_64-unknown-linux-musl.tar.gz
-mv atuin-v14.0.1-x86_64-unknown-linux-musl/atuin ~/bin
-rm -rf atuin-v14.0.1-x86_64-unknown-linux-musl.tar.gz atuin-v14.0.1-x86_64-unknown-linux-musl
+wget https://github.com/atuinsh/atuin/releases/download/v15.0.0/atuin-v15.0.0-x86_64-unknown-linux-musl.tar.gz
+tar -xzf atuin-v15.0.0-x86_64-unknown-linux-musl.tar.gz
+mv atuin-v15.0.0-x86_64-unknown-linux-musl/atuin ~/bin
+rm -rf atuin-v15.0.0-x86_64-unknown-linux-musl.tar.gz atuin-v15.0.0-x86_64-unknown-linux-musl
 echo 'eval "$(atuin init bash)"' &gt;&gt; ~/.bashrc
 atuin gen-completions --shell bash --out-dir $HOME
-atuin login
-#atuin status
-#atuin sync</string>
+atuin login</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -6682,9 +6680,7 @@ mv atuin-v14.0.1-x86_64-unknown-linux-musl/atuin ~/bin
 rm -rf atuin-v14.0.1-x86_64-unknown-linux-musl.tar.gz atuin-v14.0.1-x86_64-unknown-linux-musl
 echo 'eval "$(atuin init bash)"' &gt;&gt; ~/.bashrc
 atuin gen-completions --shell bash --out-dir $HOME
-atuin login
-#atuin status
-#atuin sync</string>
+atuin login</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -6703,6 +6699,26 @@ LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/re
 curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/latest/download/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
 tar xf lazygit.tar.gz lazygit
 sudo install lazygit /usr/local/bin</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>E87E22B6-BB1B-45F7-BB3B-E01A55340DD4</string>
+			<key>title</key>
+			<string>logging check</string>
+			<key>value</key>
+			<string>cat /etc/systemd/journald.conf
+cat /etc/rsyslog.d/21-cloudinit.conf
+cat /etc/rsyslog.conf
+df -h
+cd /opt/glitch/
+ls -lah
+cat .git/HEAD
+sudo ls -lah /var/lib/cloud/instances/
+</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>

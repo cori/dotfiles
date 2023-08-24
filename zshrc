@@ -59,7 +59,9 @@ export INFRA_PROVIDER=okta
 
 export ZSH_WAKATIME_PROJECT_DETECTION=true
 
-export OPENAI_API_BASE=https://keeper-of-tools.ghoul-grue.ts.net/api/v1
+export OPENAI_API_BASE=https://keeper-of-tools.ghoul-grue.ts.net/api
+export OPENAI_API_HOST=https://keeper-of-tools.ghoul-grue.ts.net/api
+export OPENAI_API_KEY=IAMGROOT
 
 ###	ZPLUG	###
 # Check if zplug is installed

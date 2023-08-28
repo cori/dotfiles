@@ -6362,11 +6362,11 @@
 	<key>SavePasteHistory</key>
 	<true/>
 	<key>Selection Respects Soft Boundaries</key>
-	<false/>
+	<true/>
 	<key>SeparateStatusBarsPerPane</key>
 	<true/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowTimestampsByDefault</key>
 	<true/>
 	<key>Snippets</key>

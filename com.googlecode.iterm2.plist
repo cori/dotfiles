@@ -2934,6 +2934,8 @@
 	<true/>
 	<key>EnableAPIServer</key>
 	<true/>
+	<key>EnableProxyIcon</key>
+	<true/>
 	<key>EnterCopyModeAutomatically</key>
 	<true/>
 	<key>EscapeShellCharsWithBackslash</key>
@@ -3089,6 +3091,8 @@
 		</dict>
 	</dict>
 	<key>HapticFeedbackForEsc</key>
+	<false/>
+	<key>HideMenuBarInFullscreen</key>
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>

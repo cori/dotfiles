@@ -154,3 +154,9 @@ eval "$(starship init zsh)"
 # # The next line enables shell command completion for gcloud.
 # if [ -f '/Users/cori/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/cori/bin/google-cloud-sdk/completion.zsh.inc'; fi
 export PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/cori/tmp/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/cori/tmp/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/cori/tmp/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/cori/tmp/google-cloud-sdk/completion.zsh.inc'; fi

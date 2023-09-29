@@ -160,3 +160,24 @@ if [ -f '/Users/cori/tmp/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/cori/t
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/cori/tmp/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/cori/tmp/google-cloud-sdk/completion.zsh.inc'; fi
+
+# Created by `pipx` on 2023-09-28 13:58:23
+export PATH="$PATH:/Users/cori/.local/bin"
+
+#	for glitch-community npm install
+export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+export PUPPETEER_EXECUTABLE_PATH=/opt/homebrew/bin/chromium
+
+# Shell-GPT integration ZSH v0.1
+function _sgpt_zsh() {
+if [[ -n "$BUFFER" ]]; then
+    _sgpt_prev_cmd=$BUFFER
+    BUFFER+="⌛"
+    zle -I && zle redisplay
+    BUFFER=$(sgpt --shell <<< "$_sgpt_prev_cmd")
+    zle end-of-line
+fi
+}
+zle -N _sgpt_zsh
+bindkey ^l _sgpt_zsh
+# Shell-GPT integration ZSH v0.1

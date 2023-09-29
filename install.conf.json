@@ -34,6 +34,7 @@
             "~/.gitconfig": {
                 "force": true
             },
+            "~/.gitignore_global": "gitignore_global",
             "~/.finicky.js": ".finicky.js",
             "~/.macos": "macos",
             "~/.vim": "vim",

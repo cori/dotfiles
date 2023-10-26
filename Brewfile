@@ -40,8 +40,6 @@ brew "git"
 brew "git-delta"
 # Tcl/Tk UI for the git revision control system
 brew "git-gui"
-# GNU implementation of the famous stream editor
-# brew "gnu-sed"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # Tools and libraries to manipulate images in many formats
@@ -106,8 +104,6 @@ brew "wget"
 brew "ykman"
 # Next-generation plugin manager for zsh
 brew "zplug"
-# Interactive cheatsheet tool for the command-line.
-# brew "denisidoro/tools/navi"
 
 # Application launcher and productivity software
 cask "alfred"
@@ -152,8 +148,6 @@ cask "hook"
 cask "iTerm2"
 # Lightweight download manager
 cask "leech"
-# Software for Logitech devices
-# cask "logitech-options"
 #	Cable-free audio router
 cask "loopback"
 # Personal productivity app
@@ -186,8 +180,6 @@ cask "safari-technology-preview"
 cask "slack"
 # Music streaming service
 cask "spotify"
-# Application for inspecting installer packages
-# cask "suspicious-package"
 # Mesh VPN based on Wireguard
 cask "tailscale"
 # Messaging app with a focus on speed and security

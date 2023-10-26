@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Ensure the URL file is specified
+#if [ "$#" -ne 1 ]; then
+#    echo "Usage: $0 URL_FILE"
+#    exit 1
+#fi
+
+URL_FILE=$1
+REQ_MULT=$2
+BATCH_SIZE=$3
+
+# Ensure curl is installed
+#if ! command -v curl &> /dev/null; then
+#    echo "curl is not installed. Install it and try again."
+#    exit 1
+#fi
+
+# Repeat the URL list 10 times to get 500 (10 * 50) then shuffle the list
+shuf -e $(for i in {1..$REQ_MULT}; do cat "$URL_FILE"; done) | 
+# Process URLs in batches of 15
+xargs -n $BATCH_SIZE -P 0 bash -c 'for url in "$@"; do
+    # Send the request and print the URL and HTTP status code
+    curl -so /dev/null -w "$url - %{http_code}\n" "$url" &
+done' _
+

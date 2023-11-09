@@ -6728,6 +6728,20 @@ sudo ls -lah /var/lib/cloud/instances/
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>CB02D2E0-A76D-4428-B42B-31972653D1F3</string>
+			<key>tags</key>
+			<array/>
+			<key>title</key>
+			<string>instance_id from host</string>
+			<key>value</key>
+			<string>curl -sS http://169.254.169.254/latest/meta-data/instance-id/</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>SoundForEsc</key>
 	<false/>

@@ -11,11 +11,9 @@ tap "infrahq/tap"
 tap "noahgorstein/tap"
 tap "tbckr/tap"
 tap "warrensbox/tap"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.11"
 # Record and share terminal sessions
 brew "asciinema"
-# Improved shell history for zsh and bash
+# Improved shell history for zsh, bash, fish and nushell
 brew "atuin"
 # Configuration editing tool and API
 brew "augeas"
@@ -23,6 +21,14 @@ brew "augeas"
 brew "python@3.10"
 # Shell extension to jump to frequently used directories
 brew "autojump"
+# C parser in Python
+brew "pycparser", link: false
+# C Foreign Function Interface for Python
+brew "cffi", link: false
+# Text processing system for reStructuredText
+brew "docutils"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Bourne-Again SHell, a UNIX command interpreter
@@ -37,6 +43,8 @@ brew "bitwarden-cli"
 brew "glib"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
+# Cryptographic recipes and primitives for Python
+brew "python-cryptography"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
 brew "certbot"
 # Validating, recursive, caching DNS resolver
@@ -153,6 +161,8 @@ brew "packer"
 brew "parallel"
 # General-purpose scripting language
 brew "php"
+# Tool for creating isolated virtual python environments
+brew "virtualenv"
 # Python package management tool
 brew "poetry"
 # Wrapper to colorize and simplify ping's output
@@ -231,6 +241,8 @@ cask "cyberduck"
 cask "devutils"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
+# Web browser focusing on privacy
+cask "duckduckgo"
 # Assign keys, and then decorate and label them
 cask "elgato-stream-deck"
 # Collaborative team software
@@ -255,8 +267,12 @@ cask "gimp"
 cask "github"
 # Graphically shows disk usage within a file system
 cask "grandperspective"
+# Allows keymap customization on HHKB HYBRID Type-S and HYBRID models
+cask "hhkb"
 # Link and retrieve key information
 cask "hook"
+# Vector graphics editor
+cask "inkscape"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Keyboard customizer
@@ -307,6 +323,8 @@ cask "vial"
 cask "visual-studio-code"
 # Code editor
 cask "visual-studio-code-insiders"
+# Multimedia player
+cask "vlc"
 # Rust-based terminal
 cask "warp"
 # Application for generating TOTP and HOTP codes
@@ -380,6 +398,7 @@ vscode "GrapeCity.gc-excelviewer"
 vscode "hashicorp.terraform"
 vscode "jaaxxx.llm-book"
 vscode "jamesls.jmespath-vscode"
+vscode "janisdd.vscode-edit-csv"
 vscode "jmbeach.list-symbols"
 vscode "joshwong.vscode-jmespath"
 vscode "jsynowiec.vscode-insertdatestring"
@@ -429,6 +448,7 @@ vscode "searKing.preview-vscode"
 vscode "Shopify.ruby-lsp"
 vscode "smallcloud.codify"
 vscode "SmukkeKim.theme-setimonokai"
+vscode "streetsidesoftware.code-spell-checker"
 vscode "suhay.vscode-editor-group-minimizer"
 vscode "sysoev.language-stylus"
 vscode "sysoev.vscode-open-in-github"

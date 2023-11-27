@@ -2,21 +2,29 @@ Would uninstall casks:
 brave-browser
 chromium
 cyberduck
+duckduckgo
 elgato-stream-deck
 gimp
+hhkb
+inkscape
 karabiner-elements
 mac-mouse-fix
 rectangle-pro
 vial
+vlc
 warp
 Would uninstall formulae:
 libgit2@1.5
 bat
 bdw-gc
 dialog
+python-certifi
+python-pyparsing
+python-pytz
 certbot
 cmocka
 libyaml
+python-markupsafe
 pyyaml
 datasette
 docker-credential-helper
@@ -32,12 +40,13 @@ psutils
 uchardet
 groff
 guile
+python-lxml
 howdoi
-python-certifi
 httpie
 jinja2-cli
 jpeg
 kubernetes-cli
+libgit2
 libgit2@1.6
 liblinear
 z3
@@ -48,6 +57,10 @@ ncdu
 nload
 nmap
 parallel
+python-distlib
+python-filelock
+python-packaging
+python-platformdirs
 virtualenv
 poetry
 rust
@@ -61,4 +74,6 @@ tbckr/tap
 fastly/tap
 infrahq/tap
 warrensbox/tap
+Would `brew cleanup`:
+Would remove: /opt/homebrew/Cellar/aom/3.7.0 (23 files, 9MB)
 Run `brew bundle cleanup --force` to make these changes.

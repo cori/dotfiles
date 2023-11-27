@@ -1,83 +1,65 @@
 [
-    {
-        "defaults": {
-            "link": {
-                "relink": true,
-                "create": true
-            },
-            "shell": {
-                "stderr": true,
-                "stdout": true
-            }
-        }
-    },
-    {
-        "clean": [
-            "~"
-        ]
-    },
-    {
-        "shell": [
-            [
-                "sh preinstall.sh",
-                "Running pre installation script"
-            ]
-        ]
-    },
-    {
-        "link": {
-            "~/.dotfiles": "",
-            "~/.config/atuin/config.toml": {
-                "path": "atuin.toml",
-                "force": true
-            },
-            "~/.gitconfig": {
-                "force": true
-            },
-            "~/.gitignore_global": "gitignore_global",
-            "~/.finicky.js": ".finicky.js",
-            "~/.macos": "macos",
-            "~/.vim": "vim",
-            "~/.vimrc": "vimrc",
-            "~/.config/starship.toml": "starship.toml",
-            "~/.zshrc": {
-                "path": "zshrc",
-                "force": true
-            },
-            "~/Library/Application Support/lazygit/config.yml": {
-                "path": "lazygit.yml",
-                "force": true
-            },
-            "~/bin": {
-                "glob": true,
-                "path": "scripts",
-                "relink": true
-            },
-            "~/.ssh/config": {
-                "path": "~/Dropbox/localPrefs/ssh_config"
-            }
-        }
-    },
-    {
-        "brewfile": [
-            "Brewfile",
-            "~/code/glitchdotcom/Glitch/Brewfile"
-        ]
-    },
-    {
-        "shell": [
-            [
-                "pip3 install bpytop --upgrade",
-                "Installing bpytop"
-            ],
-            [
-                "git submodule update --init --recursive",
-                "Installing submodules"
-            ],
-            [
-                "source zshrc",
-                "Sourcing zshrc file"
-            ]
-        ]
+  {
+    "defaults": {
+      "link": {
+        "relink": true,
+        "create": true
+      },
+      "shell": {
+        "stderr": true,
+        "stdout": true
+      }
     }
+  },
+  {
+    "clean": ["~"]
+  },
+  {
+    "shell": [["sh preinstall.sh", "Running pre installation script"]]
+  },
+  {
+    "link": {
+      "~/.dotfiles": "",
+      "~/.config/atuin/config.toml": {
+        "path": "atuin.toml",
+        "force": true
+      },
+      "~/.gitconfig": {
+        "force": true
+      },
+      "~/.gitignore_global": "gitignore_global",
+      "~/.finicky.js": ".finicky.js",
+      "~/.macos": "macos",
+      "~/.vim": "vim",
+      "~/.vimrc": "vimrc",
+      "~/.config/starship.toml": "starship.toml",
+      "~/.zshrc": {
+        "path": "zshrc",
+        "force": true
+      },
+      "~/Library/Application Support/lazygit/config.yml": {
+        "path": "lazygit.yml",
+        "force": true
+      },
+      "~/bin": {
+        "glob": true,
+        "path": "scripts",
+        "relink": true
+      },
+      "~/.ssh/config": {
+        "path": "~/Dropbox/localPrefs/ssh_config"
+      }
+    }
+  },
+  {
+    "brewfile": ["Brewfile", "~/code/glitchdotcom/Glitch/Brewfile"]
+  },
+  {
+    "shell": [
+      ["pip3 install bpytop --upgrade", "Installing bpytop"],
+      ["git submodule update --init --recursive", "Installing submodules"],
+      ["source ~/.macos", "adding macos defaults"],
+      ["source zshrc", "Sourcing zshrc file"]
+    ]
+  }
 ]

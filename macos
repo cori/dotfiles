@@ -39,3 +39,6 @@ defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 # remap capslock to ESC
 # don't know how to do this directly with a script yet
 # using http://www.drbunsen.org/remapping-caps-lock/ for now
+
+#   shutdown every midnight
+sudo pmset repeat shutdown MTWRFSU 00:00:00

@@ -36,9 +36,14 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 # Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
+#   switch spaces for open windows
+defaults.write com.appl.finder AppleSpacesSwitchOnActivate -bool true
+
 # remap capslock to ESC
 # don't know how to do this directly with a script yet
 # using http://www.drbunsen.org/remapping-caps-lock/ for now
+#   actually I think this is in Karabiner now
 
 #   shutdown every midnight
+#       2023-11-28 it looks like this worked, but VS Code prevented restart
 sudo pmset repeat shutdown MTWRFSU 00:00:00

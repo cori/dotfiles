@@ -37,7 +37,7 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
 #   switch spaces for open windows
-defaults.write com.appl.finder AppleSpacesSwitchOnActivate -bool true
+defaults write com.appl.finder AppleSpacesSwitchOnActivate -bool true
 
 # remap capslock to ESC
 # don't know how to do this directly with a script yet

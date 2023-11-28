@@ -41,8 +41,6 @@ brew "node"
 brew "bitwarden-cli"
 # Core application library for C
 brew "glib"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
 # Cryptographic recipes and primitives for Python
 brew "python-cryptography"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
@@ -169,6 +167,8 @@ brew "poetry"
 brew "prettyping"
 # It's not just a linter that annoys you!
 brew "pylint"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Utility that provides fast incremental file transfer

@@ -6742,6 +6742,22 @@ sudo ls -lah /var/lib/cloud/instances/
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>F1C1C5FE-4965-4411-8D0A-1B0A36B6A391</string>
+			<key>tags</key>
+			<array/>
+			<key>title</key>
+			<string>dev env force cleanup</string>
+			<key>value</key>
+			<string>cd /opt/glitch/shared &amp;&amp; rm -rf node_modules build &amp;&amp; npm i &amp;&amp; sh/compile
+cd /opt/glitch/proxy &amp;&amp; rm -rf node_modules build &amp;&amp; sh/compile &amp;&amp; npm run test
+cd /opt/glitch/api &amp;&amp; rm -rf node_modules build &amp;&amp; npm i &amp;&amp; npm run compile &amp;&amp; npm run test</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>SoundForEsc</key>
 	<false/>

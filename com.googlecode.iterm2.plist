@@ -6426,6 +6426,76 @@ atuin login</string>
 			<key>escaping</key>
 			<integer>2</integer>
 			<key>guid</key>
+			<string>F1C1C5FE-4965-4411-8D0A-1B0A36B6A391</string>
+			<key>tags</key>
+			<array/>
+			<key>title</key>
+			<string>dev env force cleanup</string>
+			<key>value</key>
+			<string>cd /opt/glitch/shared &amp;&amp; rm -rf node_modules build &amp;&amp; npm i &amp;&amp; sh/compile
+cd /opt/glitch/proxy &amp;&amp; rm -rf node_modules build &amp;&amp; sh/compile
+cd /opt/glitch/api &amp;&amp; rm -rf node_modules build &amp;&amp; npm i &amp;&amp; npm run compile</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>6D1072C4-B818-459B-A4D0-7539834AE26E</string>
+			<key>tags</key>
+			<array/>
+			<key>title</key>
+			<string>run all Glitch tests</string>
+			<key>value</key>
+			<string>cd /opt/glitch/shared &amp;&amp; npm run test
+cd /opt/glitch/proxy &amp;&amp; npm run test
+cd /opt/glitch/swarm-forwarder &amp;&amp; npm run test
+cd /opt/glitch/watcher &amp;&amp; npm run test
+cd /opt/glitch/worker &amp;&amp; npm run test
+cd /opt/glitch/api &amp;&amp; npm run test
+</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>8F8E139A-413D-49A8-B145-067DCB9CA78B</string>
+			<key>title</key>
+			<string>post-failure dev re-bootstrap</string>
+			<key>value</key>
+			<string>cd /opt/glitch/shared &amp;&amp; rm -rf node_modules &amp;&amp; sh/compile
+cd /opt/glitch/proxy &amp;&amp; rm -rf node_modules &amp;&amp; sh/compile
+cd /opt/glitch/api &amp;&amp; rm -rf node_modules &amp;&amp; npm i
+</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>79F0352D-89F4-40B7-B75B-3F1875150066</string>
+			<key>tags</key>
+			<array/>
+			<key>title</key>
+			<string>glitch devenv full refresh</string>
+			<key>value</key>
+			<string>cd /opt/glitch/shared &amp;&amp; rm -rf node_modules build &amp;&amp; npm i &amp;&amp; sh/compile
+cd /opt/glitch/proxy &amp;&amp; rm -rf node_modules build &amp;&amp; sh/compile
+cd /opt/glitch/swarm-forwarder &amp;&amp; rm -rf node_modules build &amp;&amp; npm i &amp;&amp; npm run compile
+cd /opt/glitch/watcher &amp;&amp; rm -rf node_modules build &amp;&amp; npm i &amp;&amp; npm run compile
+cd /opt/glitch/worker &amp;&amp; rm -rf node_modules build &amp;&amp; npm i &amp;&amp; npm run compile
+cd /opt/glitch/api &amp;&amp; rm -rf node_modules build &amp;&amp; npm i &amp;&amp; npm run compile</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
 			<string>73AACC10-3429-43CC-85E6-7A06A31DF4D8</string>
 			<key>title</key>
 			<string>build and upload new focal container</string>
@@ -6472,48 +6542,6 @@ sudo docker push 993886623663.dkr.ecr.us-east-1.amazonaws.com/app-image-focal:$(
 			<string>hostnames by role</string>
 			<key>value</key>
 			<string>export env=production role=community; for host in $(ci/hostnames-by-role $role $env) do echo "$host.$env" done</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>escaping</key>
-			<integer>2</integer>
-			<key>guid</key>
-			<string>8F8E139A-413D-49A8-B145-067DCB9CA78B</string>
-			<key>title</key>
-			<string>post-failure dev re-bootstrap</string>
-			<key>value</key>
-			<string>cd /opt/glitch/shared &amp;&amp; rm -rf node_modules &amp;&amp; sh/compile
-cd /opt/glitch/proxy &amp;&amp; rm -rf node_modules &amp;&amp; sh/compile
-cd /opt/glitch/api &amp;&amp; rm -rf node_modules &amp;&amp; npm i
-</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>escaping</key>
-			<integer>1</integer>
-			<key>guid</key>
-			<string>887f563e080a4d9e2c085aedd81d8678895e2bb9840d873eaa637b77169aaf3e</string>
-			<key>title</key>
-			<string>new phv2</string>
-			<key>value</key>
-			<string>let u = await User.findOne({ where: { login: ‘cori’ } });
-let p = await Project.create({hostingBackend: 'project-hosting-v2',domain: ‘cori-phv2’,});
-await p.addMember(u, { accessLevel: 30 });
-p.id;</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>escaping</key>
-			<integer>1</integer>
-			<key>guid</key>
-			<string>82a1a4ffb6c647c994495c8d31ee2e9f46319e378c29ff6d4c1cd7378694bcc0</string>
-			<key>title</key>
-			<string>new phv2 2?</string>
-			<key>value</key>
-			<string>let p = await Project.create({hostingBackend: ‘project-hosting-v2’,domain: ‘cori-phv2’,});</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -6632,6 +6660,21 @@ done</string>
 		</dict>
 		<dict>
 			<key>escaping</key>
+			<integer>1</integer>
+			<key>guid</key>
+			<string>887f563e080a4d9e2c085aedd81d8678895e2bb9840d873eaa637b77169aaf3e</string>
+			<key>title</key>
+			<string>new phv2</string>
+			<key>value</key>
+			<string>let u = await User.findOne({ where: { login: ‘cori’ } });
+let p = await Project.create({hostingBackend: 'project-hosting-v2',domain: ‘cori-phv2’,});
+await p.addMember(u, { accessLevel: 30 });
+p.id;</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
 			<integer>2</integer>
 			<key>guid</key>
 			<string>3FCA9DEF-CB54-4150-9FE2-0A10A1341E04</string>
@@ -6668,6 +6711,18 @@ cat /opt/glitch/ci/secrets/id-deploy
 			<string>super_user for 5 days (check pers token)</string>
 			<key>value</key>
 			<string>curl -H "Authorization: 8188f449-9d74-448a-a04f-b9c408a5676b" -d duration=432000000 -X POST https://support-toggle.glitch.me/support/enable</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>1</integer>
+			<key>guid</key>
+			<string>82a1a4ffb6c647c994495c8d31ee2e9f46319e378c29ff6d4c1cd7378694bcc0</string>
+			<key>title</key>
+			<string>new phv2 2?</string>
+			<key>value</key>
+			<string>let p = await Project.create({hostingBackend: ‘project-hosting-v2’,domain: ‘cori-phv2’,});</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -6739,22 +6794,6 @@ sudo ls -lah /var/lib/cloud/instances/
 			<string>instance_id from host</string>
 			<key>value</key>
 			<string>curl -sS http://169.254.169.254/latest/meta-data/instance-id/</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>escaping</key>
-			<integer>2</integer>
-			<key>guid</key>
-			<string>F1C1C5FE-4965-4411-8D0A-1B0A36B6A391</string>
-			<key>tags</key>
-			<array/>
-			<key>title</key>
-			<string>dev env force cleanup</string>
-			<key>value</key>
-			<string>cd /opt/glitch/shared &amp;&amp; rm -rf node_modules build &amp;&amp; npm i &amp;&amp; sh/compile
-cd /opt/glitch/proxy &amp;&amp; rm -rf node_modules build &amp;&amp; sh/compile &amp;&amp; npm run test
-cd /opt/glitch/api &amp;&amp; rm -rf node_modules build &amp;&amp; npm i &amp;&amp; npm run compile &amp;&amp; npm run test</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>

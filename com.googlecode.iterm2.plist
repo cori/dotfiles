@@ -6,12 +6,18 @@
 	<false/>
 	<key>AdjustWindowForFontSizeChange</key>
 	<false/>
+	<key>AiMaxTokens</key>
+	<integer>128000</integer>
+	<key>AiModel</key>
+	<string>gpt-4-1106-preview</string>
 	<key>AllowClipboardAccess</key>
 	<true/>
 	<key>AlternateMouseScroll</key>
 	<true/>
 	<key>AutoCommandHistory</key>
 	<true/>
+	<key>AutoComposer</key>
+	<false/>
 	<key>BracketedPasteMode</key>
 	<true/>
 	<key>CheckTestRelease</key>
@@ -19,7 +25,7 @@
 	<key>CloseBookmarksWindowAfterOpening</key>
 	<true/>
 	<key>ComposerHeight</key>
-	<real>302.8515625</real>
+	<real>302.73046875</real>
 	<key>ConvertDosNewlines</key>
 	<true/>
 	<key>Custom Color Presets</key>
@@ -6804,8 +6810,9 @@ sudo ls -lah /var/lib/cloud/instances/
 	<integer>1</integer>
 	<key>ToolbeltTools</key>
 	<array>
-		<string>Command History</string>
 		<string>Notes</string>
+		<string>Codecierge</string>
+		<string>Paste History</string>
 	</array>
 	<key>VisualIndicatorForEsc</key>
 	<false/>

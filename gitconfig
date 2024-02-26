@@ -44,3 +44,5 @@
 	template = /Users/cori/.stCommitMsg
 [pager]
 	log = less -FX
+[branch]
+	sort = -committerdate
